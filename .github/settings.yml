@@ -1,4 +1,5 @@
 # we manage labels via https://github.com/linuxsuren/linuxsuren-bot-config
+# please check out https://probot.github.io/apps/settings/
 repository:
   name: open-source-best-practice
   description: This is an open-source best practice for those who want to participate in open-source projects
