@@ -81,7 +81,7 @@
   * 对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接
     * 例如：PR 中代码注释不规范，给出官方社区的文档链接
 * 自动化流程
-  * 利用类似于 [lighthouse](https://github.com/jenkins-x/lighthouse) 的自动化工具来管理 review 流程
+  * 利用类似于 [Lighthouse](https://github.com/jenkins-x/lighthouse) 的自动化工具来管理 review 流程
   * 合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等）
   * 避免人为干预自动化过程
   * 如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍
@@ -127,3 +127,7 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
   * 一定要把自己常用的邮箱地址关联到 GitHub 上，这样才能及时收到 issues 和 PR 中的互动信息
 * 通过电脑、手机来管理自己的日程
   * 开源社区总会有各种各样的会议，如果没有使用日历的习惯的话，非常容易遗忘重要的事情
+
+## 其他参考
+
+* [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
