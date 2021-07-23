@@ -133,4 +133,4 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
 * [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
 
 ## 采用该实践的项目
-* [halo](https://github.com/halo-dev/halo)
+* [Halo](https://github.com/halo-dev/halo)
