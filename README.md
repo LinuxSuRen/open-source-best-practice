@@ -123,7 +123,6 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
   * 会议录屏，根据会议参与者使用的语言不同，中文可以选择[哔哩哔哩](https://www.bilibili.com/)，英文可以选择 [YouTube](https://www.youtube.com/)
 
 ## 其他
-
 还有一些其他的比较推荐的习惯、方法：
 * 习惯查看邮件
   * 一定要把自己常用的邮箱地址关联到 GitHub 上，这样才能及时收到 issues 和 PR 中的互动信息
@@ -131,5 +130,7 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
   * 开源社区总会有各种各样的会议，如果没有使用日历的习惯的话，非常容易遗忘重要的事情
 
 ## 其他参考
-
 * [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
+
+## 采用该实践的项目
+* [Halo](https://github.com/halo-dev/halo)
