@@ -1,5 +1,8 @@
 # Open-source Best Practice
 
+[![hackmd-github-sync-badge](https://hackmd.io/o_NKVlw4QiqqDoWSYMLnQg/badge)](https://hackmd.io/o_NKVlw4QiqqDoWSYMLnQg)
+
+
 ## Why?
 Why do I want to write the "Open-source Best Practice"?
 
