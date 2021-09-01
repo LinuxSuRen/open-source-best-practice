@@ -12,13 +12,18 @@
 
 那么，什么样的 [issue](https://guides.github.com/features/issues/) 可以标记为 `good-first-issue` 呢？从字面上看，这是对新人（初次接触）友好的 issues，也就是对于这类贡献者而言比较容易解决的 issue。
 
-大家注意，上面提到的两个关键字：新人、友好。因此，判断是否可以把一个 issue 标记为 `good-first-issue` 可以参考下面的建议：
+因此，判断是否应该把一个 issue 标记为 `good-first-issue` 可以从这两个角度考虑：
+
+1. 如何定义“新人”？
+
+1. 如何定义“友好”？这里的“友好”，一方面是指参与流程的清晰（当然，这是更广泛的社区治理的范畴），另一方面是指参与要求的明确
 
 * 有清晰的技术栈要求
   * “新人”和技术水平的高低无关，只表明初次接触某个项目
   * 从更加客观的角度来讲，issue 的创建者可以列举出来完成这个 issue 所需要的技能
 * 有清晰的上下文描述
   * 即使技术水平”高“的贡献者，在不了解 issue 的上下文、背景的前提下，依然是很难去完成
+  * 解决 issue 需要的技能
 * 没有明显（或潜在）的时间约束
   * 我们不清楚“新人”什么时候会关注到这些 issue，因此，不要把这些 issue 和你的 milestone（或其他版本发布计划）挂钩
 * 有助于贡献者了解项目结构（可选）
@@ -41,3 +46,9 @@
 ## 工具
 
 自动化工具的应用，对于一个开源项目而言是极为重要的。来自 [Kubernetes](https://github.com/kubernetes) 社区的 [Prow](https://github.com/kubernetes/test-infra/blob/master/prow/plugins/help/help.go) 可以帮助项目维护者更好地使用标签。
+
+## 其他
+
+GitHub 还提供了一个隐藏（没有直接调整的按钮或菜单等）的页面，参考如下——在某个开源项目的仓库地址后加 `contribute` 即可访问：
+
+https://github.com/LinuxSuRen/open-source-best-practice/contribute
