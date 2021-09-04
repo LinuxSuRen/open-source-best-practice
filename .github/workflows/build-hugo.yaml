@@ -1,0 +1,40 @@
+name: BuildHugo
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+    - book
+
+jobs:
+  BuildHugo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+      with:
+        submodules: 'recursive'
+    - name: Download tools
+      env:
+        GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      run: |
+        wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.tar.gz
+        tar xzvf hugo_extended_0.88.1_Linux-64bit.tar.gz
+        rm -rf hugo_extended_0.88.1_Linux-64bit.tar.gz
+        cd website && ../hugo
+        pwd
+        ls -hal
+        cd ..
+        mv website/public docs
+        rm -rf hugo
+        rm -rf workflow/1
+        git checkout LICENSE
+        git checkout README.md
+
+        git checkout -b book-publish
+        git status
+
+        git config --global user.email 'LinuxSuRen@users.noreply.github.com'
+        git config --global user.name rick
+        git remote -v
+        git add . && git commit -m 'publish' && git push origin book-publish -f
