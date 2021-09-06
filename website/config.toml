@@ -33,6 +33,7 @@ DefaultContentLanguageInSubdir = 'false'
   weight = 1
 
 [languages.en]
+  title = 'Open Source Best Practice'
   languageName = 'English'
   contentDir = 'content.en'
   weight = 2
@@ -65,7 +66,7 @@ DefaultContentLanguageInSubdir = 'false'
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+  BookSection = '*'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
