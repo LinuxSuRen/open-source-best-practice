@@ -10,25 +10,27 @@ For thoese people who wants to try to participant in an open-source project, the
 
 You can find the guides about this from serval places, such as ["Open Source Guides"](https://opensource.guide) which was written by [GitHub](https://github.com/). So, what's the difference between them? Open-source is not just open your code base, more important part is the collabration with other contributors, and how to do it. I'll try to explain it from the practice aspect.
 
-## Get started
-仔细阅读项目自述文件（README），遵循贡献指南（CONTRIBUTION）中给出的流程。
+## Get started 
+Please read the project README carefully, and the process in the CONTRIBUTION.
 
-面对一个新的项目，尤其是在相对不熟悉的领域，有如下的方法可以帮助你提供前期的贡献：
-* 文档贡献，这是非常有效的一种了解项目的方式，通常我们可以在阅读文档的过程中，修复一些错别字、标点符号、语法错误、无效链接等等
-* good-first-issues，对于希望收到更多贡献的项目而言，会在一些容易上手的 issues 上添加该标签
+In the early days of a new project, especially in an unfamiliar field, here are some ways to help you contribute to an open-source project.
+* Document contributions, this is a very effective way to learn about a project. Usually, we can fix typos, punctuation, grammatical errors, broken links, and so on as we read the document.
+* good-first-issue, for projects that want to receive more contributions, the tag will be added to issues that are easy to fix.
 
 ## Issues
-常见误区：
-* 只有标题，没有内容
-* 只有结果、现象，没有提供上下文
-  * 问题出现的可能性千千万，没有人能猜到你的环境、操作步骤
-* 只有截图，不提供错误、异常、上下文的关键文字
-  * 没有文字的话，不便于其他人进行检索
+Common Misunderstanding:
 
-最佳实践：
+* Only title, without content.
+* Only result and phenomena, without background.
+  * There are many possible reasons for your problem appearing, and no one can guess your environment and operation steps.
+* Only screen-shots, without error, exception and keywords in content.
+  * If there is no text, it is not convenient for others to search.
+
+Best Practice:
+
 * 现有的 issues 中没有提到过该问题时再提交新的
 * 熟悉语言一定要遵循对应社区期望的规定
-* 标题要简洁、规范
+* The title should be concise and standardized
 * 做好分类，可以通过标签或者标题前缀来分类
   * 常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx
 * 和 UI 相关的 issues 要给出截图
