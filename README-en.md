@@ -28,22 +28,22 @@ Common Misunderstanding:
 
 Best Practice:
 
-* 现有的 issues 中没有提到过该问题时再提交新的
+* Add a new issue after confirming the problem is not in the existing issues.
 * 熟悉语言一定要遵循对应社区期望的规定
 * The title should be concise and standardized
-* 做好分类，可以通过标签或者标题前缀来分类
-  * 常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx
-* 和 UI 相关的 issues 要给出截图
+* Make a classification, and you can do this by label or title prefix
+  * Common title classification: Question: xxx, Proposal: xxx, Bug: xxx
+* The issue relevant to UI needs screenshot(s).
 
 ## Pull Request
-常见误区：
-* 使用单一分支（例如：master）提交变更
-* 单个 PR 中包含多个不同的优化、缺陷修复
-* 单个 PR 不断新增内容
-* 合并自己提交的 PR
-* 通过及时聊天工具催促特定的人 review 你的 PR
+Common Misunderstanding:
+* Use a single branch(like master) to submit changes.
+* Many different updates and fixing in single one PR.
+* Continually add new content in a single PR
+* Merge your own PR
+* Use instant messaging to urge specific people to review your PR
 
-最佳实践：
+Best Practice:
 * 首次提交 PR 前，浏览已经成功合并过的 PR 评论列表以及格式等
 * 如果要修复的问题已经有对应的 issue，请确保没有人提交对应的 PR，然后，请留言说明你的修复计划
 * 如果估计你提交的变更比较多，请首先创建 issue，并依据具体情况（难易程度、争议性等）描述你的想法
