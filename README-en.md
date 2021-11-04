@@ -29,7 +29,7 @@ Common Misunderstanding:
 Best Practice:
 
 * Add a new issue after confirming the problem is not in the existing issues.
-* 熟悉语言一定要遵循对应社区期望的规定
+* Be familiar with the language of regulations that correspond to community expectations, and follow them.
 * The title should be concise and standardized
 * Make a classification, and you can do this by label or title prefix
   * Common title classification: Question: xxx, Proposal: xxx, Bug: xxx
@@ -37,29 +37,30 @@ Best Practice:
 
 ## Pull Request
 Common Misunderstanding:
-* Use a single branch(like master) to submit changes.
+* Use a single branch(like master) to commit changes.
 * Many different updates and fixing in single one PR.
 * Continually add new content in a single PR
 * Merge your own PR
 * Use instant messaging to urge specific people to review your PR
 
 Best Practice:
-* 首次提交 PR 前，浏览已经成功合并过的 PR 评论列表以及格式等
-* 如果要修复的问题已经有对应的 issue，请确保没有人提交对应的 PR，然后，请留言说明你的修复计划
-* 如果估计你提交的变更比较多，请首先创建 issue，并依据具体情况（难易程度、争议性等）描述你的想法
-* 一个 PR 只能包含一类修改
-* 每次提交都须要新增一个分支进行
-* 避免同一个主题的 PR 反复关闭、新建
-  * 避免在同一个 PR 中频繁地提交，这对于 reviewers 来说将会是极大的困扰
-  * 如果你的 PR 还没有准备好接受 review，请在标题上添加前缀 `WIP: `，直到你自测充分
-  * 在根据 reviewers 提出的建议进行修改时，避免使用强制推送 `--force`，这对于 reviewers 来说将无法轻松地看到你最新的修改部分
-  * 尽可能保持你的 commit 记录比较优雅，万一多次 review 后的记录比较多的话，项目 owners 会在合并时决定是否会 squash 你的提交记录
-* 尽可能多地给出当前 PR 的详情，包括但不限于：相关 issues、解决的问题、任何方便 review 的上下文
-  * 涉及到 UI 的改动，给出修改前后的效果截图
-  * 视情况给出你的自测过程
-  * 对于可能引起争议的部分，给出你的解释
-* 如果你的 PR 超过一周没有得到 review，可以尝试 cc 相关的 team
+* Before submitting PR for the first time, browse some successfully merged PR comments and wanted formatted, etc.
+* If the problem to fix already has a related issue, please assure that nobody submitted the corresponding PR. Then, please leave a comment about your fix plan.
+* If you want to submit several changes, please add the issue first. And describe your thoughts according to the actual situation(like difficulty and controversy)
+* A PR only contains one class of changes.
+* Add a new branch for each submit.
+* Avoid repeatedly closing and creating PRs for the same topic
+  * Avoid making frequent submit for the same PR, which will be great trouble for reviewers
+  * If your PR is not already prepared for accepting review, please add prefix `WIP` before the title until you get readied.
+  * When making revisions based on reviewers' suggestions, avoid forced push `--force`, making reviewers unable to check your newest changing part.
+  * Keep your commit records as elegant as possible. In case there are too many reviews, the project owners will decide whether to squash your commit records at merge time.
+* Give as much detail as you can about your PR, like related issues(s), solving problems, and any context convenient to review.
+  * Provide screenshots of the effect before and after modification if it is related to UI.
+  * List your self-test process as appropriate.
+  * Give your reason for the controversial part. 
+* If your PR hasn't been reviewed for more than a week, try to cc* related teams.
   * 如果没有相关的 team 可以 cc 的话，可以找最近合并过类似 PR 的人，并说明是由于找不到其他的方式，以及表示抱歉打扰
+  * ** Cc stands for carbon copy which means that whose address appears after the Cc: header would receive a copy of the message. Also, the Cc header would also appear inside the header of the received message.*
 
 ## Review
 在 PR 的 review 过程中，通常会涉及到三个角色的人：作者、维护者、其他。
