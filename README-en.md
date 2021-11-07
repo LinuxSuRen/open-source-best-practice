@@ -59,39 +59,39 @@ Best Practice:
   * List your self-test process as appropriate.
   * Give your reason for the controversial part. 
 * If your PR hasn't been reviewed for more than a week, try to cc* related teams.
-  * 如果没有相关的 team 可以 cc 的话，可以找最近合并过类似 PR 的人，并说明是由于找不到其他的方式，以及表示抱歉打扰
+  * If there is no related team to cc, you can find someone who has merged similar PR recently and explain that it is because there is no other way, and I apologize for bothering you.
   * ** Cc stands for carbon copy which means that whose address appears after the Cc: header would receive a copy of the message. Also, the Cc header would also appear inside the header of the received message.*
 
 ## Review
-在 PR 的 review 过程中，通常会涉及到三个角色的人：作者、维护者、其他。
+In the process of PR review, there are usually three roles involved: AUTHOR, MAINTAINERS, and others.
 
-首先，我们要想明白一个问题——为什么要进行 review ？不管 PR 中提交的是代码、文档还是其他类型的文件，进行 review 的都有着非常重要的意义。
+First of all, we need to figure out a question, why do we need a review? Review is critical, no matter it's code, documentation, or other types of files submitted in PR.
 
-* 开源最基本原则的体现，公开、透明
-  * 如果连 review 都不做的话，何谈开源？要公开的绝不仅仅是结果，更关键的是要公开过程
-  * review 绝对不是审核的意思，任何人都可以是 reviewer，大家都有可以在这个过程中有所收获
-* 生命周期
-  * PR 不适用于有紧急合并需求的情况
-  * 提交完 PR 后，作者首先应该自行检查一遍，如果发现还有问题的话，请标记为“进行中”
-    * 我们可以把还没准备好 review 的 PR 的标题加上前缀：`WIP:`
-    * 作者如果对某些代码（文档）不是很确定，可以直接把你的观点以评论的形式表述出来
-  * 在 2～7 天内完成 review 并合并
-* 礼仪
-  * 没有人有义务对你的 PR 进行 review，包括维护者
-  * 每一位 reviewer 都对你的 PR 合并提供了帮助，对他们表示感谢
-  * 在最佳的 review 周期内，不要去催促任何人对你的 PR 进行 review
-  * 如果确实需要请求 review 帮助，请给出说明，并且优先 @ 某个 team，其次才是直接 @ 某个人，并对打扰表示歉意
-* 明确你的观点
-  * 尽量避免给出模棱两可的评论，作者需要根据你给出的建议来决定是否要进行修改
-  * 对于你不是很确定问题，可以这么表述：”我感觉这里可能有问题，给出建议的做法以及理由，并指明该评论不阻碍 PR 的合并“
-  * 对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接
-    * 例如：PR 中代码注释不规范，给出官方社区的文档链接
-* 自动化流程
-  * 利用类似于 [Lighthouse](https://github.com/jenkins-x/lighthouse) 的自动化工具来管理 review 流程
-  * 合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等）
-  * 避免人为干预自动化过程
-  * 如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍
-    * 例如：通过评论 `/hold` 来阻止机器人账号自动合并
+* The expression of the most basic principles of open source(transparency and openness).
+  * The Review process is part of open source. It is not only the results that need to be opened but also the processes that need to be opened.
+  * Review does not mean an audit. Everyone can be a reviewer, and everyone will learn in this process.
+* Life cycle
+  * PR does not apply to urgent merge needs.
+  * After submitting the PR, the author should check it by himself first. If there is any problem, please mark it as "work in progress."
+    * We can add a prefix: `WIP` of PR that is not ready for review.
+    * If you are unsure about a specific part of the code or documentation, you can express your opinion directly in the form of a comment.
+  * Review and merge within 2 to 7 days.
+* Politeness
+  * No one should review your PR, including maintainers.
+  * Thanks to each reviewer who contributed to your PR merge.
+  * Don't rush anyone to review your PR during the best review cycle.
+  * If you do need to ask for a review for help, please give instructions. And @ a team first, then directly @ a person, and apologize for interrupting.
+* Make a clear point.
+  * Try to avoid giving vague comments, and the writer needs to make changes based on the suggestions you give. 
+  * If you are not sure about the question, you can comment like this: "I have a feeling there may be a problem here," give the suggestion and why, and indicate that the comment does not block the PR merge.
+  * For the part in question, give information or data that supports your point. If relevant authoritative information is available, you can attach a related web link.
+    * For example, code comments in PR are not standard, giving the official community documentation links.
+* Automated process
+  * Manage the review process with an automated tool like [Lighthouse](https://github.com/jenkins-x/lighthouse)
+  * Run as many automated tests as possible (unit tests, E2E tests, stress tests, etc.) before merging. 
+  * Avoid human intervention in automated processes
+  * If review is completed, but some manual verification is needed. To avoid an untimely automatic merge, you can block it with a comment command.
+    * For example, comment `/hold` to prevent robot-account auto-merging.
 
 ## 社区运营
 
