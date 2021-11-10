@@ -93,7 +93,7 @@ First of all, we need to figure out a question, why do we need a review? Review 
   * If review is completed, but some manual verification is needed. To avoid an untimely automatic merge, you can block it with a comment command.
     * For example, comment `/hold` to prevent robot-account auto-merging.
 
-## 社区运营  
+## 社区运营      
 
 对于社区（Community）这个词，不同的人有着不同的理解。本文的社区专指：开源社区（Open Source Community）。
 
