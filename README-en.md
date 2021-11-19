@@ -19,14 +19,14 @@ Please read the project README carefully, and follow the process in the CONTRIBU
 
 In the early days of a new project, especially in an unfamiliar field, here are some ways to help you contribute to an open-source project.
 * Document contributions. This is a very effective way to learn about a project. Usually, we can fix typos, punctuation, grammatical errors, broken links, and so on as we read the document.
-* Good-first-issue, for projects that want to receive more contributions, the tag will be added to issues that are easy to fix.
+* Good-first-issue. For projects that want to receive more contributions, the tag will be added to issues that are easy to fix.
 
 ## Issues
 Common Misunderstanding:
 
 * Only title, without content.
 * Only result and phenomena, without background.
-  * There are many possible reasons for your problem appearing, and no one can guess your environment and operation steps.
+  * There are many possible causes for a problem, and no one can guess your environment and operation steps.
 * Only screenshots, without error, exception and keywords in content.
   * If there is no text, it is not convenient for others to search.
 
@@ -48,14 +48,14 @@ Common Misunderstanding:
 * Use instant messaging to urge specific people to review your PR.
 
 Best Practice:
-* Before submitting PR for the first time, browse some successfully merged PR comments and wanted formatted, etc.
+* Before submitting PR for the first time, browse some successfully merged PRs and take a look at the comments and format, etc.
 * If the problem to fix already has a related issue, please assure that nobody submitted the corresponding PR. Then, please leave a comment about your fix plan.
 * If you want to submit several changes, please add the issue first. And describe your thoughts according to the actual situation(like difficulty and controversy)
-* A PR only contains one class of changes.
+* A PR only contains changes of the same type.
 * Add a new branch for each submit.
 * Avoid repeatedly closing and creating PRs for the same topic
-  * Avoid making frequent submit for the same PR, which will be great trouble for reviewers.
-  * If your PR is not already prepared for accepting review, please add prefix `WIP` before the title until you get readied.
+  * Avoid making frequent submit for the same PR, which makes it difficult for reviewers to review the PR.
+  * If your PR is not already prepared for accepting review, please add prefix `WIP` before the title until you think the PR is ready for review.
   * When making revisions based on reviewers' suggestions, avoid forced push `--force`, making reviewers unable to check your newest changing part.
   * Keep your commit records as elegant as possible. In case there are too many reviews, the project owners will decide whether to squash your commit records at merge time.
 * Give as much detail as you can about your PR, like related issues(s), solving problems, and any context convenient to review.
@@ -75,7 +75,7 @@ First of all, we need to figure out a question, why do we need a review? The rev
   * The Review process is a manifestation of the open source spirit. In the Review, we need to open not only about the results but also about the process.
   * Review does not mean an audit. Everyone can be a reviewer, and everyone will learn in this process.
 * Life cycle
-  * PR does not apply to urgent merge needs.
+  * PR does not apply to urgent merging needs.
   * After submitting the PR, the author should check it by himself first. If there is any problem, please mark it as "work in progress."
     * We can add a prefix: `WIP` of PR that is not ready for review.
     * If you are unsure about a specific part of the code or documentation, you can express your opinion directly in the form of a comment.
