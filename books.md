@@ -11,6 +11,10 @@
 | 《社区运营的艺术》| [国图](http://find.nlc.cn/search/showDocDetails?docId=-4491791020951859091&dataSource=ucs01&query=%E7%A4%BE%E5%8C%BA%E8%BF%90%E8%90%A5%E7%9A%84%E8%89%BA%E6%9C%AF) |[豆瓣](https://book.douban.com/subject/26976995/)|
 | 《精英的傲慢》 | [国图](http://find.nlc.cn/search/showDocDetails?docId=-4312135015873846037&dataSource=ucs01&query=%E7%B2%BE%E8%8B%B1%E7%9A%84%E5%82%B2%E6%85%A2) |[豆瓣](https://book.douban.com/subject/35586814/)|
 
+## 其他书单
+
+[开源之书·共读](https://shimo.im/docs/lkqUDDblhE0VKXee)
+
 ## 其他
 
 | 标题 | 作者 | 来源|
