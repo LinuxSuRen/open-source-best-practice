@@ -8,3 +8,7 @@
 | [OpenTEKr](https://space.bilibili.com/1177021647) | 视频 | 致力于构建一个可持续发展的开放科技生态圈 |
 | [Koala聊开源](https://space.bilibili.com/489667127/) | 视频 | 个人观点分享 |
 | [大咖说开源](https://space.bilibili.com/578074510/channel/seriesdetail?sid=694280) | 视频 | 开源软件供应链点亮计划 |
+
+## 其他
+
+* [开源的魅力 - 以 Apache APISIX 为例](https://www.youtube.com/watch?v=A_geiZHnvv8)
