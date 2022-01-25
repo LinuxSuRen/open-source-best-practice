@@ -10,6 +10,8 @@
 |《不拘一格》|[海图](http://primo.clcn.net.cn:1701/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=CLCN_ALEPH_CN004969708&indx=2&recIds=CLCN_ALEPH_CN004969708&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=&vl(57223009UI0)=title&frbg=&&dscnt=0&scp.scps=scope%3A%28HD%29&mode=Basic&vid=HD&srt=rank&tab=default_tab&dum=true&vl(freeText0)=%E4%B8%8D%E6%8B%98%E4%B8%80%E6%A0%BC&dstmp=1641714497149)|[豆瓣](https://book.douban.com/subject/35102294/)|
 | 《社区运营的艺术》| [国图](http://find.nlc.cn/search/showDocDetails?docId=-4491791020951859091&dataSource=ucs01&query=%E7%A4%BE%E5%8C%BA%E8%BF%90%E8%90%A5%E7%9A%84%E8%89%BA%E6%9C%AF) |[豆瓣](https://book.douban.com/subject/26976995/)|
 | 《精英的傲慢》 | [国图](http://find.nlc.cn/search/showDocDetails?docId=-4312135015873846037&dataSource=ucs01&query=%E7%B2%BE%E8%8B%B1%E7%9A%84%E5%82%B2%E6%85%A2) |[豆瓣](https://book.douban.com/subject/35586814/)|
+| 《海星与蜘蛛》 | [国图](http://find.nlc.cn/search/showDocDetails?docId=1574923584154007493&dataSource=ucs01&query=%E6%B5%B7%E6%98%9F%E4%B8%8E%E8%9C%98%E8%9B%9B) |[豆瓣](https://book.douban.com/subject/2983978/)|
+| 《有限与无限的游戏》 | [国图](http://find.nlc.cn/search/showDocDetails?docId=-1395675581501465850&dataSource=ucs01&query=%E6%9C%89%E9%99%90%E4%B8%8E%E6%97%A0%E9%99%90%E7%9A%84%E6%B8%B8%E6%88%8F) |[豆瓣](https://book.douban.com/subject/33438841/)|
 
 ## 其他书单
 
@@ -20,3 +22,4 @@
 | 标题 | 作者 | 来源|
 |---|---|---|
 | [如何有效规划时间](https://mp.weixin.qq.com/s/Rn_aazxc-Q-G7nqbOsS7-w) | 适兕 | LFAPAC公众号 |
+| [如何成为一名成功的学生导师](https://alc-beijing.github.io/alc-site/post/how_to_be_a_successful_mentor/) | 柯振旭 | ACL Beijing 博客 |
