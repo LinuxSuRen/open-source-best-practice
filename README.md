@@ -30,7 +30,7 @@
 
 ## 维护者
 
-项目的维护者（maintainer），通常指的是有合并（Pull Request）权限的贡献者。在不同的社区中可能会有不同的叫法，例如：committer、PMC、owner 等等。维护者更多的会考虑如何促进项目、社区的健康发展，以及 review 相关仓库的 PR。
+项目的维护者（maintainer），通常指的是有合并（Pull Request）权限的贡献者。在不同的社区中可能会有不同的叫法，例如：committer、[PMC](https://www.apache.org/dev/pmc.html)(Project Management Committee)、owner 等等。维护者更多的会考虑如何促进项目、社区的健康发展，以及 review 相关仓库的 PR。
 
 ### 关注贡献者
 
