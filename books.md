@@ -22,4 +22,4 @@
 | 标题 | 作者 | 来源|
 |---|---|---|
 | [如何有效规划时间](https://mp.weixin.qq.com/s/Rn_aazxc-Q-G7nqbOsS7-w) | 适兕 | LFAPAC公众号 |
-| [开源软件指南](https://opensource.guide/zh-hans/) | github官方 | opensource.guide |
+| [如何成为一名成功的学生导师](https://alc-beijing.github.io/alc-site/post/how_to_be_a_successful_mentor/) | 柯振旭 | ACL Beijing 博客 |
