@@ -11,4 +11,7 @@
 
 ## 其他
 
-* [开源的魅力 - 以 Apache APISIX 为例](https://www.youtube.com/watch?v=A_geiZHnvv8)
+|类型|标题|
+|---|---|
+|视频|[开源的魅力 - 以 Apache APISIX 为例](https://www.youtube.com/watch?v=A_geiZHnvv8)|
+|播客|[和吴晟聊开源 - 工程师是不是/该不该/能不能/有没有赚到盆满钵满？](https://www.xiaoyuzhoufm.com/episode/61eabab94675a08411f514b9)
