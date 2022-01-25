@@ -33,7 +33,7 @@ SIG 通常是以线上（online）的形式存在，而例会则是非常重要�
   * 当可以主持会议的人都无法参加，或者其他需要取消例会的情况，尽早地通知社区会议取消
 * 会议记录
   * 文字记录，可以使用 [Google Document](https://docs.google.com/document/u/0/) 或者[腾讯文档](https://docs.qq.com/)
-  * 会议录屏，根据会议参与者使用的语言不同，中文可以选择[哔哩哔哩](https://www.bilibili.com/)，英文可以选择 [YouTube](https://www.youtube.com/)
+  * 会议的录屏文件，可以根据会议参与者使用的语言不同，中文可以选择[哔哩哔哩](https://www.bilibili.com/)，英文可以选择 [YouTube](https://www.youtube.com/)
 
 ## 退休
 
