@@ -13,7 +13,7 @@
 | 文章   | [思否](https://segmentfault.com/)                 | 包含问答、文章专栏、招聘等板块。以中文用户为主。                     |
 | 文章   | [InfoQ](https://www.infoq.cn/topic/opensource)  |                                              |
 | 文章   | [DEV](https://dev.to/)                          | 以英文用户为主。                                     |
-| 文章   | [reddit](https://www.reddit.com/)               | 以英文用户为主。                                       |
+| 文章   | [reddit](https://www.reddit.com/)               | 以英文用户为主。                                     |
 | 社交动态 | [Twitter](https://twitter.com/)                 | 面向全球。部分国家（或地区）可能无法访问。支持多账号管理模式。              |
 | 社交动态 | [领英](https://www.linkedin.com/)                 |                                              |
 | 社交动态 | [即刻](https://www.okjike.com/)                   |                                              |
@@ -24,6 +24,7 @@
 | 即时沟通 | [Gitter](https://gitter.im/)                    |                                              |
 | 即时沟通 | [微信](https://weixin.qq.com/)                    | 中国最流行的交流工具。                                  |
 | 即时沟通 | [telegram](https://telegram.org/)               |                                              |
+| 即时沟通 | [飞书](https://www.feishu.cn/)                    ||
 | 捐助   | [爱发电](https://afdian.net/)                      |                                              |
 | 捐助   | [Open Collective](https://opencollective.com/)  | 面向全球。部分国家（或地区）可能无法访问。                        |
 | 文档协作 | [Google Document](https://docs.google.com/)     | 面向全球。部分国家（或地区）可能无法访问。                        |
@@ -31,6 +32,7 @@
 | 文档协作 | [石墨文档](https://shimo.im/)                       |                                              |
 | 在线会议 | [Google Meet](https://meet.google.com/)         | 在浏览器中运行，无需安装客户端。不支持录屏。                       |
 | 在线会议 | [腾讯会议](https://meeting.tencent.com/)            | 以中文用户为主，录屏方式支持本地、云录制。有降噪功能，但偏弱。              |
+| 在线会议 | [飞书](https://www.feishu.cn/)                    | 支持：录制、虚拟形象、虚拟背景。                             |
 | 日程管理 | [Doodle](https://doodle.com/)                   | 可用于多人以投票的形式选择合适（活动、会议）的时间段。                  |
 | 日程管理 | [Google Calendar](https://calendar.google.com/) | 可作为社区公开的、可订阅的活动、会议的日历                        |
 
