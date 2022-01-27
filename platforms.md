@@ -24,7 +24,7 @@
 | 即时沟通 | [Gitter](https://gitter.im/)                    |                                              |
 | 即时沟通 | [微信](https://weixin.qq.com/)                    | 中国最流行的交流工具。                                  |
 | 即时沟通 | [telegram](https://telegram.org/)               |                                              |
-| 即时沟通 | [飞书](https://www.feishu.cn/)                    ||
+| 即时沟通 | [飞书](https://www.feishu.cn/)                    | 支持的群模式：对话、话题式。入群二维码支持设置自定义有效期（包括永久有效）。 |
 | 捐助   | [爱发电](https://afdian.net/)                      |                                              |
 | 捐助   | [Open Collective](https://opencollective.com/)  | 面向全球。部分国家（或地区）可能无法访问。                        |
 | 文档协作 | [Google Document](https://docs.google.com/)     | 面向全球。部分国家（或地区）可能无法访问。                        |
