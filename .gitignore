@@ -1,2 +1,5 @@
 .idea/
-
+.github/website/themes
+.github/website/content/docs
+bin/
+docs/
