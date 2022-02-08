@@ -4,6 +4,7 @@ googleAnalytics = "UA-75011109-1"
 
 baseURL = 'https://linuxsuren.github.io/open-source-best-practice/'
 title = '开源最佳实践'
+description = '写给希望了解、参与、传播开源的人群'
 theme = 'book'
 
 # Book configuration
