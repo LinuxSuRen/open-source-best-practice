@@ -24,3 +24,4 @@
 |---|---|---|
 | [如何有效规划时间](https://mp.weixin.qq.com/s/Rn_aazxc-Q-G7nqbOsS7-w) | 适兕 | LFAPAC公众号 |
 | [如何成为一名成功的学生导师](https://alc-beijing.github.io/alc-site/post/how_to_be_a_successful_mentor/) | 柯振旭 | ACL Beijing 博客 |
+| [夜天之书](https://tisonkun.org/) | @tisonkun | 个人博客，包含很多开源治理、开源理解、开源普及相关的文章 |
