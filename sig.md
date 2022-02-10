@@ -61,8 +61,8 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
 
 ## 采用 SIG 的开源社区
 
-| 名称                                                                     | 备注                                                                      |
-|------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| 名称 | 备注 |
+|---|---|
 | [CD Foundation](https://github.com/cdfoundation/toc/tree/master/sigs)  | [Linux 基金会](https://www.linuxfoundation.org/) 旗下的子基金会                   |
 | [Jenkins](https://www.jenkins.io/sigs/)                                | CI/CD 领域                                                                |
 | [KubeSphere](https://github.com/kubesphere/community)                  | 由[青云](https://www.qingcloud.com/) 发起，聚焦在云原生领域                           |
