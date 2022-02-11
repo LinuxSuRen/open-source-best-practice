@@ -3,7 +3,10 @@
 | 类型   | 名称                                              | 描述                                           |
 |------|-------------------------------------------------|----------------------------------------------|
 | 代码托管 | [GitHub](https://github.com/)                   | 面向全球，约 5600 万用户。                             |
-| 代码托管 | [Gitee](https://gitee.com/)                     | 主要面向中国用户，界面有中英文支持。                           |
+| 代码托管 | [Gitee](https://gitee.com/)                     | 主要面向中国用户，界面有中英文支持，基于 Gitlab                           |
+| 代码托管 | [极狐](https://jihulab.com/explore/) | [极狐](https://gitlab.cn/) 旗下的代码托管仓库，基于 Gitlab |
+| 代码托管 | [GitLab](https://gitlab.com/explore) | |
+| 代码托管 | [GitCode](https://gitcode.net/) | [CSDN](https://www.csdn.net/) 旗下的代码托管仓库，基于 Gitlab |
 | 视频   | [YouTube](https://www.youtube.com/)             | 全球最大的视频分享网站，以英文为主。部分国家（或地区）可能无法访问。支持多账号管理模式。 |
 | 视频   | [哔哩哔哩](https://www.bilibili.com/)               | 中国最大的视频分享网站，以中文为主。                           |
 | 播客   | [喜马拉雅](https://www.ximalaya.com/)               | 中文播客                                         |
