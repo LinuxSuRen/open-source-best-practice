@@ -29,6 +29,7 @@
 | [ALC Beijing Podcast](https://www.ximalaya.com/keji/37853515/) | 🎧播客 | |
 | [开源之道 Talking](https://www.ximalaya.com/album/32915040) | 🎧播客 | |
 | [OpenTEKr](https://space.bilibili.com/1177021647) | 🎧视频 | 致力于构建一个可持续发展的开放科技生态圈 |
+| [The ReadME Podcast](https://github.com/readme/podcast/) | 🎧播客 | GitHub 官方出品，主要介绍（使用英文）开源项目 |
 
 ### 单集
 
