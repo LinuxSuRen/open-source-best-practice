@@ -1,0 +1,31 @@
+name: BuildHugo
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+jobs:
+  BuildHugo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+      with:
+        submodules: 'recursive'
+    - name: Publish
+      env:
+        GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      run: |
+        mkdir -p bin
+        curl -L https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.tar.gz -o bin/hugo.tar.gz
+        tar xzvf bin/hugo.tar.gz -C bin
+        sudo mv bin/hugo /usr/local/bin
+
+        git checkout -b book-publish
+        make publish
+        git status
+        git config --global user.email 'LinuxSuRen@users.noreply.github.com'
+        git config --global user.name rick
+        git remote -v
+        git add . && git commit -m 'publish' && git push origin book-publish -f
