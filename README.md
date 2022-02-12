@@ -88,6 +88,7 @@ TODO
 * [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
 * [开源相关音视频](audios-and-videos.md)
 * [开源相关书籍](books.md)
+* [英语学习资料](english.md)
 * [开源商业公司融资情况](financing.md)
 * [杂项](others.md)
 
