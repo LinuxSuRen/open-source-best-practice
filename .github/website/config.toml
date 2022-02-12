@@ -12,6 +12,9 @@ disablePathToLower = true
 enableGitInfo = true
 disqusShortname = "my-site"
 
+[permalinks]
+  docs = '/:filename.md/'
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
