@@ -59,17 +59,20 @@ SIG 的健康发展，离不开公开、透明、多元化等原则，流于形�
 长期不活跃的 SIG，会给新关注到社区的人带来很大的“误解”或困惑，他们可能认为这个社区缺乏治理、活力。因此，社区的 lead 如果希望能有源源不断的新成员加入的话，
 就不能任由 SIG 的“堕落”。
 
-## 采用 SIG 的社区
+## 采用 SIG 的开源社区
 
-| 名称                                                                    | 备注                                                                      |
-|-----------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [CD Foundation](https://github.com/cdfoundation/toc/tree/master/sigs) | [Linux 基金会](https://www.linuxfoundation.org/) 旗下的子基金会                   |
-| [Jenkins](https://www.jenkins.io/sigs/)                               | CI/CD 领域                                                                |
-| [KubeSphere](https://github.com/kubesphere/community)                 | 由[青云](https://www.qingcloud.com/) 发起，聚焦在云原生领域                           |
-| [openEuler](https://www.openeuler.org/zh/sig/sig-list/)               | 由[开放原子开源基金会](https://www.openatom.org/) （OpenAtom Foundation）孵化及运营的开源项目 |
-| [云原生社区](https://cloudnative.to/community/sig/)                        ||
-| [Kubernetes](https://github.com/kubernetes-sigs)                      ||
-| [KubeEdge](https://github.com/kubeedge/community)                     | 边缘计算                                                                    |
+| 名称 | 备注 |
+|---|---|
+| [CD Foundation](https://github.com/cdfoundation/toc/tree/master/sigs)  | [Linux 基金会](https://www.linuxfoundation.org/) 旗下的子基金会 |
+| [Jenkins](https://www.jenkins.io/sigs/) | CI/CD 领域 |
+| [KubeSphere](https://github.com/kubesphere/community) | 由[青云](https://www.qingcloud.com/) 发起，聚焦在云原生领域 |
+| [openEuler](https://www.openeuler.org/zh/sig/sig-list/) | 由[开放原子开源基金会](https://www.openatom.org/) （OpenAtom Foundation）孵化及运营的开源项目 |
+| [云原生社区](https://cloudnative.to/community/sig/) | |
+| [Kubernetes](https://github.com/kubernetes-sigs) | 容器调度平台 |
+| [KubeEdge](https://github.com/kubeedge/community) | 边缘计算 |
+| [OpenHarmony](https://gitee.com/openharmony/community/tree/master/sig) | 操作系统 |
+| [MindSpore](https://gitee.com/mindspore/community/tree/master/sigs) | 人工智能 |
+| [openGauss](https://gitee.com/opengauss/community) | 关系型数据库 |
 
 ## FAQ
 
