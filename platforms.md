@@ -38,7 +38,7 @@
 | 在线会议 | [飞书](https://www.feishu.cn/)                    | 支持：录制、虚拟形象、虚拟背景。                             |
 | 日程管理 | [Doodle](https://doodle.com/)                   | 可用于多人以投票的形式选择合适（活动、会议）的时间段。                  |
 | 日程管理 | [Google Calendar](https://calendar.google.com/) | 可作为社区公开的、可订阅的活动、会议的日历                        |
-| 日程管理 | [飞书日历](https://www.feishu.cn) | 亮点，可以同步 Google Calendar                        |
+| 日程管理 | [飞书日历](https://www.feishu.cn) | 亮点，可以同步第三方日历，如 Google Calendar、Outlook、Exchange 等。更多可见：https://www.feishu.cn/hc/zh-CN/articles/665183342590                        |
 
 > 欢迎读者帮忙推荐更多的平台，以及完善平台的描述。
 >
