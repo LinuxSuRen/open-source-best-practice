@@ -12,6 +12,7 @@
 | 播客   | [喜马拉雅](https://www.ximalaya.com/)               | 中文播客                                         |
 | 播客   | [小宇宙](https://www.xiaoyuzhoufm.com/)            |                                              |
 | 文章   | [微信公众号](https://mp.weixin.qq.com/)              | 以发布文章为主，同时支持音视频。                             |
+| 文章   | [V2EX](https://v2ex.com/)                | 以中文用户为主，虽然没有看到社区账号注册，但内容质量非常不错。                                     |
 | 文章   | [开源中国](https://www.oschina.net/)                | 以中文用户为主。                                     |
 | 文章   | [思否](https://segmentfault.com/)                 | 包含问答、文章专栏、招聘等板块。以中文用户为主。                     |
 | 文章   | [InfoQ](https://www.infoq.cn/topic/opensource)  |                                              |
