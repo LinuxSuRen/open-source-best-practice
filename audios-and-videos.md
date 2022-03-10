@@ -10,6 +10,7 @@
 | [大咖说开源](https://space.bilibili.com/578074510/channel/seriesdetail?sid=694280) | 📼视频 | 开源软件供应链点亮计划 |
 | [COSCon'21 第六届中国开源年会](https://space.bilibili.com/525037536/channel/collectiondetail?sid=63363) | 📼视频 | COSCon'21 第六届中国开源年会线上演讲视频 |
 | 开源特训营 | 📼视频 | [开源基础](https://www.bilibili.com/video/BV1Pt4y1S7xj)、[项目启动](https://www.bilibili.com/video/BV1BK4y1Y7Xx)、[GitHub 项目管理](https://www.bilibili.com/video/BV1Sp4y1Y7kR)、[如何运营社区](https://www.bilibili.com/video/BV14p4y1e7PX)、[社区如何评审代码](https://www.bilibili.com/video/BV1Gi4y1E7pQ)、[如何提交一个合格的 PR](https://www.bilibili.com/video/BV1RV411m7Pn) |
+| [腾源会](https://space.bilibili.com/1662325245) | 📼视频 | 主要包括：WeOpenTalk |
 
 ### 单集
 
