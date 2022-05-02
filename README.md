@@ -94,6 +94,7 @@ TODO
 * [开源相关书籍](books.md)
 * [英语学习资料](english.md)
 * [开源商业公司融资情况](financing.md)
+* [有公开展示所依赖开源项目的软件](open-source-credit.md)
 * [杂项](others.md)
 
 ## 采用该实践的项目
