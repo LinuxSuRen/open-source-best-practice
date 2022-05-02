@@ -11,3 +11,4 @@
 | 2021年 | [Datafuse Labs](https://github.com/datafuselabs) | 天使轮 | 高瓴创投领投，老股东华创资本、九合创投跟投 |
 | 2021年9月14日 | [StreamNative](https://streamnative.io/) | A 轮 2300 万美元 | 沙特阿美旗下多元化风投基金 Prosperity7 Ventures 与华泰证券旗下另类投资子公司华泰创新联合领投，老股东红杉中国、源码资本继续加码 |
 | 2022年2月7日    | [太极图形](https://github.com/taichi-dev) | [5000 万美元 A 轮](https://mp.weixin.qq.com/s/4PjdQuwX4HRtm7z_xghQvA) | 由源码资本、GGV 纪源资本、BAI 资本联合领投，老股东红杉中国持续加码 |
+| 2022年4月 | 飞轮科技 | 天使轮和天使 + 轮，超 3 亿元 | IDG 资本、红杉中国等 VC |
