@@ -1,7 +1,11 @@
 name: Nebala Grapha
 link: https://www.vesoft.com/
 jobs:
-- name: evangelist
+- name: 社区布道师
+  link: https://www.vesoft.com/cn/careers/#operation
+  postDate: 2022-06-01
+  remote: false
+- name: 技术社区运营总监
   link: https://www.vesoft.com/cn/careers/#operation
   postDate: 2022-06-01
   remote: false

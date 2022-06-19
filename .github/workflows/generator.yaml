@@ -25,6 +25,18 @@ jobs:
           org: linuxsuren
           repo: open-source-best-practice
           push: false
+      - name: Update DevRel
+        uses: linuxsuren/yaml-readme@v0.0.11
+        env:
+          GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+        with:
+          pattern: 'what/items/devrel-*.yaml'
+          template: 'what/devrel.tpl'
+          output: 'what/devrel.md'
+          username: linuxsuren
+          org: linuxsuren
+          repo: open-source-best-practice
+          push: false
       - name: Update jobs
         uses: linuxsuren/yaml-readme@v0.0.11
         env:
