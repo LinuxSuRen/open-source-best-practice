@@ -22,3 +22,5 @@ Please feel free to mainaintain the following table with me.
 ## Others
 * [Jobs in DevRel](https://jobsindevrel.com/)
 * https://developerrelations.com/jobs
+* https://devrelweekly.com/
+* https://tinyletter.com/developeravocados
