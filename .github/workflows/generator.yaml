@@ -14,13 +14,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Update financing
-        uses: linuxsuren/yaml-readme@v0.0.7
+        uses: linuxsuren/yaml-readme@v0.0.10
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
           pattern: 'data/financing/*.yaml'
           template: 'data/financing/financing.tpl'
           output: 'financing.md'
+          username: linuxsuren
+          org: linuxsuren
+          repo: open-source-best-practice
+          push: false
+      - name: Update jobs
+        uses: linuxsuren/yaml-readme@v0.0.10
+        env:
+          GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+        with:
+          pattern: 'what/items/job-*.yaml'
+          template: 'what/jobs.tpl'
+          output: 'what/jobs.md'
           username: linuxsuren
           org: linuxsuren
           repo: open-source-best-practice
