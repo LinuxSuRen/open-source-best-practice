@@ -8,9 +8,9 @@ Please feel free to mainaintain the following table with me.
 
 | Name | Organization | Contact |
 |---|---|---|
-| [Adam DuVander](https://www.jonobacon.com/) |  | [:octocat:](https://github.com/adamd) |
-| [Adam DuVander]() |  | [:octocat:](https://github.com/) |
-| [Adam DuVander](https://www.vogueandcode.com/) |  | [:octocat:](https://github.com/aprilspeight) |
+| [Adam DuVander]() |  | [:octocat:](https://github.com/adamd) |
+| [Anthony Kiplimo]() |  | [:octocat:](https://github.com/) |
+| [April Speight](https://www.vogueandcode.com/) |  | [:octocat:](https://github.com/aprilspeight) |
 | [Arkodyuti Saha]() |  | [:octocat:](https://github.com/arkodyuti) |
 | [Hassan El Mghari](https://www.elmghari.com/) | [Vercel](https://github.com/vercel) | [:octocat:](https://github.com/nutlope) |
 | [Jen Sable Lopez]() |  | [:octocat:](https://github.com/) |
