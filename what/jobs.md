@@ -33,4 +33,6 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 | [Jina AI](https://jina.ai/) | Open Source Technical Evangelist | :white_check_mark: |
 | [Nebala Grapha](https://www.vesoft.com/) | 社区布道师 | :x: |
 | [Nebala Grapha](https://www.vesoft.com/) | 技术社区运营总监 | :x: |
+| [Orbit](https://orbit.love/) | DevRel Analyst | :white_check_mark: |
 | [StreamNative](https://streamnative.io/) | evangelist | :white_check_mark: |
+| [Weaveworks](https://www.weave.works/) | Developer Advocate/Experience Engineer | :white_check_mark: |
