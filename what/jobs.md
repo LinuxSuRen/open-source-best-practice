@@ -29,6 +29,7 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 | Company | Job | Remote |
 |---|---|---|
 | [Chainlink](https://chain.link/) | Developer Advocate | :white_check_mark: |
+| [Jetbrains](https://www.jetbrains.com) | Web and JavaScript Developer Advocate | :white_check_mark: |
 | [Jina AI](https://jina.ai/) | Open Source Technical Evangelist | :white_check_mark: |
 | [Nebala Grapha](https://www.vesoft.com/) | 社区布道师 | :x: |
 | [Nebala Grapha](https://www.vesoft.com/) | 技术社区运营总监 | :x: |
