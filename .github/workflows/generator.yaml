@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.0.2
       - name: Update financing
-        uses: linuxsuren/yaml-readme@b5a2c29f4d48570fb898f02e5ff186d70cd26337 # pr-29
+        uses: linuxsuren/yaml-readme@4e00ea5a0f0b83d42a3acbef7a452a91a6b9f55c # pr-29
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
@@ -26,7 +26,7 @@ jobs:
           repo: open-source-best-practice
           push: false
       - name: Update DevRel
-        uses: linuxsuren/yaml-readme@b5a2c29f4d48570fb898f02e5ff186d70cd26337 # pr-29
+        uses: linuxsuren/yaml-readme@4e00ea5a0f0b83d42a3acbef7a452a91a6b9f55c # pr-29
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
@@ -38,7 +38,7 @@ jobs:
           repo: open-source-best-practice
           push: false
       - name: Update jobs
-        uses: linuxsuren/yaml-readme@b5a2c29f4d48570fb898f02e5ff186d70cd26337 # pr-29
+        uses: linuxsuren/yaml-readme@4e00ea5a0f0b83d42a3acbef7a452a91a6b9f55c # pr-29
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
