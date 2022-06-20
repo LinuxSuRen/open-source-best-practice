@@ -8,16 +8,16 @@ Please feel free to mainaintain the following table with me.
 
 | Name | Organization | Contact |
 |---|---|---|
-| Adam DuVander |  | [:octocat:](https://github.com/adamd) |
-| Anthony Kiplimo |  |  |
-| [April Speight](https://www.vogueandcode.com/) |  | [:octocat:](https://github.com/aprilspeight) |
-| Arkodyuti Saha |  | [:octocat:](https://github.com/arkodyuti) |
-| [Hassan El Mghari](https://www.elmghari.com/) | [Vercel](https://github.com/vercel) | [:octocat:](https://github.com/nutlope) |
-| Jen Sable Lopez |  |  |
-| [Jono Bacon](https://www.jonobacon.com/) |  | [:octocat:](https://github.com/jonobacon) |
-| Mary Thengvall |  | [:octocat:](https://github.com/nutlope) |
-| [Matthew Revell](https://www.matthewrevell.com/) |  | [:octocat:](https://github.com/matthewrevell) |
-| [Michael Heap](https://michaelheap.com/) | [Kong](https://github.com/Kong) | [:octocat:](https://github.com/mheap) |
+| Adam DuVander |  | [:octocat:](https://github.com/adamd) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/adamd) |
+| Anthony Kiplimo |  |  [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/AnthonyLimo) |
+| [April Speight](https://www.vogueandcode.com/) |  | [:octocat:](https://github.com/aprilspeight) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/vogueandcode) |
+| Arkodyuti Saha |  | [:octocat:](https://github.com/arkodyuti) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/arkodyutisaha) |
+| [Hassan El Mghari](https://www.elmghari.com/) | [Vercel](https://github.com/vercel) | [:octocat:](https://github.com/nutlope) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/nutlope) |
+| Jen Sable Lopez |  |  [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/jennita) |
+| [Jono Bacon](https://www.jonobacon.com/) |  | [:octocat:](https://github.com/jonobacon) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/jonobacon) |
+| Mary Thengvall |  | [:octocat:](https://github.com/nutlope)  |
+| [Matthew Revell](https://www.matthewrevell.com/) |  | [:octocat:](https://github.com/matthewrevell) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/matthewrevell) |
+| [Michael Heap](https://michaelheap.com/) | [Kong](https://github.com/Kong) | [:octocat:](https://github.com/mheap) [![twitter](https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcTA3XDrUCnqJvmP3gfZKpXtV8ZO23EalnKszft6-V73d8G2Lt54v9TEnnkeO_MXseXmT5ERutOo0yPqoODJkFPtvxCeQbg_PYDJjXDAFfIMzM2p4bI)](https://twitter.com/mheap) |
 
 ## Others
 * [Jobs in DevRel](https://jobsindevrel.com/)
