@@ -8,14 +8,14 @@ Please feel free to mainaintain the following table with me.
 
 | Name | Organization | Contact |
 |---|---|---|
-| [Adam DuVander]() |  | [:octocat:](https://github.com/adamd) |
-| [Anthony Kiplimo]() |  | [:octocat:](https://github.com/) |
+| Adam DuVander |  | [:octocat:](https://github.com/adamd) |
+| Anthony Kiplimo |  |  |
 | [April Speight](https://www.vogueandcode.com/) |  | [:octocat:](https://github.com/aprilspeight) |
-| [Arkodyuti Saha]() |  | [:octocat:](https://github.com/arkodyuti) |
+| Arkodyuti Saha |  | [:octocat:](https://github.com/arkodyuti) |
 | [Hassan El Mghari](https://www.elmghari.com/) | [Vercel](https://github.com/vercel) | [:octocat:](https://github.com/nutlope) |
-| [Jen Sable Lopez]() |  | [:octocat:](https://github.com/) |
+| Jen Sable Lopez |  |  |
 | [Jono Bacon](https://www.jonobacon.com/) |  | [:octocat:](https://github.com/jonobacon) |
-| [Mary Thengvall]() |  | [:octocat:](https://github.com/nutlope) |
+| Mary Thengvall |  | [:octocat:](https://github.com/nutlope) |
 | [Matthew Revell](https://www.matthewrevell.com/) |  | [:octocat:](https://github.com/matthewrevell) |
 | [Michael Heap](https://michaelheap.com/) | [Kong](https://github.com/Kong) | [:octocat:](https://github.com/mheap) |
 
