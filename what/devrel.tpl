@@ -7,7 +7,7 @@ Please feel free to mainaintain the following table with me.
 | Name | Organization | Contact |
 |---|---|---|
 {{- range $val := .}}
-| [{{$val.name}}]({{$val.blog}}) | {{$val.org}} | [:octocat:](https://github.com/{{$val.github}}) |
+| {{link $val.name (default "" $val.blog)}} | {{$val.org}} | {{ghEmoji (default "" $val.github)}} |
 {{- end}}
 
 ## Others

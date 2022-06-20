@@ -29,7 +29,7 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 {{- range $val := .}}
 
 {{- range $job := $val.jobs}}
-| [{{$val.name}}]({{$val.link}}) | {{$job.name}} | {{render $job.remote}} |
+| {{link $val.name $val.link}} | {{$job.name}} | {{render $job.remote}} |
 {{- end}}
 
 {{- end}}
