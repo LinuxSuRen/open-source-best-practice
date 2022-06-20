@@ -7,7 +7,7 @@ Please feel free to mainaintain the following table with me.
 | Name | Organization | Contact |
 |---|---|---|
 {{- range $val := .}}
-| {{link $val.name (default "" $val.blog)}} | {{$val.org}} | {{ghEmoji (default "" $val.github)}} {{twitterLink (default "" $val.twitter)}} |
+| {{link $val.name (default "" $val.blog)}} | {{$val.org}} | {{ghEmoji (default "" $val.github)}} {{twitterLink (default "" $val.twitter)}} {{youTubeLink (default "" $val.youtube)}}|
 {{- end}}
 
 ## Others
