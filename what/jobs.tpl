@@ -1,3 +1,4 @@
+#!yaml-readme -p what/items/job-*.yaml --output what/jobs.md
 > 本文中，如没有特指的话，指的都是开源相关的，例如：社区指的是开源社区
 
 本文介绍有哪些工作是与开源紧密关联的

@@ -1,3 +1,4 @@
+#!yaml-readme -p what/items/devrel-*.yaml --output what/devrel.md
 > 考虑到绝大部分做 DevRel 工作的人，是需要面向全球的，应该都有一定的英语基础，以下都采用英文编写。
 
 ## People
