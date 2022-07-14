@@ -26,6 +26,7 @@ jobs:
           repo: open-source-best-practice
           push: false
           orderby: date
+          sortby: '!date'
       - name: Update DevRel
         uses: linuxsuren/yaml-readme@v0.0.12
         env:
