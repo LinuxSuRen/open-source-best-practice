@@ -6,3 +6,11 @@
 {{- range $val := .}}
 | [{{$val.date}}]({{$val.fullpath}}) | {{$val.name}} | {{$val.summary}} | {{$val.investors}} |
 {{- end}}
+
+## 名词解释
+
+|名词|描述|
+|---|---|
+| VC | Venture Capital，即风险投资 |
+| PE | Private Equity，即私募股权融资 |
+| FA | Financial Advisor，财务顾问 |
