@@ -4,17 +4,17 @@
 
 | 日期  | 公司名称 | 融资情况 | 投资方 |
 |---|---|---|---|
-| 2017年8月 | [Zilliz](https://github.com/milvus-io) | 数千万元天使轮 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
-| 2022年4月 | 飞轮科技 | 天使轮和天使 &#43; 轮，超 3 亿元 | IDG 资本、红杉中国等 VC |
-| 2021年底 | [燧炻创新](https://fydeos.com/content/career/) | Pre-A 数千万元 | 青云科技领投 |
-| 2021年 | [燧炻创新](https://fydeos.com/content/career/) | 数百万元 | 北京佰才邦技术有限公司领投，北京鲸鲮信息系统技术有限公司与北京即联即用创业投资有限公司跟投 |
-| 2022年6月 | [天谋科技（Timecho）](https://www.timecho.com/) | 近亿元人民币天使轮融资 | 红杉中国领投，考拉基金、戈壁创投、云智慧共同跟投 |
 | 2022年7月14日 | [北京白鲸开源信息科技有限公司](https://dolphinscheduler.apache.org/) | 数千万元 | 凯泰资本领投、蓝驰创投跟投，沧澜担任本轮独家财务顾问 |
-| 2018年5月 | [Zilliz](https://github.com/milvus-io) | A 轮 1000 万美元 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
-| 2019年 | [StreamNative](https://streamnative.io/) | 天使轮 | 红杉中国 |
+| 2022年6月 | [天谋科技（Timecho）](https://www.timecho.com/) | 近亿元人民币天使轮融资 | 红杉中国领投，考拉基金、戈壁创投、云智慧共同跟投 |
+| 2022年4月 | 飞轮科技 | 天使轮和天使 &#43; 轮，超 3 亿元 | IDG 资本、红杉中国等 VC |
+| 2022年2月7日 | [太极图形](https://github.com/taichi-dev) | [5000 万美元 A 轮](https://mp.weixin.qq.com/s/4PjdQuwX4HRtm7z_xghQvA) | 由源码资本、GGV 纪源资本、BAI 资本联合领投，老股东红杉中国持续加码 |
+| 2021年底 | [燧炻创新](https://fydeos.com/content/career/) | Pre-A 数千万元 | 青云科技领投 |
+| 2021年9月14日 | [StreamNative](https://streamnative.io/) | A 轮 2300 万美元 | 沙特阿美旗下多元化风投基金 Prosperity7 Ventures 与华泰证券旗下另类投资子公司华泰创新联合领投，老股东红杉中国、源码资本继续加码 |
+| 2021年 | [Datafuse Labs](https://github.com/datafuselabs) | 天使轮 | 高瓴创投领投，老股东华创资本、九合创投跟投 |
+| 2021年 | [Datafuse Labs](https://github.com/datafuselabs) | 种子轮 | 华创资本领投、九合创投跟投 |
+| 2021年 | [燧炻创新](https://fydeos.com/content/career/) | 数百万元 | 北京佰才邦技术有限公司领投，北京鲸鲮信息系统技术有限公司与北京即联即用创业投资有限公司跟投 |
 | 2020年8月 | [StreamNative](https://streamnative.io/) | Pre-A 轮 数百万 | 源码资本领投、红杉中国跟投 |
 | 2020年11月13日 | [Zilliz](https://github.com/milvus-io) | B 轮 4300 万美元 | 高瓴创投领投，挚信资本和 Pavilion Capital 跟投 |
-| 2021年 | [Datafuse Labs](https://github.com/datafuselabs) | 种子轮 | 华创资本领投、九合创投跟投 |
-| 2021年 | [Datafuse Labs](https://github.com/datafuselabs) | 天使轮 | 高瓴创投领投，老股东华创资本、九合创投跟投 |
-| 2021年9月14日 | [StreamNative](https://streamnative.io/) | A 轮 2300 万美元 | 沙特阿美旗下多元化风投基金 Prosperity7 Ventures 与华泰证券旗下另类投资子公司华泰创新联合领投，老股东红杉中国、源码资本继续加码 |
-| 2022年2月7日 | [太极图形](https://github.com/taichi-dev) | [5000 万美元 A 轮](https://mp.weixin.qq.com/s/4PjdQuwX4HRtm7z_xghQvA) | 由源码资本、GGV 纪源资本、BAI 资本联合领投，老股东红杉中国持续加码 |
+| 2019年 | [StreamNative](https://streamnative.io/) | 天使轮 | 红杉中国 |
+| 2018年5月 | [Zilliz](https://github.com/milvus-io) | A 轮 1000 万美元 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
+| 2017年8月 | [Zilliz](https://github.com/milvus-io) | 数千万元天使轮 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
