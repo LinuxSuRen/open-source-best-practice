@@ -4,5 +4,5 @@
 | 日期  | 公司名称 | 融资情况 | 投资方 |
 |---|---|---|---|
 {{- range $val := .}}
-| {{$val.date}} | {{$val.name}} | {{$val.summary}} | {{$val.investors}} |
+| [{{$val.date}}]({{$val.fullpath}}) | {{$val.name}} | {{$val.summary}} | {{$val.investors}} |
 {{- end}}
