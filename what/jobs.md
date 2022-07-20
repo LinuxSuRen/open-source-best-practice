@@ -26,13 +26,17 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 
 > 注意：本列表只收集至少有一半工作时间在做开源相关事情的岗位。
 
-| Company | Job | Remote |
-|---|---|---|
-| [Chainlink](https://chain.link/) | Developer Advocate | :white_check_mark: |
-| [Jetbrains](https://www.jetbrains.com) | Web and JavaScript Developer Advocate | :white_check_mark: |
-| [Jina AI](https://jina.ai/) | Open Source Technical Evangelist | :white_check_mark: |
-| [Nebala Grapha](https://www.vesoft.com/) | 社区布道师 | :x: |
-| [Nebala Grapha](https://www.vesoft.com/) | 技术社区运营总监 | :x: |
-| [Orbit](https://orbit.love/) | DevRel Analyst | :white_check_mark: |
-| [StreamNative](https://streamnative.io/) | evangelist | :white_check_mark: |
-| [Weaveworks](https://www.weave.works/) | Developer Advocate/Experience Engineer | :white_check_mark: |
+| Company | Job | Package | Remote |
+|---|---|---|---|
+| [Chainlink](https://chain.link/) | [Developer Advocate](https://mp.weixin.qq.com/s/cm1JaCi7V8syMBXP54_-7w) |  | :white_check_mark: |
+| [秒如科技](http://www.lnjoying.com/) | [开源布道师](https://www.zhipin.com/job_detail/75f964534f24dc6f1XZ_3d2-F1tQ.html) | 28-55K·14薪 |  |
+| [Jetbrains](https://www.jetbrains.com) | [Web and JavaScript Developer Advocate](https://www.jetbrains.com/careers/jobs/web-and-javascript-developer-advocate-841/) |  | :white_check_mark: |
+| [Jina AI](https://jina.ai/) | [Open Source Technical Evangelist](https://jobs.lever.co/jina-ai) |  | :white_check_mark: |
+| [Nebala Grapha](https://www.vesoft.com/) | [社区布道师](https://www.vesoft.com/cn/careers/#operation) |  | :x: |
+| [Nebala Grapha](https://www.vesoft.com/) | [技术社区运营总监](https://www.vesoft.com/cn/careers/#operation) |  | :x: |
+| [麒麟软件](https://www.kylinos.cn/) | [开源布道师](https://www.zhipin.com/job_detail/2b774d6d010c392b1Xd-0ty6FVNV.html) | 18-35K |  |
+| [Orbit](https://orbit.love/) | [DevRel Analyst](https://developerrelations.com/jobs/devrel-analyst-orbit) |  | :white_check_mark: |
+| [鼎石纵横科技](https://www.starrocks.com/) | [技术布道师](https://www.zhipin.com/job_detail/2e3ae0fe37a900c31XVy3N6_EVVQ.html) | 25-50K·16薪 |  |
+| [StreamNative](https://streamnative.io/) | [evangelist](https://www.v2ex.com/t/772924) |  | :white_check_mark: |
+| [涛思数据](https://www.taosdata.com/) | [开发者布道师](https://www.zhipin.com/job_detail/9fa9fd4cfd10a8da1Xd_2NS0GVRW.html) | 28-40K·16薪 |  |
+| [Weaveworks](https://www.weave.works/) | [Developer Advocate/Experience Engineer](https://developerrelations.com/jobs/developer-advocate-experience-engineer-weaveworks) |  | :white_check_mark: |

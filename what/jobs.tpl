@@ -25,12 +25,12 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 
 > 注意：本列表只收集至少有一半工作时间在做开源相关事情的岗位。
 
-| Company | Job | Remote |
-|---|---|---|
+| Company | Job | Package | Remote |
+|---|---|---|---|
 {{- range $val := .}}
 
 {{- range $job := $val.jobs}}
-| {{link $val.name $val.link}} | {{$job.name}} | {{render $job.remote}} |
+| {{link $val.name $val.link}} | [{{$job.name}}]({{$job.link}}) | {{$job.package}} | {{render $job.remote}} |
 {{- end}}
 
 {{- end}}
