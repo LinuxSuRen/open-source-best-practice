@@ -29,6 +29,7 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 | Company | Job | Package | Remote |
 |---|---|---|---|
 | [Chainlink](https://chain.link/) | [Developer Advocate](https://mp.weixin.qq.com/s/cm1JaCi7V8syMBXP54_-7w) |  | :white_check_mark: |
+| [艾拉云科](https://www.illacloud.com/) | [开源布道师](https://www.zhipin.com/job_detail/f95573139a5220ad1Xd83968FVtT.html) | 30-50K |  |
 | [秒如科技](http://www.lnjoying.com/) | [开源布道师](https://www.zhipin.com/job_detail/75f964534f24dc6f1XZ_3d2-F1tQ.html) | 28-55K·14薪 |  |
 | [Jetbrains](https://www.jetbrains.com) | [Web and JavaScript Developer Advocate](https://www.jetbrains.com/careers/jobs/web-and-javascript-developer-advocate-841/) |  | :white_check_mark: |
 | [Jina AI](https://jina.ai/) | [Open Source Technical Evangelist](https://jobs.lever.co/jina-ai) |  | :white_check_mark: |
