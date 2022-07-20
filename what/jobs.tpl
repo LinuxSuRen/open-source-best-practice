@@ -34,3 +34,6 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 {{- end}}
 
 {{- end}}
+
+And you could find open-source-related jobs from the following resources:
+- [todogroup/job-descriptions](https://github.com/todogroup/job-descriptions)
