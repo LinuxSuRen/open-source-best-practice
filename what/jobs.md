@@ -40,3 +40,6 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 | [StreamNative](https://streamnative.io/) | [evangelist](https://www.v2ex.com/t/772924) |  | :white_check_mark: |
 | [涛思数据](https://www.taosdata.com/) | [开发者布道师](https://www.zhipin.com/job_detail/9fa9fd4cfd10a8da1Xd_2NS0GVRW.html) | 28-40K·16薪 |  |
 | [Weaveworks](https://www.weave.works/) | [Developer Advocate/Experience Engineer](https://developerrelations.com/jobs/developer-advocate-experience-engineer-weaveworks) |  | :white_check_mark: |
+
+And you could find open-source-related jobs from the following resources:
+- [todogroup/job-descriptions](https://github.com/todogroup/job-descriptions)
