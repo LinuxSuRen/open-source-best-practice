@@ -28,10 +28,15 @@ DevRel 是一个有着成本投入却无法看到直接营收的团队。[Michae
 
 | Company | Job | Package | Remote |
 |---|---|---|---|
+| [浙江大应科技](https://aloudata.com/) | [开源布道师](https://www.lagou.com/wn/jobs/10645168.html) | 40k-60k·15薪 |  |
+| [Amazon](https://www.amazon.com/) | [Senior Developer Advocate](https://www.linkedin.cn/incareer/jobs/view/3072707705) |  |  |
+| [字节跳动](https://www.bytedance.com/) | [开源布道师（数据仓库）](https://www.lagou.com/wn/jobs/10491104.html) |  |  |
 | [Chainlink](https://chain.link/) | [Developer Advocate](https://mp.weixin.qq.com/s/cm1JaCi7V8syMBXP54_-7w) |  | :white_check_mark: |
+| [ConsenSys](https://consensys.net/) | [Lead Developer Advocate (Snaps Platform)](https://www.linkedin.cn/incareer/jobs/view/3117245696) |  |  |
 | [艾拉云科](https://www.illacloud.com/) | [开源布道师](https://www.zhipin.com/job_detail/f95573139a5220ad1Xd83968FVtT.html) | 30-50K |  |
 | [秒如科技](http://www.lnjoying.com/) | [开源布道师](https://www.zhipin.com/job_detail/75f964534f24dc6f1XZ_3d2-F1tQ.html) | 28-55K·14薪 |  |
 | [Jetbrains](https://www.jetbrains.com) | [Web and JavaScript Developer Advocate](https://www.jetbrains.com/careers/jobs/web-and-javascript-developer-advocate-841/) |  | :white_check_mark: |
+| [Jetbrains](https://www.jetbrains.com) | [Developer Advocate (PyCharm)](https://www.linkedin.cn/incareer/jobs/view/2691921529) |  |  |
 | [Jina AI](https://jina.ai/) | [Open Source Technical Evangelist](https://jobs.lever.co/jina-ai) |  | :white_check_mark: |
 | [Nebala Graph](https://www.vesoft.com/) | [开发者布道师](https://www.vesoft.com/cn/careers/#operation) |  | :white_check_mark: |
 | [Nebala Graph](https://www.vesoft.com/) | [技术社区运营总监](https://www.vesoft.com/cn/careers/#operation) |  | :x: |
