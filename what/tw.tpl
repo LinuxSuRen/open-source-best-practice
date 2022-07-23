@@ -1,4 +1,4 @@
-#!yaml-readme -p *.yaml --output tw.md
+#!yaml-readme -p *.yaml --output what/tw.md
 > 本文主要讨论在开源项目中的 Technical Writter（以下简称 TW）
 
 ## 基本要求
@@ -21,7 +21,7 @@ TW 最基本的工作可以包括以下三部分：
 
 在语言之外，以下是开源项目中的主流技术搭配使用，也几乎可以认为是对 TW 的基本要求：
 
-* [熟练使用 GitHub](https://lab.github.com/githubtraining/introduction-to-github)，以及可以在终端熟练地使用 [git](https://git-scm.com/) 命令
+* [熟练使用 GitHub](https://skills.github.com/)，以及可以在终端熟练地使用 [git](https://git-scm.com/) 命令
 * [Markdown](https://www.markdownguide.org/basic-syntax/) 常见语法的使用
 * [Hugo](https://github.com/gohugoio/) 等静态网站构建工具
 * Linux 基本操作
