@@ -1,4 +1,5 @@
 theme:
+	rm -rf .github/website/themes/book
 	git submodule add -f https://github.com/alex-shpak/hugo-book .github/website/themes/book
 
 copy:

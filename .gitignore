@@ -1,4 +1,6 @@
 .idea/
 .github/website/themes
 .github/website/content/docs
+.github/website/resources/_gen
+.github/website/.hugo_build.lock
 bin/
