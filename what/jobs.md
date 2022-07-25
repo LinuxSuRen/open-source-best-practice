@@ -49,6 +49,7 @@ TODO
 
 | Company | Job | Package | Remote |
 |---|---|---|---|
+| [第四范式](https://www.4paradigm.com/) | [开源社区运营](https://app.mokahr.com/apply/4paradigm/5072#/job/216263fc-615f-4984-898b-790e6aebf643) |  |  |
 | [浙江大应科技](https://aloudata.com/) | [开源布道师](https://www.lagou.com/wn/jobs/10645168.html) | 40k-60k·15薪 |  |
 | [Amazon](https://www.amazon.com/) | [Senior Developer Advocate](https://www.linkedin.cn/incareer/jobs/view/3072707705) |  |  |
 | [字节跳动](https://www.bytedance.com/) | [开源布道师（数据仓库）](https://www.lagou.com/wn/jobs/10491104.html) |  |  |
