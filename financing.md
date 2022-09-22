@@ -14,6 +14,7 @@
 | [2022年1月17日](data/financing/item-19.yaml) | [深势科技](https://github.com/deepmodeling) | B 轮，数千万美元 | 源码资本、启明创投共同领投，老股东高瓴创投、经纬创投等继续加码，奇迹资本担任本轮融资的独家FA |
 | [2022年1月](data/financing/item-22.yaml) | [SphereEx](https://www.sphere-ex.com/) | Pre-A轮，近千万美元 | 嘉御资本领投，红杉中国种子基金、初心资本、指数创投跟投，指数资本担任独家财务顾问 |
 | [2022年09月06日](data/financing/item-28.yaml) | [ILLA Cloud艾拉云科](https://github.com/illa-family) | 数百万美元，天使轮融资 | 源码一粟，高瓴创投联合领投 |
+| [2022年08月25日](data/financing/item-27.yaml) | [Zilliz](https://github.com/milvus-io) | 6000 万美元，B&#43; 轮 | 沙特阿美（Aramco Ventures）旗下的多元化成长基金 Prosperity7 Ventures 领投，老股东淡马锡旗下 Pavilion Capital 、高瓴创投、五源资本和云启资本继续加注，多维资本担任独家财务顾问 |
 | [2022年03月17日](data/financing/item-32.yaml) | 和鲸科技 | 数千万元，A&#43; 轮 | 考拉基金领投，翊翎资本、线性资本、中驰源道、五源资本等跟投 |
 | [2021年底](data/financing/item-11.yaml) | [燧炻创新](https://fydeos.com/content/career/) | Pre-A 数千万元 | 青云科技领投 |
 | [2021年9月14日](data/financing/item-8.yaml) | [StreamNative](https://streamnative.io/) | A 轮 2300 万美元 | 沙特阿美旗下多元化风投基金 Prosperity7 Ventures 与华泰证券旗下另类投资子公司华泰创新联合领投，老股东红杉中国、源码资本继续加码 |
@@ -36,7 +37,6 @@
 | [2019年](data/financing/item-3.yaml) | [StreamNative](https://streamnative.io/) | 天使轮 | 红杉中国 |
 | [2018年5月](data/financing/item-2.yaml) | [Zilliz](https://github.com/milvus-io) | A 轮 1000 万美元 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
 | [2017年8月](data/financing/item-1.yaml) | [Zilliz](https://github.com/milvus-io) | 数千万元天使轮 | 晨兴资本，松禾资本，云启资本，靖亚资本 |
-| [ 2022年08月25日](data/financing/item-27.yaml) | [Zilliz](https://github.com/milvus-io) | 6000 万美元，B&#43; 轮 | 沙特阿美（Aramco Ventures）旗下的多元化成长基金 Prosperity7 Ventures 领投，老股东淡马锡旗下 Pavilion Capital 、高瓴创投、五源资本和云启资本继续加注，多维资本担任独家财务顾问 |
 
 ## 名词解释
 
