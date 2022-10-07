@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.0.2
       - name: Update financing
-        uses: linuxsuren/yaml-readme@v0.0.12
+        uses: linuxsuren/yaml-readme@v0.0.13
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
@@ -28,7 +28,7 @@ jobs:
           orderby: date
           sortby: '!date'
       - name: Update DevRel
-        uses: linuxsuren/yaml-readme@v0.0.12
+        uses: linuxsuren/yaml-readme@v0.0.13
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
@@ -40,7 +40,7 @@ jobs:
           repo: open-source-best-practice
           push: false
       - name: Update jobs
-        uses: linuxsuren/yaml-readme@v0.0.12
+        uses: linuxsuren/yaml-readme@v0.0.13
         env:
           GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
