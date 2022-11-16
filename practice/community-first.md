@@ -5,15 +5,15 @@ GitHub 支持置顶 6 个代码仓库，开源社区通常会把最重视的仓�
 
 | 社区 | 领域 | 最新近一次更新 |
 |---|---|---|
-| CHAOSS | 度量 |  ![](https://img.shields.io/github/last-commit/chaoss/community) |
-| KubeSphere | 云原生 | ![](https://img.shields.io/github/last-commit/kubesphere/community) |
-| Tekton | 持续交付 | ![](https://img.shields.io/github/last-commit/tektoncd/community) |
-| Flux | GitOps | ![](https://img.shields.io/github/last-commit/fluxcd/community) |
-| Kubernetes | 云原生 | ![](https://img.shields.io/github/last-commit/kubernetes/community) |
-| TensorFlow |   | ![](https://img.shields.io/github/last-commit/tensorflow/community) |
-| GitHub | 代码托管 | ![](https://img.shields.io/github/last-commit/community/community) |
-| Istio | 微服务 | ![](https://img.shields.io/github/last-commit/istio/community) |
-| Knative | 云原生 | ![](https://img.shields.io/github/last-commit/knative/community) |
-| Helm | 云原生 | ![](https://img.shields.io/github/last-commit/helm/community) |
-| Kubeflow |   | ![](https://img.shields.io/github/last-commit/kubeflow/community) |
-| PingCap | 数据库 | ![](https://img.shields.io/github/last-commit/pingcap/community) |
+| [CHAOSS](https://github.com/chaoss/community) | 度量 |  ![](https://img.shields.io/github/last-commit/chaoss/community) |
+| [KubeSphere](https://github.com/kubesphere/community) | 云原生 | ![](https://img.shields.io/github/last-commit/kubesphere/community) |
+| [Tekton](https://github.com/tektoncd/community) | 持续交付 | ![](https://img.shields.io/github/last-commit/tektoncd/community) |
+| [Flux](https://github.com/fluxcd/community) | GitOps | ![](https://img.shields.io/github/last-commit/fluxcd/community) |
+| [Kubernetes](https://github.com/kubernetes/community) | 云原生 | ![](https://img.shields.io/github/last-commit/kubernetes/community) |
+| [TensorFlow](https://github.com/tensorflow/community) |   | ![](https://img.shields.io/github/last-commit/tensorflow/community) |
+| [GitHub](https://github.com/community/community) | 代码托管 | ![](https://img.shields.io/github/last-commit/community/community) |
+| [Istio](https://github.com/istio/community) | 微服务 | ![](https://img.shields.io/github/last-commit/istio/community) |
+| [Knative](https://github.com/knative/community) | 云原生 | ![](https://img.shields.io/github/last-commit/knative/community) |
+| [Helm](https://github.com/helm/community) | 云原生 | ![](https://img.shields.io/github/last-commit/helm/community) |
+| [Kubeflow](https://github.com/kubeflow/community) |   | ![](https://img.shields.io/github/last-commit/kubeflow/community) |
+| [PingCap](https://github.com/pingcap/community) | 数据库 | ![](https://img.shields.io/github/last-commit/pingcap/community) |
