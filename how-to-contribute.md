@@ -50,3 +50,6 @@
   * 对于可能引起争议的部分，给出你的解释
 * 如果你的 PR 超过一周没有得到 review，可以尝试 cc 相关的 team
   * 如果没有相关的 team 可以 cc 的话，可以找最近合并过类似 PR 的人，并说明是由于找不到其他的方式，以及表示抱歉打扰
+
+以下是常见的流程：
+![image](https://user-images.githubusercontent.com/1450685/206119968-07e3d729-70d5-4f0a-8e5e-8edf21d792e6.png)
