@@ -2,7 +2,7 @@
 >
 > 正在（或希望）从事以下工作的人：技术岗（研发、测试、运维）、运营、市场，其他对开源开放性协作感兴趣的人。
 > 
-> 欢迎加入[飞书群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=47dm0193-e6c9-43c9-b391-06d5da9f72b7)交流！
+> 欢迎加入我微信（同 GitHub ID）入群交流！
 
 ## 为什么？
 
