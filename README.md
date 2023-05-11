@@ -101,7 +101,7 @@ TODO
 
 ## 采用该实践的项目
 
-如果你比较认同这一份最佳实践，欢迎把下面的 badge 添加到你的项目种：
+如果你比较认同这一份最佳实践，欢迎把下面的 badge 添加到你的项目中：
 
 ```
 [![LinuxSuRen/open-source-best-practice](https://img.shields.io/static/v1?label=OSBP&message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&color=blue)](https://github.com/LinuxSuRen/open-source-best-practice)
