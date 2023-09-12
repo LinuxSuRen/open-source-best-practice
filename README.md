@@ -4,6 +4,8 @@
 > 
 > 欢迎加入我微信（同 GitHub ID）入群交流！
 
+[![LinuxSuRen/open-source-best-practice](https://img.shields.io/static/v1?label=OSBP&message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&color=blue)](https://github.com/LinuxSuRen/open-source-best-practice)
+
 ## 为什么？
 
 为什么要编写这一份《开源最佳实践》呢？
@@ -85,7 +87,7 @@ TODO
 
 ### 活动
 
-TODO
+不管作为开源活动的组织者还是参与者，相信这份[开源活动指南](event.md)可以给你提供一些帮助。
 
 ## 参考
 
@@ -98,5 +100,11 @@ TODO
 * [杂项](others.md)
 
 ## 采用该实践的项目
+
+如果你比较认同这一份最佳实践，欢迎把下面的 badge 添加到你的项目中：
+
+```
+[![LinuxSuRen/open-source-best-practice](https://img.shields.io/static/v1?label=OSBP&message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&color=blue)](https://github.com/LinuxSuRen/open-source-best-practice)
+```
 
 * [Halo](https://github.com/halo-dev/halo)
