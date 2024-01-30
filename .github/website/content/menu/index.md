@@ -8,3 +8,4 @@ headless = true
 - [图书推荐]({{< relref "/books.md" >}})
 - [相关工作]({{< relref "/docs/what/jobs.md" >}})
 - [开源商业化公司融资情况]({{< relref "/financing.md" >}})
+- [二本科班生如何参与开源]({{< relref "/docs/cs-student-open-source.md" >}})
