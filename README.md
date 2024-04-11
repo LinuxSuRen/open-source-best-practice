@@ -1,8 +1,6 @@
 > 本文潜在的目标人群：
 >
 > 正在（或希望）从事以下工作的人：技术岗（研发、测试、运维）、运营、市场，其他对开源开放性协作感兴趣的人。
-> 
-> 欢迎添加我的微信（同 GitHub ID）入群交流！
 
 [![LinuxSuRen/open-source-best-practice](https://img.shields.io/static/v1?label=OSBP&message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&color=blue)](https://github.com/LinuxSuRen/open-source-best-practice)
 
