@@ -4,3 +4,4 @@
 .github/website/resources/_gen
 .github/website/.hugo_build.lock
 bin/
+.vscode/

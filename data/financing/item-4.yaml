@@ -1,4 +1,21 @@
-date: '2020年8月'
-name: '[StreamNative](https://streamnative.io/)'
-summary: 'Pre-A 轮 数百万'
-investors: '源码资本领投、红杉中国跟投'
+#!api-testing
+# https://docs.gitlab.com/ee/api/api_resources.html
+name: Gitlab
+items:
+- name: projects
+  request:
+    api: https://gitlab.com/api/v4/projects
+  expect:
+    statusCode: 200
+- name: project
+  request:
+    api: https://gitlab.com/api/v4/projects/{{int64 (index .projects 0).id}}
+  expect:
+    statusCode: 200
+    # bodyFieldsExpect:
+    #   http_url_to_repo: https://gitlab.com/senghuy/sr_chea_senghuy_spring_homework001.git
+    verify:
+    - http_url_to_repo startsWith "https"
+    - http_url_to_repo endsWith ".git"
+    - default_branch == 'master' or default_branch == 'main'
+    - len(topics) >= 0
