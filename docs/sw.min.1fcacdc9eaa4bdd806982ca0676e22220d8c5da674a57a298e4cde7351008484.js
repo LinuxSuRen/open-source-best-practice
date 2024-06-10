@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/open-source-best-practice/sw.js",{scope:"/open-source-best-practice/"})
