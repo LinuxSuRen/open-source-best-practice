@@ -48,6 +48,7 @@
   * 涉及到 UI 的改动，给出修改前后的效果截图
   * 视情况给出你的自测过程
   * 对于可能引起争议的部分，给出你的解释
+  * 如果你认为当前 PR 合并后可以修复对应的 issue，那么，请使用类似于 `close #123` 的[表达式](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)。
 * 如果你的 PR 超过一周没有得到 review，可以尝试 cc 相关的 team
   * 如果没有相关的 team 可以 cc 的话，可以找最近合并过类似 PR 的人，并说明是由于找不到其他的方式，以及表示抱歉打扰
 
