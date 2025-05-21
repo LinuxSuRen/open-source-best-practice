@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Open-source Best Practice #   
+Why? #  Why do I want to write the &ldquo;Open-source Best Practice&rdquo;?
+Those who want to participate in an open-source project generally feel confused about where to get started. Hopefully, this practice can help more people. I believe that you can improve yourself no matter you work in a role as an ordinary developer or other roles.
+You may already know about certain existing open source guides, such as &ldquo;Open Source Guides&rdquo; which GitHub wrote.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Open-source Best Practice #   
+Why? #  Why do I want to write the &ldquo;Open-source Best Practice&rdquo;?
+Those who want to participate in an open-source project generally feel confused about where to get started. Hopefully, this practice can help more people. I believe that you can improve yourself no matter you work in a role as an ordinary developer or other roles.
+You may already know about certain existing open source guides, such as &ldquo;Open Source Guides&rdquo; which GitHub wrote." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/README-en.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Readme En | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Readme En</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#open-source-best-practice">Open-source Best Practice</a>
+      <ul>
+        <li><a href="#why">Why?</a></li>
+        <li><a href="#get-started">Get started</a></li>
+        <li><a href="#issues">Issues</a></li>
+        <li><a href="#pull-request">Pull Request</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#community-operation">Community Operation</a>
+          <ul>
+            <li><a href="#sig-operation">SIG Operation</a></li>
+            <li><a href="#sig-meeting">SIG Meeting</a></li>
+          </ul>
+        </li>
+        <li><a href="#others">Others</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#projects-that-adopt-the-practice">Projects that adopt the practice</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="open-source-best-practice">
+  Open-source Best Practice
+  <a class="anchor" href="#open-source-best-practice">#</a>
+</h1>
+<p>
+  <a href="https://hackmd.io/o_NKVlw4QiqqDoWSYMLnQg">
+  <img src="https://hackmd.io/o_NKVlw4QiqqDoWSYMLnQg/badge" alt="hackmd-github-sync-badge" /></a></p>
+<h2 id="why">
+  Why?
+  <a class="anchor" href="#why">#</a>
+</h2>
+<p>Why do I want to write the &ldquo;Open-source Best Practice&rdquo;?</p>
+<p>Those who want to participate in an open-source project generally feel confused about where to get started. Hopefully, this practice can help more people. I believe that you can improve yourself no matter you work in a role as an ordinary developer or other roles.</p>
+<p>You may already know about certain existing open source guides, such as 
+  <a href="https://opensource.guide">&ldquo;Open Source Guides&rdquo;</a> which GitHub wrote. So, what&rsquo;s the difference between those guides and what I write here? Open source is more than just sharing your code. The more important part is the collaboration with other contributors and how to do it.</p>
+<p>To make a difference, I&rsquo;ll try to explain it from the practice aspect.</p>
+<h2 id="get-started">
+  Get started
+  <a class="anchor" href="#get-started">#</a>
+</h2>
+<p>Please read the project README carefully, and follow the process in the CONTRIBUTION.</p>
+<p>In the early days of a new project, especially in an unfamiliar field, here are some ways to help you contribute to an open-source project.</p>
+<ul>
+<li>Document contributions. This is a very effective way to learn about a project. Usually, we can fix typos, punctuation, grammatical errors, broken links, and so on as we read the document.</li>
+<li>Good-first-issue. For projects that want to receive more contributions, the tag will be added to issues that are easy to fix.</li>
+</ul>
+<h2 id="issues">
+  Issues
+  <a class="anchor" href="#issues">#</a>
+</h2>
+<p>Common Misunderstanding:</p>
+<ul>
+<li>Only title, without content.</li>
+<li>Only result and phenomena, without background.
+<ul>
+<li>There are many possible causes for a problem, and no one can guess your environment and operation steps.</li>
+</ul>
+</li>
+<li>Only screenshots, without error, exception and keywords in content.
+<ul>
+<li>If there is no text, it is not convenient for others to search.</li>
+</ul>
+</li>
+</ul>
+<p>Best Practice:</p>
+<ul>
+<li>Add a new issue after confirming the problem is not in the existing issues.</li>
+<li>Be familiar with the language of regulations that correspond to community expectations, and follow them.</li>
+<li>The title should be concise and standardized</li>
+<li>Make a classification, and you can do this by label or title prefix
+<ul>
+<li>Common title classification: Question: xxx, Proposal: xxx, Bug: xxx</li>
+</ul>
+</li>
+<li>The issue relevant to the UI needs screenshot(s).</li>
+</ul>
+<h2 id="pull-request">
+  Pull Request
+  <a class="anchor" href="#pull-request">#</a>
+</h2>
+<p>Common Misunderstanding:</p>
+<ul>
+<li>Use a single branch(like master) to commit changes.</li>
+<li>Many different updates and fixing in a single PR.</li>
+<li>Continually add new content in a single PR.</li>
+<li>Merge your own PR.</li>
+<li>Use instant messaging to urge specific people to review your PR.</li>
+</ul>
+<p>Best Practice:</p>
+<ul>
+<li>Before submitting PR for the first time, browse some successfully merged PRs and take a look at the comments and format, etc.</li>
+<li>If the problem to fix already has a related issue, please assure that nobody submitted the corresponding PR. Then, please leave a comment about your fix plan.</li>
+<li>If you want to submit several changes, please add the issue first. And describe your thoughts according to the actual situation(like difficulty and controversy)</li>
+<li>A PR only contains changes of the same type.</li>
+<li>Add a new branch for each submit.</li>
+<li>Avoid repeatedly closing and creating PRs for the same topic
+<ul>
+<li>Avoid making frequent submit for the same PR, which makes it difficult for reviewers to review the PR.</li>
+<li>If your PR is not already prepared for accepting review, please add prefix <code>WIP</code> before the title until you think the PR is ready for review.</li>
+<li>When making revisions based on reviewers' suggestions, avoid forced push <code>--force</code>, making reviewers unable to check your newest changing part.</li>
+<li>Keep your commit records as elegant as possible. In case there are too many reviews, the project owners will decide whether to squash your commit records at merge time.</li>
+</ul>
+</li>
+<li>Give as much detail as you can about your PR, like related issues(s), solving problems, and any context convenient to review.
+<ul>
+<li>Provide screenshots of the effect before and after modification if it is related to UI.</li>
+<li>List your self-test process as appropriate.</li>
+<li>Give your reason for the controversial part.</li>
+</ul>
+</li>
+<li>If your PR hasn&rsquo;t been reviewed for more than a week, try to cc* related teams.
+<ul>
+<li>If there is no related team to cc, you can find someone who has merged similar PR recently and explain that it is because there is no other way, and I apologize for bothering you.</li>
+<li><em>cc stands for carbon copy which means that whose address appears after the cc: header would receive a copy of the message. Also, the Cc header would also appear in the header of the received message.</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="review">
+  Review
+  <a class="anchor" href="#review">#</a>
+</h2>
+<p>In the process of PR review, there are usually three roles involved: AUTHOR, MAINTAINERS, and others.</p>
+<p>First of all, we need to figure out a question, why do we need a review? The review is critical, no matter it&rsquo;s code, documentation, or other types of files submitted in PR.</p>
+<ul>
+<li>The expression of the most basic principles of open source(transparency and openness).
+<ul>
+<li>The Review process is a manifestation of the open source spirit. In the Review, we need to open not only about the results but also about the process.</li>
+<li>Review does not mean an audit. Everyone can be a reviewer, and everyone will learn in this process.</li>
+</ul>
+</li>
+<li>Life cycle
+<ul>
+<li>PR does not apply to urgent merging needs.</li>
+<li>After submitting the PR, the author should check it by himself first. If there is any problem, please mark it as &ldquo;work in progress.&rdquo;
+<ul>
+<li>We can add a prefix: <code>WIP</code> of PR that is not ready for review.</li>
+<li>If you are unsure about a specific part of the code or documentation, you can express your opinion directly in the form of a comment.</li>
+</ul>
+</li>
+<li>Review and merge within 2 to 7 days.</li>
+</ul>
+</li>
+<li>Politeness
+<ul>
+<li>No one should review your PR, including maintainers.</li>
+<li>Thanks to each reviewer who contributed to your PR merge.</li>
+<li>Don&rsquo;t rush anyone to review your PR during the best review cycle.</li>
+<li>If you do need to ask for a review for help, please give instructions. And @ a team first, then directly @ a person, and apologize for interrupting.</li>
+</ul>
+</li>
+<li>Make a clear point.
+<ul>
+<li>Try to avoid giving vague comments, and the writer needs to make changes based on the suggestions you give.</li>
+<li>If you are not sure about the question, you can comment like this: &ldquo;I have a feeling there may be a problem here,&rdquo; give the suggestion and why, and indicate that the comment does not block the PR merge.</li>
+<li>For the part in question, give information or data that support your point. If relevant authoritative information is available, you can attach a related web link.
+<ul>
+<li>For example, code comments in PR are not standard, giving the official community documentation links.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Automated process
+<ul>
+<li>Manage the review process with an automated tool like 
+  <a href="https://github.com/jenkins-x/lighthouse">Lighthouse</a></li>
+<li>Run as many automated tests as possible (unit tests, E2E tests, stress tests, etc.) before merging.</li>
+<li>Avoid human intervention in automated processes</li>
+<li>If a review is completed, but some manual verification is needed. To avoid an untimely automatic merge, you can block it with a comment command.
+<ul>
+<li>For example, comment <code>/hold</code> to prevent robot-account auto-merging.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="community-operation">
+  Community Operation
+  <a class="anchor" href="#community-operation">#</a>
+</h2>
+<p>Different people have different understandings of the word <strong>community</strong>. The word community in this article is precisely the <strong>open-source community</strong>.</p>
+<p>There are many excellent practices and ways in community operation, such as social media, Meetup, and TOC.</p>
+<h3 id="sig-operation">
+  SIG Operation
+  <a class="anchor" href="#sig-operation">#</a>
+</h3>
+<p>Determine the admittance and approval system of the SIG, and then control the number of SIG according to the team&rsquo;s actual situation. In this process, the quality of operations is the primary consideration.</p>
+<p>The healthy development of SIG cannot be separated from openness, transparency, and diversification. There is no sense in existence for the formalistic and non-open-source SIG.</p>
+<h3 id="sig-meeting">
+  SIG Meeting
+  <a class="anchor" href="#sig-meeting">#</a>
+</h3>
+<ul>
+<li>Meeting time should accommodate the needs of the majority of people
+<ul>
+<li>Voted on via 
+  <a href="https://doodle.com/en/">Doodle</a> or similar tools</li>
+</ul>
+</li>
+<li>Each meeting should have an opening and a closing statement
+<ul>
+<li><strong>Start as:</strong> Let&rsquo;s begin our regular meeting today; <strong>End by saying</strong>, &ldquo;Thank you very much for coming to today&rsquo;s community meeting,&rdquo; and so on.</li>
+</ul>
+</li>
+<li>Welcome new members with enthusiasm and encourage self-introduction</li>
+<li>Give the necessary context introduction
+<ul>
+<li>Whether for the participant dial into the meeting or watch the replay, it may be the first participating time for them. The lack of context makes it difficult for them to follow the discussion.</li>
+<li>If there is a textual context introduction, try to include it in the minutes.</li>
+</ul>
+</li>
+<li>The moderator should control the time and pace of the meeting
+<ul>
+<li>Try to limit the time to one hour, and put the remaining topics into the next meeting.</li>
+<li>Assist and guide the conclusion of the discussion</li>
+</ul>
+</li>
+<li>Use appropriate expressions
+<ul>
+<li>Avoid phrases like &ldquo;We discussed that yesterday.&rdquo; New community members won&rsquo;t be able to follow what you discussed.</li>
+</ul>
+</li>
+<li>Make sure meetings are regular
+<ul>
+<li>In general, meetings once every two weeks are moderate.</li>
+<li>If the number of participants is relatively large and distributed in different time zones, two meetings can be divided based on participants' opinions.</li>
+<li>Notify the community as early as possible of canceling the meeting when no one available to chair the meeting can attend or in other cases where the meeting needs to be canceled.</li>
+</ul>
+</li>
+<li>The minutes of the meeting
+<ul>
+<li>We can use 
+  <a href="https://docs.google.com/document/u/0/">Google Document</a> for text records.</li>
+<li>We can use 
+  <a href="https://www.youtube.com/">YouTube</a> for video records.</li>
+</ul>
+</li>
+</ul>
+<h2 id="others">
+  Others
+  <a class="anchor" href="#others">#</a>
+</h2>
+<p>Here are some other recommended practices:</p>
+<ul>
+<li>Check your email
+<ul>
+<li>Please associate your usual email address with GitHub, and then you can receive the notice information in issues and PR in time.</li>
+</ul>
+</li>
+<li>Manage your schedule through your computer and mobile phone
+<ul>
+<li>There will be various meetings in the open-source community, and it&rsquo;s easy to forget important things if you&rsquo;re not in the habit of using a calendar.</li>
+</ul>
+</li>
+</ul>
+<h2 id="references">
+  References
+  <a class="anchor" href="#references">#</a>
+</h2>
+<ul>
+<li>
+  <a href="https://github.com/google/eng-practices">Google Engineering Practices Documentation</a></li>
+</ul>
+<h2 id="projects-that-adopt-the-practice">
+  Projects that adopt the practice
+  <a class="anchor" href="#projects-that-adopt-the-practice">#</a>
+</h2>
+<ul>
+<li>
+  <a href="https://github.com/halo-dev/halo">Halo</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#open-source-best-practice">Open-source Best Practice</a>
+      <ul>
+        <li><a href="#why">Why?</a></li>
+        <li><a href="#get-started">Get started</a></li>
+        <li><a href="#issues">Issues</a></li>
+        <li><a href="#pull-request">Pull Request</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#community-operation">Community Operation</a>
+          <ul>
+            <li><a href="#sig-operation">SIG Operation</a></li>
+            <li><a href="#sig-meeting">SIG Meeting</a></li>
+          </ul>
+        </li>
+        <li><a href="#others">Others</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#projects-that-adopt-the-practice">Projects that adopt the practice</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SIG 是个不错的组织形式，但 SIG 并不是“银弹”，并不能适用于所有社区。具体是否要采用 SIG 机制，还是得根据社区当前的情况而定。
+发起 #  SIG 往往是为了让部分社区成员以相对集中的形式讨论、改善、解决某个领域，而社区也会给与 SIG 一定授权。SIG 的创立通常需要至少一名发起人作为 lead， 至少三名对该领域感兴趣的成员。
+社区为了更好地管理 SIG，也通常会给出相关的制度（或章程），希望发起一个新 SIG 的成员基本按照约定完成相应流程即可。例如下面的模板：
+背景介绍，重点阐述社区现状（问题、希望改善的地方）。 成立 SIG 后，说明希望解决的问题，以及大致的运作模式。 SIG 成员列表。建议成员的构成具有一定的多样性，也就是尽量是来自不同的企业、或是以个人身份加入。 给出 SIG 的交流、沟通渠道，例如：邮件列表、Slack、例会，以及讨论的记录（文字、视频等）。 会议 #  SIG 通常是以线上（online）的形式存在，而例会则是非常重要的部分。大家可以在会议上分享社区动态、项目进度，也可以就某些问题、提议进行讨论。
+以下是会议主持人通常需要考虑的：
+ 会议时间的选择，尽量考虑多数人的需求  通过 Doodle 或类似的工具供大家投票选择   每次会议都要有会议开始和结束的表述  可以参加在线例会的成员，毕竟是有限的。因此，可能会有很多人通过视频回放的方式来“参加”例会。对于首次参加例会，或观看视频回放的成员来说，如果主持人不对例会做简单概述的话，可能难以理解会议内容、融入 SIG 活动。 例如：现在开始我们今天的例会，主要的议题是xxx；结束时可以说：“非常感谢各位参加今天的社区例会”等等的   热情地欢迎首次参加例会的成员，并鼓励做自我介绍 做必要的上下文介绍  假设参加会议的大部分成员，对要讨论的内容并不熟悉 不管是拨入会议还是观看回放的人，都可能是首次参与，缺少上下文会导致他们难以明白相关讨论 如果有文字性的上下文介绍，尽量在会议记录文档中有体现   主持人要把控会议时间、节奏  尽量控制在 1 小时内，未讨论完的议题放到下次讨论 在讨论过程中帮助、引导得出结论   使用适当的表述方式  避免使用类似于“我们昨天讨论过xxx”的表述，社区成员无法了解到你们讨论的内容   确保例会的周期性  通常情况下，每两周一次的例会比较适中 当参与者人数相对较多，而且分布在不同时区的话，结合参与者的意见可以分两个会议 当可以主持会议的人都无法参加，或者其他需要取消例会的情况，尽早地通知社区会议取消 主要成员所在国家（地区）的法定节假日前，也应该提前取消   会议记录  文字记录，可以使用 Google Document 或者 腾讯文档 会议的录屏文件，可以根据会议参与者使用的语言不同，中文可以选择 哔哩哔哩，英文可以选择 YouTube    原则 #  SIG 的健康发展，离不开公开、透明、多元化等原则，流于形式的、不符合开源精神的 SIG 没有存在的意义。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="SIG 是个不错的组织形式，但 SIG 并不是“银弹”，并不能适用于所有社区。具体是否要采用 SIG 机制，还是得根据社区当前的情况而定。
+发起 #  SIG 往往是为了让部分社区成员以相对集中的形式讨论、改善、解决某个领域，而社区也会给与 SIG 一定授权。SIG 的创立通常需要至少一名发起人作为 lead， 至少三名对该领域感兴趣的成员。
+社区为了更好地管理 SIG，也通常会给出相关的制度（或章程），希望发起一个新 SIG 的成员基本按照约定完成相应流程即可。例如下面的模板：
+背景介绍，重点阐述社区现状（问题、希望改善的地方）。 成立 SIG 后，说明希望解决的问题，以及大致的运作模式。 SIG 成员列表。建议成员的构成具有一定的多样性，也就是尽量是来自不同的企业、或是以个人身份加入。 给出 SIG 的交流、沟通渠道，例如：邮件列表、Slack、例会，以及讨论的记录（文字、视频等）。 会议 #  SIG 通常是以线上（online）的形式存在，而例会则是非常重要的部分。大家可以在会议上分享社区动态、项目进度，也可以就某些问题、提议进行讨论。
+以下是会议主持人通常需要考虑的：
+ 会议时间的选择，尽量考虑多数人的需求  通过 Doodle 或类似的工具供大家投票选择   每次会议都要有会议开始和结束的表述  可以参加在线例会的成员，毕竟是有限的。因此，可能会有很多人通过视频回放的方式来“参加”例会。对于首次参加例会，或观看视频回放的成员来说，如果主持人不对例会做简单概述的话，可能难以理解会议内容、融入 SIG 活动。 例如：现在开始我们今天的例会，主要的议题是xxx；结束时可以说：“非常感谢各位参加今天的社区例会”等等的   热情地欢迎首次参加例会的成员，并鼓励做自我介绍 做必要的上下文介绍  假设参加会议的大部分成员，对要讨论的内容并不熟悉 不管是拨入会议还是观看回放的人，都可能是首次参与，缺少上下文会导致他们难以明白相关讨论 如果有文字性的上下文介绍，尽量在会议记录文档中有体现   主持人要把控会议时间、节奏  尽量控制在 1 小时内，未讨论完的议题放到下次讨论 在讨论过程中帮助、引导得出结论   使用适当的表述方式  避免使用类似于“我们昨天讨论过xxx”的表述，社区成员无法了解到你们讨论的内容   确保例会的周期性  通常情况下，每两周一次的例会比较适中 当参与者人数相对较多，而且分布在不同时区的话，结合参与者的意见可以分两个会议 当可以主持会议的人都无法参加，或者其他需要取消例会的情况，尽早地通知社区会议取消 主要成员所在国家（地区）的法定节假日前，也应该提前取消   会议记录  文字记录，可以使用 Google Document 或者 腾讯文档 会议的录屏文件，可以根据会议参与者使用的语言不同，中文可以选择 哔哩哔哩，英文可以选择 YouTube    原则 #  SIG 的健康发展，离不开公开、透明、多元化等原则，流于形式的、不符合开源精神的 SIG 没有存在的意义。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/sig.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Sig | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Sig</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#发起">发起</a></li>
+        <li><a href="#会议">会议</a></li>
+        <li><a href="#原则">原则</a></li>
+        <li><a href="#退休">退休</a></li>
+        <li><a href="#采用-sig-的开源社区">采用 SIG 的开源社区</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#参考">参考</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>SIG 是个不错的组织形式，但 SIG 并不是“银弹”，并不能适用于所有社区。具体是否要采用 SIG 机制，还是得根据社区当前的情况而定。</p>
+<h2 id="发起">
+  发起
+  <a class="anchor" href="#%e5%8f%91%e8%b5%b7">#</a>
+</h2>
+<p>SIG 往往是为了让部分社区成员以相对集中的形式讨论、改善、解决某个领域，而社区也会给与 SIG 一定授权。SIG 的创立通常需要至少一名发起人作为 lead，
+至少三名对该领域感兴趣的成员。</p>
+<p>社区为了更好地管理 SIG，也通常会给出相关的制度（或章程），希望发起一个新 SIG 的成员基本按照约定完成相应流程即可。例如下面的模板：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">背景介绍，重点阐述社区现状（问题、希望改善的地方）。
+
+成立 SIG 后，说明希望解决的问题，以及大致的运作模式。
+
+SIG 成员列表。建议成员的构成具有一定的多样性，也就是尽量是来自不同的企业、或是以个人身份加入。
+
+给出 SIG 的交流、沟通渠道，例如：邮件列表、Slack、例会，以及讨论的记录（文字、视频等）。
+</code></pre></div><h2 id="会议">
+  会议
+  <a class="anchor" href="#%e4%bc%9a%e8%ae%ae">#</a>
+</h2>
+<p>SIG 通常是以线上（online）的形式存在，而例会则是非常重要的部分。大家可以在会议上分享社区动态、项目进度，也可以就某些问题、提议进行讨论。</p>
+<p>以下是会议主持人通常需要考虑的：</p>
+<ul>
+<li>会议时间的选择，尽量考虑多数人的需求
+<ul>
+<li>通过 
+  <a href="https://doodle.com/en/">Doodle</a> 或类似的工具供大家投票选择</li>
+</ul>
+</li>
+<li>每次会议都要有会议开始和结束的表述
+<ul>
+<li>可以参加在线例会的成员，毕竟是有限的。因此，可能会有很多人通过视频回放的方式来“参加”例会。对于首次参加例会，或观看视频回放的成员来说，如果主持人不对例会做简单概述的话，可能难以理解会议内容、融入 SIG 活动。</li>
+<li>例如：现在开始我们今天的例会，主要的议题是xxx；结束时可以说：“非常感谢各位参加今天的社区例会”等等的</li>
+</ul>
+</li>
+<li>热情地欢迎首次参加例会的成员，并鼓励做自我介绍</li>
+<li>做必要的上下文介绍
+<ul>
+<li>假设参加会议的大部分成员，对要讨论的内容并不熟悉</li>
+<li>不管是拨入会议还是观看回放的人，都可能是首次参与，缺少上下文会导致他们难以明白相关讨论</li>
+<li>如果有文字性的上下文介绍，尽量在会议记录文档中有体现</li>
+</ul>
+</li>
+<li>主持人要把控会议时间、节奏
+<ul>
+<li>尽量控制在 1 小时内，未讨论完的议题放到下次讨论</li>
+<li>在讨论过程中帮助、引导得出结论</li>
+</ul>
+</li>
+<li>使用适当的表述方式
+<ul>
+<li>避免使用类似于“我们昨天讨论过xxx”的表述，社区成员无法了解到你们讨论的内容</li>
+</ul>
+</li>
+<li>确保例会的周期性
+<ul>
+<li>通常情况下，每两周一次的例会比较适中</li>
+<li>当参与者人数相对较多，而且分布在不同时区的话，结合参与者的意见可以分两个会议</li>
+<li>当可以主持会议的人都无法参加，或者其他需要取消例会的情况，尽早地通知社区会议取消</li>
+<li>主要成员所在国家（地区）的法定节假日前，也应该提前取消</li>
+</ul>
+</li>
+<li>会议记录
+<ul>
+<li>文字记录，可以使用 
+  <a href="https://docs.google.com/document/u/0/">Google Document</a> 或者
+  <a href="https://docs.qq.com/">腾讯文档</a></li>
+<li>会议的录屏文件，可以根据会议参与者使用的语言不同，中文可以选择
+  <a href="https://www.bilibili.com/">哔哩哔哩</a>，英文可以选择 
+  <a href="https://www.youtube.com/">YouTube</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="原则">
+  原则
+  <a class="anchor" href="#%e5%8e%9f%e5%88%99">#</a>
+</h2>
+<p>SIG 的健康发展，离不开公开、透明、多元化等原则，流于形式的、不符合开源精神的 SIG 没有存在的意义。</p>
+<h2 id="退休">
+  退休
+  <a class="anchor" href="#%e9%80%80%e4%bc%91">#</a>
+</h2>
+<p>定期（例如一年）考察每个 SIG 的运转情况，如果长期没有会议进行，SIG lead 及成员也没有意愿（可以通过 GitHub issue 或其他渠道来确认）继续维护的话，
+可以考虑将 SIG 关闭或退休（retire）掉。</p>
+<p>长期不活跃的 SIG，会给新关注到社区的人带来很大的“误解”或困惑，他们可能认为这个社区缺乏治理、活力。因此，社区的 lead 如果希望能有源源不断的新成员加入的话，
+就不能任由 SIG 的“堕落”。</p>
+<h2 id="采用-sig-的开源社区">
+  采用 SIG 的开源社区
+  <a class="anchor" href="#%e9%87%87%e7%94%a8-sig-%e7%9a%84%e5%bc%80%e6%ba%90%e7%a4%be%e5%8c%ba">#</a>
+</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+  <a href="https://github.com/cdfoundation/toc/tree/master/sigs">CD Foundation</a></td>
+<td>
+  <a href="https://www.linuxfoundation.org/">Linux 基金会</a> 旗下的子基金会</td>
+</tr>
+<tr>
+<td>
+  <a href="https://www.jenkins.io/sigs/">Jenkins</a></td>
+<td>CI/CD 领域</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/kubesphere/community">KubeSphere</a></td>
+<td>由
+  <a href="https://www.qingcloud.com/">青云</a> 发起，聚焦在云原生领域</td>
+</tr>
+<tr>
+<td>
+  <a href="https://www.openeuler.org/zh/sig/sig-list/">openEuler</a></td>
+<td>由
+  <a href="https://www.openatom.org/">开放原子开源基金会</a> （OpenAtom Foundation）孵化及运营的开源项目</td>
+</tr>
+<tr>
+<td>
+  <a href="https://cloudnative.to/community/sig/">云原生社区</a></td>
+<td></td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/kubernetes-sigs">Kubernetes</a></td>
+<td>容器调度平台</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/kubeedge/community">KubeEdge</a></td>
+<td>边缘计算</td>
+</tr>
+<tr>
+<td>
+  <a href="https://gitee.com/openharmony/community/tree/master/sig">OpenHarmony</a></td>
+<td>操作系统</td>
+</tr>
+<tr>
+<td>
+  <a href="https://gitee.com/mindspore/community/tree/master/sigs">MindSpore</a></td>
+<td>人工智能</td>
+</tr>
+<tr>
+<td>
+  <a href="https://gitee.com/opengauss/community">openGauss</a></td>
+<td>关系型数据库</td>
+</tr>
+</tbody>
+</table>
+<h2 id="faq">
+  FAQ
+  <a class="anchor" href="#faq">#</a>
+</h2>
+<ul>
+<li>SIG 可以等同于社区的技术领域划分吗？
+<ul>
+<li>SIG 不仅仅是领域的划分，更重要的是一个供社区成员交流、讨论以及行动的场所。</li>
+</ul>
+</li>
+</ul>
+<h2 id="参考">
+  参考
+  <a class="anchor" href="#%e5%8f%82%e8%80%83">#</a>
+</h2>
+<ul>
+<li>
+  <a href="https://en.wikipedia.org/wiki/Special_interest_group">Special interest group - Wikipedia</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#发起">发起</a></li>
+        <li><a href="#会议">会议</a></li>
+        <li><a href="#原则">原则</a></li>
+        <li><a href="#退休">退休</a></li>
+        <li><a href="#采用-sig-的开源社区">采用 SIG 的开源社区</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#参考">参考</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

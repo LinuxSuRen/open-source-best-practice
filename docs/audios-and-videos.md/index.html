@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="我们可以通过很多渠道来了解到开源相关的知识、见解、故事等等，其中音视频是一个非常生动的来源：
+视频 #  系列 #     栏目名称 类型 描述      Koala 聊开源 📼视频 个人观点分享    大咖说开源 📼视频 开源软件供应链点亮计划    COSCon&#39;21 第六届中国开源年会 📼视频 COSCon&#39;21 第六届中国开源年会线上演讲视频   开源特训营 📼视频  开源基础、 项目启动、 GitHub 项目管理、 如何运营社区、 社区如何评审代码、 如何提交一个合格的 PR    腾源会 📼视频 主要包括：WeOpenTalk    开源青年 📼视频 优雅地品味软件艺术    单集 #     类型 标题     📼视频  开源的魅力 - 以 Apache APISIX 为例     播客/音频 #  系列 #     栏目名称 类型 描述      开源面对面 🎧播客 由个人发起的系列访谈节目    ALC Beijing Podcast 🎧播客     开源之道 Talking 🎧播客     OpenTEKr 🎧视频 致力于构建一个可持续发展的开放科技生态圈    The ReadME Podcast 🎧播客 GitHub 官方出品，主要介绍（使用英文）开源项目    单集 #     类型 标题     🎧播客  计算机历史博物馆 - S2E7 和吴晟聊开源工程师是不是/该不该/能不能/有没有赚到盆满钵满？   🎧播客  社会人科技评论 - 开源之道：我们与开源   🎧播客  社会人科技评论 - 商业公司如何拥抱开源（与开源之道 Talking 联合出品）   🎧播客  社会人科技评论 - 开源公司到底能挣钱吗？都是怎么运作的？与开发者和投资人一起聊聊开源商业化（与开源之道 Talking 联合出品）   🎧播客  牛油果烤面包 - #70.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="我们可以通过很多渠道来了解到开源相关的知识、见解、故事等等，其中音视频是一个非常生动的来源：
+视频 #  系列 #     栏目名称 类型 描述      Koala 聊开源 📼视频 个人观点分享    大咖说开源 📼视频 开源软件供应链点亮计划    COSCon&#39;21 第六届中国开源年会 📼视频 COSCon&#39;21 第六届中国开源年会线上演讲视频   开源特训营 📼视频  开源基础、 项目启动、 GitHub 项目管理、 如何运营社区、 社区如何评审代码、 如何提交一个合格的 PR    腾源会 📼视频 主要包括：WeOpenTalk    开源青年 📼视频 优雅地品味软件艺术    单集 #     类型 标题     📼视频  开源的魅力 - 以 Apache APISIX 为例     播客/音频 #  系列 #     栏目名称 类型 描述      开源面对面 🎧播客 由个人发起的系列访谈节目    ALC Beijing Podcast 🎧播客     开源之道 Talking 🎧播客     OpenTEKr 🎧视频 致力于构建一个可持续发展的开放科技生态圈    The ReadME Podcast 🎧播客 GitHub 官方出品，主要介绍（使用英文）开源项目    单集 #     类型 标题     🎧播客  计算机历史博物馆 - S2E7 和吴晟聊开源工程师是不是/该不该/能不能/有没有赚到盆满钵满？   🎧播客  社会人科技评论 - 开源之道：我们与开源   🎧播客  社会人科技评论 - 商业公司如何拥抱开源（与开源之道 Talking 联合出品）   🎧播客  社会人科技评论 - 开源公司到底能挣钱吗？都是怎么运作的？与开发者和投资人一起聊聊开源商业化（与开源之道 Talking 联合出品）   🎧播客  牛油果烤面包 - #70." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/audios-and-videos.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Audios and Videos | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Audios and Videos</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#视频">视频</a>
+          <ul>
+            <li><a href="#系列">系列</a></li>
+            <li><a href="#单集">单集</a></li>
+          </ul>
+        </li>
+        <li><a href="#播客音频">播客/音频</a>
+          <ul>
+            <li><a href="#系列-1">系列</a></li>
+            <li><a href="#单集-1">单集</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>我们可以通过很多渠道来了解到开源相关的知识、见解、故事等等，其中音视频是一个非常生动的来源：</p>
+<h2 id="视频">
+  视频
+  <a class="anchor" href="#%e8%a7%86%e9%a2%91">#</a>
+</h2>
+<h3 id="系列">
+  系列
+  <a class="anchor" href="#%e7%b3%bb%e5%88%97">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>栏目名称</th>
+<th style="text-align:center">类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/489667127/">Koala 聊开源</a></td>
+<td style="text-align:center">📼视频</td>
+<td>个人观点分享</td>
+</tr>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/578074510/channel/seriesdetail?sid=694280">大咖说开源</a></td>
+<td style="text-align:center">📼视频</td>
+<td>开源软件供应链点亮计划</td>
+</tr>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/525037536/channel/collectiondetail?sid=63363">COSCon'21 第六届中国开源年会</a></td>
+<td style="text-align:center">📼视频</td>
+<td>COSCon'21 第六届中国开源年会线上演讲视频</td>
+</tr>
+<tr>
+<td>开源特训营</td>
+<td style="text-align:center">📼视频</td>
+<td>
+  <a href="https://www.bilibili.com/video/BV1Pt4y1S7xj">开源基础</a>、
+  <a href="https://www.bilibili.com/video/BV1BK4y1Y7Xx">项目启动</a>、
+  <a href="https://www.bilibili.com/video/BV1Sp4y1Y7kR">GitHub 项目管理</a>、
+  <a href="https://www.bilibili.com/video/BV14p4y1e7PX">如何运营社区</a>、
+  <a href="https://www.bilibili.com/video/BV1Gi4y1E7pQ">社区如何评审代码</a>、
+  <a href="https://www.bilibili.com/video/BV1RV411m7Pn">如何提交一个合格的 PR</a></td>
+</tr>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/1662325245">腾源会</a></td>
+<td style="text-align:center">📼视频</td>
+<td>主要包括：WeOpenTalk</td>
+</tr>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/501806297">开源青年</a></td>
+<td style="text-align:center">📼视频</td>
+<td>优雅地品味软件艺术</td>
+</tr>
+</tbody>
+</table>
+<h3 id="单集">
+  单集
+  <a class="anchor" href="#%e5%8d%95%e9%9b%86">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">类型</th>
+<th>标题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">📼视频</td>
+<td>
+  <a href="https://www.youtube.com/watch?v=A_geiZHnvv8">开源的魅力 - 以 Apache APISIX 为例</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="播客音频">
+  播客/音频
+  <a class="anchor" href="#%e6%92%ad%e5%ae%a2%e9%9f%b3%e9%a2%91">#</a>
+</h2>
+<h3 id="系列-1">
+  系列
+  <a class="anchor" href="#%e7%b3%bb%e5%88%97-1">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th>栏目名称</th>
+<th style="text-align:center">类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+  <a href="https://github.com/opensource-f2f/episode/">开源面对面</a></td>
+<td style="text-align:center">🎧播客</td>
+<td>由个人发起的系列访谈节目</td>
+</tr>
+<tr>
+<td>
+  <a href="https://www.ximalaya.com/keji/37853515/">ALC Beijing Podcast</a></td>
+<td style="text-align:center">🎧播客</td>
+<td></td>
+</tr>
+<tr>
+<td>
+  <a href="https://www.ximalaya.com/album/32915040">开源之道 Talking</a></td>
+<td style="text-align:center">🎧播客</td>
+<td></td>
+</tr>
+<tr>
+<td>
+  <a href="https://space.bilibili.com/1177021647">OpenTEKr</a></td>
+<td style="text-align:center">🎧视频</td>
+<td>致力于构建一个可持续发展的开放科技生态圈</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/readme/podcast/">The ReadME Podcast</a></td>
+<td style="text-align:center">🎧播客</td>
+<td>GitHub 官方出品，主要介绍（使用英文）开源项目</td>
+</tr>
+</tbody>
+</table>
+<h3 id="单集-1">
+  单集
+  <a class="anchor" href="#%e5%8d%95%e9%9b%86-1">#</a>
+</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">类型</th>
+<th>标题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://www.xiaoyuzhoufm.com/episode/61eabab94675a08411f514b9">计算机历史博物馆 - S2E7 和吴晟聊开源工程师是不是/该不该/能不能/有没有赚到盆满钵满？</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://techreview.social/14">社会人科技评论 - 开源之道：我们与开源</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://techreview.social/20">社会人科技评论 - 商业公司如何拥抱开源（与开源之道 Talking 联合出品）</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://techreview.social/21">社会人科技评论 - 开源公司到底能挣钱吗？都是怎么运作的？与开发者和投资人一起聊聊开源商业化（与开源之道 Talking 联合出品）</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://avocadotoast.live/episodes/70/">牛油果烤面包 - #70. 和 Vue.js 的创造者尤雨溪聊开源软件）</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://pythonhunter.org/episodes/8">捕蛇者说 - Ep 08. 如何成为一名开源老司机</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://pythonhunter.org/episodes/10">捕蛇者说 - Ep 10. 和 ctrlsf 的作者 dyng 聊聊 Vim</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://0011.one/2021/03/06/S3E1/">从零道一 - S3E1 | PINGCAP CTO 黄东旭 - 从 BASIC 到数据库 TIDB，探索开源创业的底层逻辑</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://0011.one/2021/07/23/S3E5/">从零道一 - S3E5 | Vue.js 作者尤雨溪: 框架设计就是不断地舍取</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://0011.one/2021/08/07/S3E6/">从零道一 - S3E6 | 涛思数据创始人陶建辉: 爱捣腾的 53 岁程序员</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>
+  <a href="https://dao.fm/2021/12/09/vol-333-%e7%bc%96%e7%a0%81%e4%ba%ba%e5%a3%b0%ef%bc%9a%e6%96%b0%e4%ba%ba%e8%af%a5%e6%80%8e%e6%a0%b7%e5%85%a5%e5%9d%91%e5%bc%80%e6%ba%90%e9%a1%b9%e7%9b%ae%ef%bc%9f/">编码人声 - vol.333 编码人声：新人该怎样入坑开源项目？</a></td>
+</tr>
+<tr>
+<td style="text-align:center">🎧播客</td>
+<td>[Vol.22 开放式协作，内容创作者也可以玩起来</td>
+</tr>
+</tbody>
+</table>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#视频">视频</a>
+          <ul>
+            <li><a href="#系列">系列</a></li>
+            <li><a href="#单集">单集</a></li>
+          </ul>
+        </li>
+        <li><a href="#播客音频">播客/音频</a>
+          <ul>
+            <li><a href="#系列-1">系列</a></li>
+            <li><a href="#单集-1">单集</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

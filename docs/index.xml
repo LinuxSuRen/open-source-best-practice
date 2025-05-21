@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开源最佳实践</title>
+    <link>https://linuxsuren.github.io/open-source-best-practice/</link>
+    <description>Recent content on 开源最佳实践</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://linuxsuren.github.io/open-source-best-practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/audios-and-videos.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/audios-and-videos.md/</guid>
+      <description>我们可以通过很多渠道来了解到开源相关的知识、见解、故事等等，其中音视频是一个非常生动的来源：
+视频 #  系列 #     栏目名称 类型 描述      Koala 聊开源 📼视频 个人观点分享    大咖说开源 📼视频 开源软件供应链点亮计划    COSCon&#39;21 第六届中国开源年会 📼视频 COSCon&#39;21 第六届中国开源年会线上演讲视频   开源特训营 📼视频  开源基础、 项目启动、 GitHub 项目管理、 如何运营社区、 社区如何评审代码、 如何提交一个合格的 PR    腾源会 📼视频 主要包括：WeOpenTalk    开源青年 📼视频 优雅地品味软件艺术    单集 #     类型 标题     📼视频  开源的魅力 - 以 Apache APISIX 为例     播客/音频 #  系列 #     栏目名称 类型 描述      开源面对面 🎧播客 由个人发起的系列访谈节目    ALC Beijing Podcast 🎧播客     开源之道 Talking 🎧播客     OpenTEKr 🎧视频 致力于构建一个可持续发展的开放科技生态圈    The ReadME Podcast 🎧播客 GitHub 官方出品，主要介绍（使用英文）开源项目    单集 #     类型 标题     🎧播客  计算机历史博物馆 - S2E7 和吴晟聊开源工程师是不是/该不该/能不能/有没有赚到盆满钵满？   🎧播客  社会人科技评论 - 开源之道：我们与开源   🎧播客  社会人科技评论 - 商业公司如何拥抱开源（与开源之道 Talking 联合出品）   🎧播客  社会人科技评论 - 开源公司到底能挣钱吗？都是怎么运作的？与开发者和投资人一起聊聊开源商业化（与开源之道 Talking 联合出品）   🎧播客  牛油果烤面包 - #70.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/books.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/books.md/</guid>
+      <description>通过一些音视频、文章，我们可以了解到很多关于开源的知识、见解、理论。但如果希望能够更加深入、完整地理解开源，阅读相关书籍，是个不错的选择。
+ 建议大家购买正版书籍，不要传播盗版电子书。
+    书名 可借阅的图书馆 书评     《新合作思维：从我到我们的商业新逻辑》  海图    《大教堂与集市》  国图  豆瓣   《开源法则》  国图  豆瓣   《不拘一格》  海图  豆瓣   《社区运营的艺术》  国图  豆瓣   《精英的傲慢》  国图  豆瓣   《海星与蜘蛛》  国图  豆瓣   《有限与无限的游戏》  国图  豆瓣   《增长的文化》  海图  豆瓣   《开源之迷》   豆瓣   《支配与抵抗艺术》  海图  豆瓣   《共创未来：打造自由软件神话》  国图  豆瓣    书单 #   开源之书·共读</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/cs-student-open-source.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/cs-student-open-source.md/</guid>
+      <description>文章潜在的受众：无竞争力的普通二本科班生！ 本文将站在普通二本科班生角度从 1. 写作原因、2. 能获得什么、3. 怎么参与、4. 和其他提升方式的对比四个方面进行描述。
+ 写作原因 #  作者本人，即我现在的身份是二本未毕业的科班生（2024年7月份毕业），我从大二（2022年）开始关注 Github 开源项目。专注于 Java 和 Go 语言，主要参与的开源社区是 Spring Cloud Alibaba、Apache Dubbo 社区。
+写本篇文章的目的，非常简单，正如开头说的那样——将从二本科班生的视角去描述如何参与开源和参与开源能得到什么。给和我有相同经历的伙伴们一些参考。减少自己摸索参与开源的时间、降低参与 Github 开源的难度、有更多的时间去选择自己爱好的方向和社区去获得提升，获得成长！
+参与开源有哪些好处？ #  首先，我相信大家大多都是兴趣驱动或者利益驱动。没有人无缘无故去做一件事情，都希望从中获取到正向的、积极的正反馈。相信不管是谁都能说出来几条参与开源项目的好处，这里一一列举一下：
+  学习到生产级的项目开发和维护经验；
+  这个怎么描述呢？在我看来，Github 的开源项目可以分为两类：
+ 1：大公司成熟的项目分享出来，例如 Kubernetes 项目，继承自 Google 的 Borg 项目；Higress 项目等； 2：来自个人开发者一个不错的想法，作者去实现一个基本的项目，越来越多的人看到，认同作者的观点，参与项目的开发和维护。  star 数多的项目，大多都经过了生产环境的洗礼，达到了生产可用的级别，从中可以学习到许多优秀的设计模式，代码编写方式等。
+    丰富自己的见识；
+ 一些好的项目，往往伴随着非常多的周边生态项目。例如 Dubbo 的 Dubbo-kubernetes，Dubbo-website，Dubbo 各种客户端实现等等项目。他们都会基于 Dubbo 衍生出一系列的周边生态。在 Dubbo-website 中可以学习到如何编写一篇通俗易懂的说明文章、在 Dubbo 客户端实现中，可以看到不同方案如何用不同语言实现、在 Dubbo 中央仓库中，可以通过 Github Action 看到，如何编写一个系统的，全面的项目测试等等。以上种种，或许可以在学校中见到，但是深度和广度是无法比拟的。    锻炼自己的表达能力；</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/encourage-community-members.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/encourage-community-members.md/</guid>
+      <description>如何通过适当的机制给予社区贡献者一定的激励 #  首先，需要明确的是：激励不能等同于劳务报酬，更加不是“外快”，激励是要对有意愿和动力的贡献者加以认可，给予一定的物质反馈。
+激励的形式，可以有：社区活动相关的差旅补助、周边礼品、社区荣誉、社区重要角色提名、资金赞助等。
+差旅补助 #  对于在社区中有重大贡献的，在类似于社区年度大会中，给予一定的差旅报销额度。对此，我们需要解决下面的问题：
+ 什么算是重大贡献 差旅报销额度 同一贡献者给予补助的周期（例如：不可连续） 资金来源、资金池的管理  周边礼品 #  社区荣誉 #  常见的社区荣誉有：Top Ambassdor、Top Contributor、New Ambassdor
+重要角色提名 #  根据社区的实际组织架构，这里的重要角色可以有：SIG Co-leader、TOC member
+对于已经在社区中作出重大贡献（不局限于代码），尤其是已经体现出来一定的领导力的贡献者，社区应该及时提名担任更加重要的角色。这对于社区和贡献者都有着重要的意义。
+资金赞助 #  如何让外部贡献者更加有动力 #  贡献者包括两类：游客（偶发性、简单的）、实际用户。对于这两种贡献者都要加以重视，但需施以不同的策略。
+游客 #  最核心的是——要把参与贡献的难度降到最低，让短暂、偶发性贡献成为可能。
+实际用户 #  社区的实际用户参与贡献是有切实的、可持续的动力的，这应该成为我们重点。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/encourage.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/encourage.md/</guid>
+      <description>目标读者：了解参与开源的益处，希望能激励更多团队成员参与开源。
+ 如果你已经深刻地明白了参与开源的各种益处，那么，该如何鼓励、激励团队中其他成员积极地参与到开源社区建设中呢。
+我们首先需要认识到，开源项目和闭源项目的协作方式上，有非常大的区别。单纯地给团队成员分享参与开源的好处，往往是收效甚微。每个人的过往经历各不相同，思维方式，认知等都有着不同程度的差异。甚至，在特定的阶段中，并不是每个人都适合参与开源。因此，设定一个合适的激励政策就非常重要了，需要通过挖掘、鼓励、激励的方式让一部分人先动起来，让这部分人尝到了好处、感受到开源的氛围。然后，再进一步巩固参与开源的成果。
+参与开源并不只有提交代码这一种方式，有参与开源的兴趣、热情就成功了一半。每个人都可以应该先做自己擅长的事情，以增加参与的自信心。
+积分制度 #  在条件允许的情况下，可以参考如下的激励制度：
+实行参与开源积分制，并定期（或不定期）根据积分来兑换奖励
+ 公开演讲  meetup 演讲，200 积分 技术峰会、Conference，500 积分 全球大型技术峰会，800 积分 对于使用第二语言（非母语）进行分享的情况，额外增加 100 积分   向上游社区提交 PR  普通缺陷修复、小的功能点，100 积分 重大缺陷、大的功能，300 积分   以组织者、志愿者等身份参与社区活动  在开源社区、开源基金会中被选为 Ambassador， 200 积分 在开源社区、开源基金会上给予年度性的奖励（例如：最佳贡献者、最佳布道者等），200～500 积分 在其他社区担任 SIG Leader 等角色，500 积分 成为上游社区项目的 Member，500 积分 成为上游社区项目的 Maintainer，1000 积分 此处，可根据不同的上游社区的要求的高低给予不同的积分    以上的活动建议以及积分数只是方向性指导，具体实施时应根据具体情况来定。建议 1 积分对应 1 人民币，达到 1000 积分后，可以消费积分来购买等价的商品，团队给予全额报销。
+ 开源社区内，非常需要跨技能的合作，例如：运营、研发、测试等角色之间互相了解、配合。因此，建议对于跨职能的贡献行为予以鼓励和支持。同样地，对于运营、产品等职位的同学，公开演讲在某些团队中如果是作为本职工作的话，不建议参与积分。
+ 方向选择 #  为了让大家在选择上游社区时，更加聚焦、对团队帮忙更大，建议优先选择如下的项目：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/english.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/english.md/</guid>
+      <description>英文虽然不是参与开源的必要能力，但却与是否可以深度参与开源有着很大的关系。如果你希望能进一步提高自己的英文水平的话， 可以试试下面给出的一些资料，也欢迎帮忙补充！
+   名称 形式 适合级别      All Ears English 播客，全英文 中级    潘吉 Jenny 告诉你-学英语聊美国-开言英语 播客，中英混合 初级    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/etiquette.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/etiquette.md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/event.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/event.md/</guid>
+      <description>为达成特定目标，开源社区、组织、个人往往会采用活动（Event）的形式，将相关人群聚集在一起，借助主题分享、动手实践、成果展示等来增强相互间的联系，亦或是宣传、推广特定信息。
+从物理空间上来看，可以将活动划分为两大类：线下活动、线上活动（online）。
+从时间跨度上来看，常见有：半天、一整天、三天、以及更长时间范围的活动。诸如 Meetup、沙龙等通常是半天的时间；而某某峰会可能会持续一整天或者更长一点的时间；三天左右的活动往往会是面向国际的大型会议，人数可能也会超过 1000 人；而那种跨越一个季度甚至更久的活动，多半是线上的、需要持续参与的活动，例如：开源之夏、Google Summer of Code。
+从面向的主要受众来看，也会有很多不同的情况，例如：面向企业、商业的，面向生态，面向开发者，面向最终用户（end user）等。
+从活动主办方来看，可能会是政府、行业协会、商业公司、社区、个人等发起或主办。
+写给活动组织者 #  鉴于本人没有组织大型（超过一天）会议的经验，本文仅提供小型活动的一些建议。
+线下活动 #  线下活动提供的是一种面对面交流的形式，可以让参会者之间产生形象的、深刻的影响。线下活动有着明显的优势，但同时也需要活动组织则付出更多的精力。
+以下是线下活动大致会涉及到的一些要素和类型（可重叠）：
+   要素/活动类型 聚会 分享 互动 直播     场地 人数决定场地大小 投影（或电视），音响、麦克风，翻页笔 扇形座位摆放便于互动 摄像机、捕音设备   宣传 聚会形式 提前确认讲师分享题目以及讲师背景介绍  给出直播观看渠道   人员 签到，拍照 跟踪讲师分享资料，现场时间把控 主持人，抽奖 直播技术保障   报名 提供清晰的活动描述，背景等 如有需要可以提供 CFP      场地无疑是线下活动最重要的要素之一，不同的活动类型，对场地有着不同的要求。首先，选择交通便利的位置，避免那些路标不清晰的地方。如果场地物业有门禁要求的话，提前与场地提供方约定进入产地的方法，例如：入口安排专人接待，与前台约定进门暗号、口令等，佩戴特定胸牌。为方便参会者及时找到会场房间，可以在入口处、转角处摆放易拉宝或张贴指路牌。接下来就是场地房间的配置了，有演讲诉求的，需要确认投影仪、音响、麦克风等设备可用，以及可容纳的人数。另外，对于驱车到会场的参会者，场地是否支持停车位也非常重要。
+按照活动规模的预期，可以选择不同的宣传策略、渠道。例如：小规模的、随缘的聚会活动，可能在私域社交圈宣传下即可，诸如在微信朋友圈发布。而有一定参会人数期望的话，需要适当地加强对宣传的重视，可以选择诸如： 活动行、 百格活动、 Meetup 等专业活动网站，社区（或组织）的社交媒体账号发布活动，联合具有相关性的社区（或组织）转发活动信息（这时候可以与对方进行资源交换，例如：Logo、品牌露出等）。
+通常可以提前三周左右对活动进行宣传，分别在第一周、第三周发布宣传文章。活动结束后，可以再发布一篇活动回顾的文章，内容可以包括：活动当天情况概述、到会人数、照片、感谢对活动支持的人或组织。如果是系列活动，或者多场活动之间有着强的相关性的话，建议有一个集中的地址可以看到每一期的活动信息，以方便后了解到活动的人翻阅。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/financing.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/financing.md/</guid>
+      <description>This file was generated by financing.tpl via yaml-readme, please don&amp;rsquo;t edit it directly!
+ 越来越多的商业公司依靠开源得到了融资，欢迎对开源商业化感兴趣的朋友们一起维护下面的列表（融资记录 35）：
+   日期 公司名称 融资情况 投资方      2023年6月 飞轮科技 数亿元 数亿元    2022年9月  欧若数网 数千万美元，A 轮融资 经纬创投    2022年7月14日  北京白鲸开源信息科技有限公司 数千万元 凯泰资本领投、蓝驰创投跟投，沧澜担任本轮独家财务顾问    2022年6月  天谋科技（Timecho） 近亿元人民币天使轮融资 红杉中国领投，考拉基金、戈壁创投、云智慧共同跟投    2022年4月 飞轮科技 天使轮和天使 + 轮，超 3 亿元 IDG 资本、红杉中国等 VC    2022年2月7日  太极图形  5000 万美元 A 轮 由源码资本、GGV 纪源资本、BAI 资本联合领投，老股东红杉中国持续加码    2022年2月25日  Allegro 熹乐科技 天使轮，300 万美元 耀途资本独投，源合资本担任独家财务顾问    2022年2月10日  澜舟科技 Pre-A轮，近亿元 联想创投、斯道资本共同领投和创新工场跟投    2022年1月17日  深势科技 B 轮，数千万美元 源码资本、启明创投共同领投，老股东高瓴创投、经纬创投等继续加码，奇迹资本担任本轮融资的独家FA    2022年1月  SphereEx Pre-A轮，近千万美元 嘉御资本领投，红杉中国种子基金、初心资本、指数创投跟投，指数资本担任独家财务顾问    2022年09月06日  ILLA Cloud艾拉云科 数百万美元，天使轮融资 源码一粟，高瓴创投联合领投    2022年08月25日  Zilliz 6000 万美元，B+ 轮 沙特阿美（Aramco Ventures）旗下的多元化成长基金 Prosperity7 Ventures 领投，老股东淡马锡旗下 Pavilion Capital 、高瓴创投、五源资本和云启资本继续加注，多维资本担任独家财务顾问    2022年03月17日 和鲸科技 数千万元，A+ 轮 考拉基金领投，翊翎资本、线性资本、中驰源道、五源资本等跟投    2021年底  燧炻创新 Pre-A 数千万元 青云科技领投    2021年9月14日  StreamNative A 轮 2300 万美元 沙特阿美旗下多元化风投基金 Prosperity7 Ventures 与华泰证券旗下另类投资子公司华泰创新联合领投，老股东红杉中国、源码资本继续加码    2021年6月18日  支流科技  A+ 轮，数百万美元 经纬中国领投，顺为资本和真格基金跟投    2021年5月24日  涛思数据 B轮，4700万美元 经纬中国领投，红杉资本中国基金、GGV纪源资本、指数资本跟投，指数资本担任独家财务顾问    2021年3月23日  支流科技 A 轮，数百万美元 顺为资本领投、真格基金跟投的    2021年2月4日  支流科技  Pre-A 轮，百万美元 真成投资领投，真格基金跟投    2021年11月22日  Jina AI A轮，3000 万美元 新投资方美国投资机构 Canaan Partners 领投，Mango Capital 以及原投资方 GGV纪源资本、SAP.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/good-first-issue.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/good-first-issue.md/</guid>
+      <description>开源项目的贡献者群体，大致呈倒金字塔的形态。
+项目的管理、规划、主要特性开发或重大缺陷的修复，这些通常是由少量核心的贡献者完成，这可以认为是金字塔的顶部驱动。
+还有一些贡献者，提交记录不是很多，但项目参与度也比较紧密；这类贡献者的数量通常也不少，可以认为是金字塔中间力量。
+数量最大的部分，是那些有着零星贡献提交记录的贡献者，也正是我们现在讨论的重点：“游客”贡献者。这些“游客”虽然不会贡献重量级的内容，但对一个开源项目而言，同样是有着非常重要的意义：
+ 每一位重要的贡献者都是从“游客”开始的，我们想要增加贡献者的数量和“质量”也要从这里着手 源源不断的“游客”加入，可以让项目呈现出繁荣的景象 新人友好程度是开源项目的成熟标志之一  那么，什么样的 issue 可以标记为 good-first-issue 呢？从字面上看，这是对新人（初次接触）友好的 issues，也就是对于这类贡献者而言比较容易解决的 issue。
+因此，判断是否应该把一个 issue 标记为 good-first-issue 可以从这两个角度考虑：
+  如何定义“新人”？
+  如何定义“友好”？这里的“友好”，一方面是指参与流程的清晰（当然，这是更广泛的社区治理的范畴），另一方面是指参与要求的明确
+   有清晰的技术栈要求  “新人”和技术水平的高低无关，只表明初次接触某个项目 从更加客观的角度来讲，issue 的创建者可以列举出来完成这个 issue 所需要的技能   有清晰的上下文描述  即使技术水平”高“的贡献者，在不了解 issue 的上下文、背景的前提下，依然是很难去完成 解决 issue 需要的技能   没有明显（或潜在）的时间约束  我们不清楚“新人”什么时候会关注到这些 issue，因此，不要把这些 issue 和你的 milestone（或其他版本发布计划）挂钩   有助于贡献者了解项目结构（可选）  “新人”完成 good-first-issue 的价值不仅仅是可以增加贡献者数量，更有意义的地方在于：可以帮忙更多贡献者进一步熟悉、了解项目的贡献流程以及项目本身    模板 #  为了方便大家对 good-first-issue 有更形象的认识，我下面给出一个模板：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/how-to-contribute.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/how-to-contribute.md/</guid>
+      <description>Get started #  仔细阅读项目自述文件（README），遵循贡献指南（CONTRIBUTION）中给出的流程。
+面对一个新的项目，尤其是在相对不熟悉的领域，有如下的方法可以帮助你提供前期的贡献：
+ 文档贡献，这是非常有效的一种了解项目的方式，通常我们可以在阅读文档的过程中，修复一些错别字、标点符号、语法错误、无效链接等等  good-first-issue，对于希望收到更多贡献的项目而言，会在一些容易上手的 issues 上添加该标签  Issues #  常见误区：
+ 只有标题，没有内容 只有结果、现象，没有提供上下文  问题出现的可能性千千万，没有人能猜到你的环境、操作步骤   只有截图，不提供错误、异常、上下文的关键文字  没有文字的话，不便于其他人进行检索    最佳实践：
+ 现有的 issues 中没有提到过该问题时再提交新的 熟悉语言一定要遵循对应社区期望的规定 标题要简洁、规范 做好分类，可以通过标签或者标题前缀来分类  常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx   和 UI 相关的 issues 要给出截图  Pull Request #  常见误区：
+ 使用单一分支（例如：master）提交变更 单个 PR 中包含多个不同的优化、缺陷修复 单个 PR 不断新增内容 合并自己提交的 PR 通过及时聊天工具催促特定的人 review 你的 PR  最佳实践：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/insist.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/insist.md/</guid>
+      <description>“坚持就是胜利”，这是非常普通，却很实用的一句话。
+参与开源，相比于你做其他事情，并没有什么特殊的地方，只要能坚持足够长的一段时间，就一定能有所收获。
+关于坚持这件事情，是最容易、同时也可能是最难做到的。我们可以举出很多的例子来：坚持每天背 5 个英语单词、坚持跑步等等。事情本身往往比较容易，这里难的地方在于：只说要坚持了，却没有给自己一个清晰的时间限制。那么，如何才能解决“坚持”的问题呢，首先，让我们针对可能导致“坚持不下去”的因素做个分析。
+ 环境 动力 方法 时限 情绪  对于现阶段的机器（人）、程序而言，只要有合适的环境（软硬件）、足够的电力、可运行的代码（指令），几乎是（忽略损耗部分）可以永久性地坚持的。相比于动物、人类而言，这是机器天然具有的、极大的优势。
+对于绝大部分的普通人来说，总是会有各种各样的情绪存在，而情绪则极大地影响我们能在某件事情上投入的时间、精力，甚至于还能影响到智力的发挥。例如，当你的大脑中充满困意，很想休息，却有和你息息相关的意外发生时，困意几乎可以是瞬间就消失了。有情绪（或感情），是人与动物得以区分的重要特点之一，这一点自然是无法断绝的。实际上，比较容易控制的一个因素就是“时限”。与其两级分化，动辄“宣称”永久做什么，亦或企图“立竿见影”，不如耐下心来认真地给自己设定一个期限。一些简单的事情，努力一年大致会有一个阶段性成果；复杂一些的事情，也许需要三到五年；而你如果希望能做到顶尖级别的，可以试着了解下 “一万小时定律”。
+个人参与开源，至少给你自己一年的时间（机会）。选择一个适合自己的开源社区（项目），积极地参与一年。这样可以让你加深对开源的认识，也只有这样你才能有理由来说服自己是否要在开源领域投入自己更多的精力。
+那么，一年内都该做哪些事情呢？做到什么程度可以认为是“积极地”参与呢？大致上，可以分为两种方法：设定一些数字化指标（目标、flag）；感性的认识。
+数字化的目标，容易理解，但仅供参考，请避免一味地追求数字。根据自己的情况，选定一个开源社区，从如下列表中选择部分作为你的目标：
+ 10~15 个代码类的贡献 提交 20 个 issue 20 个文档类贡献 参加 10 次社区例会，积极参与发言 积极参与社区线上线下活动：议题分享、志愿者 其他  所为感性的认识，可以理解为通过一些 contribution 让社区成员可以熟悉你，经常看到你的“身影”。
+参与开源，从某个层面上理解，可以认为是一种基于特定主题的“社交活动”。如果只是“观察式”的，被动地参与，不去主动地和社区成员交流，可能算不上是积极。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/mentor-plan.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/mentor-plan.md/</guid>
+      <description>如何让开源社区持续保持活跃 #  开源导师计划 #  开源导师计划，为了给有兴趣深入参与开源，并希望得到一定指导的人一次共同学习的机会。
+需要注意的是，导师制并不是要培训、讲解如何参与开源，更不是教你学习任何具体的技术。这个计划大致的形式是：导师给出一系列任务，参与者来完成任务。以下是细节：
+周期 #  一年
+参与者人数 #  不超过两人
+进度同步 #  两周一次
+任务 #  参与者需要和导师共同制定要完成的任务，并明确完成的标准。导师应该根据学员的具体情况给出相应的指导意见。
+选择一上游社区并跟进 #  形式包括但不限于：
+ 每月至少参与一次社区例会 了解社区运营方式 至少参与一次社区的活动 提交一次代码 PR，已经其他 PR 若干  跟进本社区的一名外部贡献者 #  形式包括但不限于：
+ 积极跟进对方提的 issue 或者 PR 了解对方在参与奔社区过程中遇到的困境，并设法解决 进行2～3次的访谈，并形成文字记录  成果展示 #  一个季度一次
+ 技术博文 社区动态介绍，包括：技术、社区活动 视频教程 所跟进的外部贡献者的成果，收到的反馈  通用技能 #   英语（听说读写） 演讲  同步、交流 #   例会，两周一次 成果展示，每月一次  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/motivation.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/motivation.md/</guid>
+      <description>开源是什么 #  在很多地方，开源更多的是在说“开源软件”。但，除了软件以外，开源精神最具有启发性的在于——人和人之间的协作方式上，平等、开放、协作、共享。
+ 平等，人与人之间没有等级、阶层之分，主要体现在讨论问题、决策过程中，大家基于共识而不是权利 开放，这一点强调的是，整个开源活动应该是公开的，包括：提议、过程、结果 协作，避免单打独斗、英雄主义、个人主义 共享，乐于分享协作成果，以及成果的二次创作  为什么要参与开源 #  基于开源协作的特性，你的舞台不再局限于某个公司、某个团队，你所需要思考的也不再只是编码、测试、设计、推广等单一的角度。对于不同（岗位）角色的人来说，参与开源的意义略有不同，下面会分别讨论。但，确认无疑的是，你一定是有机会去从不同的视角来考虑问题、承担责任。
+研发 #  对于在从事研发类（包括：开发、架构设计、测试、运维等）工作的人而言，是非常适合参与开源的。通过在开源社区的磨砺，大致可以从如下几个方面得到提升：
+ 技术成长 软实力 职业方向多样化 其他  技术成长 #  企业内部项目的生命流程，通常都会和公司的商业模式、市场价值、经营水平有着密切的关系，企业为了追求价值的最大化，完全可以新开发一个项目、或者直接下线一个项目。尤其对于普通的研发人员，往往是没有任何发言权的。而对于项目上的技术、框架选型，在垂直型结构的团队中也是“领导”决定的。
+因而，可以想象到，普通的研发人员在日常的研发工作中往往会处于被动的地位，被动地去学习、使用某种技术，被动地去完成某项任务。在这种环境下，大部分人的创新、主管能动性是难以调动起来的。很多 IT 从业人员，也就会有“打工”、“北漂”的深切感受。
+在开源项目中，往往是没有明显的阶级、等级之分，所有的任务（issues）都是自愿、主动在做，而每个人都可以向社区提出你的提议，社区成员也会基于共识、规范来 review 你的 PR 或者提议。而在 review（不是审核、审查）过程中，你也许会收到在这个领域非常资深、经验丰富的贡献者的反馈。
+软实力 #  好的沟通能力，在开源项目中是很基础的能力之一。在开源协作过程中，由于地域、文化、时区的不同，大部分的交流是异步进行的。也正是由于无法实时收到回复，大家在交流的过程中，通常会事先把事情的来龙去脉尽量弄明白，并给出自己的调查结果、建议、不同方案的对比等等。
+声誉，也许是很多 IT 从业人员还没有意识到的一项宝贵资产。简历是极容易作假的环节，良好的表达能力也可以让候选人通过面试，及时是背景调查也无法让面试官了解到候选人过往的细节。因此，是否有大厂经历、高学历，（或者是运气）在很大程度上决定着我们是否可以进入到更大的平台中。
+然而，参与开源的经历、成就则通常是公开的，任何人都可以查阅到。因此，对于参与开源的每一位贡献者都会很关注自己的行为，以及带来的影响。而对于用人单位，也同样是可以对此很放心。
+职业方向多样化 #  开源项目的健康发展，不仅仅需要优质的代码，更加需要不同角色的人的共同努力。从需求的收集、整理，功能实现、问题修复，以及技术推广、问题反馈等，一个正向的闭环机制是开源社区长久健康发展的秘诀。
+从技术推广的角度来讲，通常的方法有：编写技术博客、视频教程、技术分享等等。做这些工作，会对技术总结、演讲技巧上有极大的提高。这对于以后考虑选择技术布道师这个岗位来说，应该会有很大的帮助。
+如果平时在社区活动组织、协助上付出比较多的话，之后也许是可以走向开源社区运营的方向。
+在企业内部，通常是职责分明，大多数研发没有机会直接接触到客户（用户），因而也难以培养产品思维。而对于开源项目的维护者，则为了让自己的产品更有竞争力、更加贴近最终用户的需求，则需要从产品整体来思考、规划、设计。借此，走向产品经理的路，自然也是极为可能。
+其他 #  有一些刚刚踏入 IT 行业从事软件研发工作，但英文水平比较一般的人，在经过几年的工作后可能会觉得英文水平的高低似乎也不会对本职工作有多大影响。之后，不管是在搜索资料，还是阅读文档时，逐渐会对英文的资料敬而远之。甚至，当遇到把英文作为第一交流语言的开源社区、开源项目时，表示很不理解；明明都是中国人，却非要用英文。
+这里，我们不讨论开源项目中到底应该以何种语言为首选。确认无疑的是，只要你愿意暂时放下已有的观念，潜心地、虚心地参与到开源社区中来，对于学习语言的看法一定会有很大改变的。人随心动，放空自我，随着社区一起成长，英文水平的大幅提高几乎是必然会发生的事情。
+除了语言本身的学习、成长之外，参与开源还可以让你的思维方式、理念保持长久的年轻、不僵化。人总是会容易骄傲自满、固步自封，然而如果你始终坚持开源的基本原则的话，不管你获得过多大的成就，你也还会乐意和新加入的朋友一起畅聊。
+参与开源的原动力 #  我们做任何事情，都由一定的动力驱使的，不管是内在的，还是外来的；抑或只是一个借口或者理由。不同的人，参与开源有着不同的原因。但，弄明白这个动因，是极为重要的。
+有不少的声音提到，参与开源需要用“爱”发电。不知道第一次提出这个说法的人想要传达的信息是什么，但这句话极易使得对开源接触不深入的人产生误解。在经济和时间上都不富有的情况下，“爱好”显然不是一个强有力的驱动。很难想象到，仅凭借“爱好”就可以让你改变思维模式、在一个领域长久地耕耘。
+如果把我们自身比作航行在大海上的一艘船的话，“爱好”可以帮助我们“导航”，而真正让我们得以“远航”的“发动机“还是和我们的职业密切相关的。至少，在社会主义实现之前应该是这样的。
+参与开源的过程中，在选择技术领域、开源项目上，“爱好”在发挥着作用。但是，千万不要偏离了你的“全职工作”。至少，你需要找到二者之间的结合点。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/open-source-credit.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/open-source-credit.md/</guid>
+      <description>开源项目几乎无处不在，不管是我们日常使用的手机应用，还是访问的网页服务中，都有着大量开源项目的身影，例如：使用极为广泛的 Linux 操作系统（通常不为普通用户所见）、安卓（Android）操作系统等等。大部分的（不管是商业，还是开源的）软件，却很少提到他们所使用的开源项目有哪些，这样也正是绝大部分非软件工程师的普通人对开源无感知的其中一个原因；而随着开源逐渐被更多人认可、拥护，有一些个人、软件公司，已经迈出了非常值得肯定的一步。
+为了表示对这些个人、软件公司行为的肯定，以下是收集的部分公开展示了所依赖的开源项目的软件：
+ 如果你之前没有注意过你所使用的软件是否公开展示了所依赖的开源项目，从此刻可以考虑关注下，并帮助完善下面的列表：
+    软件公司（个人） 软件名称 查看路径     阿里巴巴  支付宝 关于=&amp;gt;版权信息   阿里巴巴  淘宝，移动客户端 关于淘宝=&amp;gt;版权信息   田稼东  Noteday 关于    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/open-source-write-guide.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/open-source-write-guide.md/</guid>
+      <description>为什么要写本篇文章 #  写作本篇文章的目的是：在编写和开源实践有关的文档内容时，遵守此文档写作规范。以便初次参与开源的人能够更好的理解文章描述内容，找到自己的方向。
+写作指南 #   文档编写可以参考：https://github.com/ruanyf/document-style-guide
+   注意文章写作格式，一些 Markdown 的语法等，灵活使用，使文章内容更具有条理性和可读性；
+  使用正确的标点符号（中英文符号）；
+例如一句话结尾时： 错误：今天太阳很好. 正确：今天太阳很好。   注意专有名词的书写（英文文档注意词性）；
+错误：我们将会使用 spring cloud openfeign 完成服务调用。 正确：我们将会使用 Spring Cloud OpenFeign 完成服务调用。   避免出现缩写内容（或者文章第一次出现时说明）；
+错误：下文中，将使用 SCA 的服务治理能力。 正确： 1. 下文中，将使用 Spring Cloud Alibaba 的服务治理能力。 2. 使用 Spring Cloud Alibaba（后文简称SCA）声明   使用 Markdown 时为不同的代码块指定对应的语言；
+  错误
+{ &amp;#34;user&amp;#34;: &amp;#34;zhangsan&amp;#34;, &amp;#34;age&amp;#34;: &amp;#34;12&amp;#34; }   正确
+{ &amp;#34;user&amp;#34;: &amp;#34;zhangsan&amp;#34;, &amp;#34;age&amp;#34;: &amp;#34;12&amp;#34; }     对文章中一些专有名词提供链接；</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/ospp.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/ospp.md/</guid>
+      <description>本文试图探索一种以尽量客观地评估开源项目议题（题目）申请人与项目契合度的方法。其中，结合了本人参与 开源之夏、 GSoC 的经验。
+开源之夏组委会给出的办法是，项目议题申请人（学生）与项目（mentor）通过双选的方式来进行匹配。以下，通过一些考察点来给申请者打分、排序：
+   考察点 分值范围 说明     前期沟通 0-10 推荐以公开沟通为主，私下沟通为辅，例如：邮件（列表）、issue 或即时通讯   项目前期参与 0-10 有简单的 issue 或 PR 提交并完成，最多得 6 分；有与议题难度相当的 PR 可得 4 分   综合能力 0-10 沟通过程是否顺畅，是否可以按照项目 CONTRIBUTION 描述的方式参与，是否可以顺利完成 PR 的合并，代码是否规范、是否有相应文档   申请书 0-10 是否可以清晰、完整地描述设计    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/others.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/others.md/</guid>
+      <description>还有一些其他的比较推荐的习惯、方法：
+ 习惯查看邮件  一定要把自己常用的邮箱地址关联到 GitHub 上，这样才能及时收到 issues 和 PR 中的互动信息   通过电脑、手机来管理自己的日程  开源社区总会有各种各样的会议，如果没有使用日历的习惯的话，非常容易遗忘重要的事情    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/platforms.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/platforms.md/</guid>
+      <description>国内外，有很多平台可以帮助建设、发展开源社区。包括有：代码托管、音视频、文章、社交动态等等。
+   类型 名称 描述     代码托管  GitHub 面向全球，约 5600 万用户。   代码托管  Gitee 主要面向中国用户，界面有中英文支持，基于 Gitlab   代码托管  极狐  极狐 旗下的代码托管仓库，基于 Gitlab   代码托管  GitLab    代码托管  GitCode  CSDN 旗下的代码托管仓库，基于 Gitlab   视频  YouTube 全球最大的视频分享网站，以英文为主。部分国家（或地区）可能无法访问。支持多账号管理模式。   视频  哔哩哔哩 中国最大的视频分享网站，以中文为主。   播客  喜马拉雅 中文播客   播客  小宇宙    文章  微信公众号 以发布文章为主，同时支持音视频。   文章  V2EX 以中文用户为主，虽然没有看到社区账号注册，但内容质量非常不错。   文章  开源中国 以中文用户为主。   文章  思否 包含问答、文章专栏、招聘等板块。以中文用户为主。   文章  InfoQ    文章  DEV 以英文用户为主。   文章  reddit 以英文用户为主。   社交动态  Twitter 面向全球。部分国家（或地区）可能无法访问。支持多账号管理模式。   社交动态  领英    社交动态  即刻    活动发布  活动行 以中文用户为主。   活动发布  百格活动 以中文用户为主。   活动发布  Meetup 面向全球，没有中文支持。   即时沟通  Slack    即时沟通  Gitter    即时沟通  微信 中国最流行的交流工具。   即时沟通  telegram    即时沟通  飞书 支持的群模式：对话、话题式。入群二维码支持设置自定义有效期（包括永久有效）。   捐助  爱发电    捐助  Open Collective 面向全球。部分国家（或地区）可能无法访问。   文档协作  Google Document 面向全球。部分国家（或地区）可能无法访问。   文档协作  HackMD 以 Markdown 的方式编辑。部分国家（或地区）可能无法访问。支持多账号管理模式。   文档协作  石墨文档    在线会议  Google Meet 在浏览器中运行，无需安装客户端。不支持录屏。   在线会议  腾讯会议 以中文用户为主，录屏方式支持本地、云录制。有降噪功能，但偏弱。   在线会议  飞书 支持：录制、虚拟形象、虚拟背景。   日程管理  Doodle 可用于多人以投票的形式选择合适（活动、会议）的时间段。   日程管理  Google Calendar 可作为社区公开的、可订阅的活动、会议的日历   日程管理  飞书日历 亮点，可以同步第三方日历，如 Google Calendar、Outlook、Exchange 等。更多可见：https://www.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/README-en.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/README-en.md/</guid>
+      <description>Open-source Best Practice #   
+Why? #  Why do I want to write the &amp;ldquo;Open-source Best Practice&amp;rdquo;?
+Those who want to participate in an open-source project generally feel confused about where to get started. Hopefully, this practice can help more people. I believe that you can improve yourself no matter you work in a role as an ordinary developer or other roles.
+You may already know about certain existing open source guides, such as &amp;ldquo;Open Source Guides&amp;rdquo; which GitHub wrote.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/README.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/README.md/</guid>
+      <description>本文潜在的目标人群：
+正在（或希望）从事以下工作的人：技术岗（研发、测试、运维）、运营、市场，其他对开源开放性协作感兴趣的人。
+  
+为什么？ #  为什么要编写这一份《开源最佳实践》呢？
+对于初次尝试参与开源的人，在面对完善、成熟、大型的开源项目时，往往会有无从下手的感觉。《开源最佳实践》将从如何选择合适的项目、如何参与贡献等多个角度引导读者。
+国内（中国）已经有 Gitee 发起并由众多开源爱好者共同编撰的 《开源指北》，还有 GitHub 官方提供的 《开源软件指南》，那这一份最佳实践和这些有什么区别吗？开源不仅仅是把代码开放出来就好了，更加重要的是一种协作精神的体验，以及具体落地操作。所以《开源最佳实践》更多会从落地实践的角度来讲述。
+不管你是一名普通的研发，还是一名非技术人员，参与开源必将使你受益匪浅。万事开头难，希望这一份最佳实践可以帮助到更多有意参与开源的人们。
+寻找起点 #  参与开源有很多的形式和途径，对于刚开始接触开源的人而言，非常重要的一点就是——基于已有的经验、技能选择适合的开源社区，并且 坚持较长的一段时间。
+开源社区通常会在一些平台托管代码、发布文章或音视频资料，大家可以在这些 常见的平台中寻找适合自己的社区。
+对于一个开源社区来说，通常可能会有多个开源项目。社区的自我发展，也要求不同技能、不同背景的人加入，而为了保证社区以公开、透明、平等的方式得以适当的治理，也会出现多种不同类型的项目。例如：存放社区治理规则的 community 项目，存放与图片设计、logo 相关的 artwork 项目，存放社区文档、网站的 website 项目等等。甚至，在发展过程中还可能会出现“子社区”。
+和传统的、自上而下的团队管理不同，在开源社区里，虽然存在着不同的角色、分工，但这些角色既不是任命也不是申请来的。角色或影响力，都只能通过贡献（contribution）获得，任何人没有所谓的特权。如果你已经习惯了按部就班地完成分配好的任务，在开源社区里可能会有无所事事的感觉，进而找不到自己的“位置”。而对于愿意自发地做事情、喜欢拥抱变化、追求变得更好的人而言，则会在开源社区中找到“如鱼得水”的感觉。排除涉及到权限的事情，大部分情况下都是不需要“等拿到授权后”再行动。例如：代码（或其他类型的 Pull Request）的 review 并不是 maintainer 独有的权力，每个走过路过的人都是可以针对自己熟悉的领域给出观点、评价。
+接下来，会从不同的角色、角度来阐述如何更好地参与到开源社区中。
+贡献者 #  对于贡献者（contributor）来说，熟悉 通用的贡献指南可以在参与贡献的过程中少走弯路、获得更多帮助。
+维护者 #  项目的维护者（maintainer），通常指的是有合并（Pull Request）权限的贡献者。在不同的社区中可能会有不同的叫法，例如：committer、 PMC(Project Management Committee)、owner 等等。维护者更多的会考虑如何促进项目、社区的健康发展，以及 review 相关仓库的 PR。
+关注贡献者 #  项目维护者，一般情况下是愿意花更多精力、时间到某个项目上的人。如果是纯个人项目，或者并没有期望有很多贡献者协同参与的话，并不需要特意关注贡献者，只做自己喜欢做的事情即可。反之，维护者更多应该做的事情是去关注贡献者，帮助愿意参与项目的人贡献他们的聪明才智，也就是所谓的发挥“杠杆作用”。换个角度考虑，对于“能力很强”但对上述事情没有兴趣的话，其实是没有必要赋予“维护者”的权限。
+那么，对贡献者的关注包含哪些方面呢？
+ 定期查看新提交的 issue、PR，通过打标签（label）等方式进行分类，根据情况 ping 相应的团队（或者贡献者）； 时间允许的情况下，选择自己熟悉领域的 issue、PR 做尽可能详尽的回复。切忌随意回复，随意对自己和其他贡献者都是不负责的一种行为，同时也是对时间的浪费； 邀请贡献者参加社区的各类活动，例如：社区例会、Meetup 等。鼓励贡献者深度参与社区； 熟知成员的贡献，在相应的社区角色、奖励（ambassador、top contributor 等）给与提名； 发现、挖掘潜在的项目维护者。  Review #  在 PR 的 review 过程中，通常会涉及到三个角色的人：作者、维护者、其他。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/review.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/review.md/</guid>
+      <description> 开源最基本原则的体现，公开、透明  如果连 review 都不做的话，何谈开源？要公开的绝不仅仅是结果，更关键的是要公开过程 review 绝对不是审核的意思，任何人都可以是 reviewer，大家都有可以在这个过程中有所收获   生命周期  PR 不适用于有紧急合并需求的情况 提交完 PR 后，作者首先应该自行检查一遍，如果发现还有问题的话，请标记为“进行中”  我们可以把还没准备好 review 的 PR 的标题加上前缀：WIP: 作者如果对某些代码（文档）不是很确定，可以直接把你的观点以评论的形式表述出来   在 2～7 天内完成 review 并合并   礼仪  没有人有义务对你的 PR 进行 review，包括维护者 每一位 reviewer 都对你的 PR 合并提供了帮助，对他们表示感谢 在最佳的 review 周期内，不要去催促任何人对你的 PR 进行 review 如果确实需要请求 review 帮助，请给出说明，并且优先 @ 某个 team，其次才是直接 @ 某个人，并对打扰表示歉意   明确你的观点  尽量避免给出模棱两可的评论，作者需要根据你给出的建议来决定是否要进行修改 对于你不是很确定问题，可以这么表述：”我感觉这里可能有问题，给出建议的做法以及理由，并指明该评论不阻碍 PR 的合并“ 对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接  例如：PR 中代码注释不规范，给出官方社区的文档链接     reviewer  任何人都可以是 reviewer，只要是你认为有问题（或可以改进）的地方，都可以提出来，并且给出可以证明你观点的证据、资料链接 优先请求一个 team 帮忙 review，这样的话，你可以得到更多人的帮助 通常情况下，每一个文件都是由多名贡献者共同完善的，可以考虑让最后一次修改该文件的贡献者帮忙 review 如果你尝试解决的问题或者新增的特性来自另外一名贡献者创建的 issue，那也可以尝试寻求该贡献者的帮助   自动化流程  利用类似于 Lighthouse 的自动化工具来管理 review 流程 合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等） 避免人为干预自动化过程 如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍  例如：通过评论 /hold 来阻止机器人账号自动合并      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/sig.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/sig.md/</guid>
+      <description>SIG 是个不错的组织形式，但 SIG 并不是“银弹”，并不能适用于所有社区。具体是否要采用 SIG 机制，还是得根据社区当前的情况而定。
+发起 #  SIG 往往是为了让部分社区成员以相对集中的形式讨论、改善、解决某个领域，而社区也会给与 SIG 一定授权。SIG 的创立通常需要至少一名发起人作为 lead， 至少三名对该领域感兴趣的成员。
+社区为了更好地管理 SIG，也通常会给出相关的制度（或章程），希望发起一个新 SIG 的成员基本按照约定完成相应流程即可。例如下面的模板：
+背景介绍，重点阐述社区现状（问题、希望改善的地方）。 成立 SIG 后，说明希望解决的问题，以及大致的运作模式。 SIG 成员列表。建议成员的构成具有一定的多样性，也就是尽量是来自不同的企业、或是以个人身份加入。 给出 SIG 的交流、沟通渠道，例如：邮件列表、Slack、例会，以及讨论的记录（文字、视频等）。 会议 #  SIG 通常是以线上（online）的形式存在，而例会则是非常重要的部分。大家可以在会议上分享社区动态、项目进度，也可以就某些问题、提议进行讨论。
+以下是会议主持人通常需要考虑的：
+ 会议时间的选择，尽量考虑多数人的需求  通过 Doodle 或类似的工具供大家投票选择   每次会议都要有会议开始和结束的表述  可以参加在线例会的成员，毕竟是有限的。因此，可能会有很多人通过视频回放的方式来“参加”例会。对于首次参加例会，或观看视频回放的成员来说，如果主持人不对例会做简单概述的话，可能难以理解会议内容、融入 SIG 活动。 例如：现在开始我们今天的例会，主要的议题是xxx；结束时可以说：“非常感谢各位参加今天的社区例会”等等的   热情地欢迎首次参加例会的成员，并鼓励做自我介绍 做必要的上下文介绍  假设参加会议的大部分成员，对要讨论的内容并不熟悉 不管是拨入会议还是观看回放的人，都可能是首次参与，缺少上下文会导致他们难以明白相关讨论 如果有文字性的上下文介绍，尽量在会议记录文档中有体现   主持人要把控会议时间、节奏  尽量控制在 1 小时内，未讨论完的议题放到下次讨论 在讨论过程中帮助、引导得出结论   使用适当的表述方式  避免使用类似于“我们昨天讨论过xxx”的表述，社区成员无法了解到你们讨论的内容   确保例会的周期性  通常情况下，每两周一次的例会比较适中 当参与者人数相对较多，而且分布在不同时区的话，结合参与者的意见可以分两个会议 当可以主持会议的人都无法参加，或者其他需要取消例会的情况，尽早地通知社区会议取消 主要成员所在国家（地区）的法定节假日前，也应该提前取消   会议记录  文字记录，可以使用 Google Document 或者 腾讯文档 会议的录屏文件，可以根据会议参与者使用的语言不同，中文可以选择 哔哩哔哩，英文可以选择 YouTube    原则 #  SIG 的健康发展，离不开公开、透明、多元化等原则，流于形式的、不符合开源精神的 SIG 没有存在的意义。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/community-manager.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/community-manager.md/</guid>
+      <description>社区运营的工作基本是通过适合的形式（宣传资料、活动等）让开源项目的目标人群（开发者、最终用户等）了解到项目的特性、动态、参与方式等。 可以认为社区运营做的是牵线搭桥的事情，可能是让最终用户自行阅读文档、查看视频并体验项目，抑或是让项目的开发者（maintainer、contributor） 分享他们经验、观点等。
+技能清单 #  作为社区运营，可能需要拥有以下多项技能：
+ 考虑对能力进行分组，难易程度区别
+  沟通能力（线上、线下） 文案编辑 对相关媒体平台的了解、使用 活动组织 基本的数据统计、分析 业内人脉圈 音视频剪辑 基本的图片编辑能力 公开演讲（分享） 公开活动主持 相关（开源项目）技术的理解力  分工 #  TODO
+误区 #  TODO
+薪资范围 #  TODO
+机遇和挑战 #  作为社区运营，成长轨迹如何，又有哪些机遇和挑战呢？
+致谢 #  本文的形成，得益于以下业内朋友的支持、观点。
+TODO</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/devrel.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/devrel.md/</guid>
+      <description>This file was generated by devrel.tpl via yaml-readme, please don&amp;rsquo;t edit it directly!
+  考虑到绝大部分做 DevRel 工作的人，是需要面向全球的，应该都有一定的英语基础，以下都采用英文编写。
+ People #  Learning from other people who is doing the DevRel work might be a good idea. Please feel free to mainaintain the following table with me.
+   Name Organization Contact     Adam DuVander   :octocat:    Anthony Kiplimo       April Speight   :octocat:     Arkodyuti Saha   :octocat:     Hassan El Mghari  Vercel  :octocat:    Jen Sable Lopez       Jono Bacon   :octocat:     Mary Thengvall   :octocat:    Matthew Revell   :octocat:     Michael Heap  Kong  :octocat:      Others #    Jobs in DevRel  https://developerrelations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/jobs.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/jobs.md/</guid>
+      <description>This file was generated by jobs.tpl via yaml-readme, please don&amp;rsquo;t edit it directly!
+  本文中，如没有特指的话，指的都是开源相关的，例如：社区指的是开源社区
+ 本文介绍有哪些工作是与开源紧密关联的
+ 社区运营（Community Manager） 开发者关系（DevRel，Developer Relations） 技术布道师（Evangelist） 文档工程师（Technical Writer） 研发（Developer）  Community Manager #  TODO
+DevRel #  DevRel（Developer Relations, or Develoepr Advocacy），在全球范围内还是相对比较新的一个岗位， 尤其在国内鲜有设立全职的岗位。很多在维护（主导）开源项目的公司，会让研发或社区运营人员兼职地做 DevRel 相关 的工作。
+DevRel 是一个有着成本投入却无法看到直接营收的团队。 Michael Heap 在 2021 年的 DevRelCon 上有着非常形象的描述：DevRel is a cost centre. 想要了解更多有关 DevRel 这个 岗位的资料，请查看 这里。
+Evangelist #  TODO
+Technical Writer #  通常来说，当开源商业化公司发展到一定阶段时，会招聘专职的 Technical Writer（技术文档工程师）。对于一个开源项目而言， 文档是极其重要的，因为文档可以让用户完整、详细地了解到项目。从内容输出的角度来看，文字相较于音频、视频而言是一种 成本相对低廉的形式，而且易于开源社区成员协作、共创。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/tw.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/tw.md/</guid>
+      <description>This file was generated by tw.tpl via yaml-readme, please don&amp;rsquo;t edit it directly!
+  本文主要讨论在开源项目中的 Technical Writter（以下简称 TW）
+ 基本要求 #  众所周知，开源是面向全球的，通常都会对英语写作能力有着较高的要求。
+下面是部分团队对英文的要求：
+  通过英语专业八级考试（TEM-8，Test for English Majors-Band 8）  在不少的开源团队中，研发、TW 都会首先输出英文资料（文档、教程、博客等），而其他语言（中文、小语种）可能会考虑通过社区协作、内部员工等方式来输出。
+常规工作 #  TW 最基本的工作可以包括以下三部分：
+ 技术文档输出，这一点基本会随着开源项目的 feature 来迭代 Release notes、Changelog 教程（文字、视频）  对于技术文档来说，要比其他两个相对复杂一些，往往需要 TW 对所负责的开源项目在技术层面有相对比较深入的了解，至少需要能够做到：了解必要的技术背景、简单的环境搭建、熟练地使用项目完成基本的 use case 等。除技术本身外，由于开源项目通常都会按照版本进行划分，而文档自然也需要提供对应的版本。
+在语言之外，以下是开源项目中的主流技术搭配使用，也几乎可以认为是对 TW 的基本要求：
+  熟练使用 GitHub，以及可以在终端熟练地使用 git 命令  Markdown 常见语法的使用  Hugo 等静态网站构建工具 Linux 基本操作  更多工作 #  在 TW 团队规模较大的情况下，往往会有更细致的分工，以及更多的职责。例如：社区具有一定规模的请下，TW 可能需要组织社区共建者（Contributor）参与到多语言的共建（Contribution）中，甚至还可能会成立、组织 SIG（Special Intested Group），并定期组织社区例会。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/workgroup.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/workgroup.md/</guid>
+      <description>采用 Work Group 的开源社区 #     名称 备注      Harbor 由 VMware 开源出来的镜像管理平台    KubeEdge 边缘计算    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linuxsuren.github.io/open-source-best-practice/workshop.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxsuren.github.io/open-source-best-practice/workshop.md/</guid>
+      <description>对于技术类社区，Workshop（工作坊）是一种比较常见的活动形式，可以作为 Meetup 的配合或补充。不像 Meetup 那样，Workshop 通常没有主题分享， 而是以动手为主。因此，有时候大家也把 Workshop 叫做“动手训练营”。
+在 Workshop 中，大致会有三类角色的人参与：
+ 教练（导师），通过演示、安排任务等方式来给参与者展示某种技术的使用方法 助理，对于人数相对较多（例如：20+）情况，教练可能无法做到对所有参与者的疑问一一解答，这时候助理就可以帮助解答 学员，也就是对某种技术感兴趣的人群  活动形式上，相比于常规的分享类活动，也有一些要求：
+ 确保每位参与者都有放置笔记本电脑的座椅 足够的插线板 尽量有公共可用的 WIFI  常规 #  TODO
+沉浸式 #  所谓“沉浸式&amp;quot;旨在让参与者有机会深度了解、参与到某个开源项目中，甚至能“及时”收到项目维护者（maintainer、reviewer）的反馈。 这对于接触开源时间不长的人群，是非常有帮助的。
+为了让参与者可以相对容易地了解某个开源项目的参与方式，预先准备 good-first-issue 若干。 准备好的 issue 可以在发布活动时一并给出，方便感兴趣的参与者提前了解。
+另外，非常重要的一个环节是 reviewer 团队。建议事先邀请一些 reviewer，在活动期间及时给与 PR（Pull Request）相应反馈（comment）。 如果 reviewer 分别在线上、线下（活动现场）都有的话，更符合常规的开源贡献流程，效果更佳。
+活动的流程可以参考如下：
+  开场，介绍本次活动的背景、大致流程
+ 参考时间：10 分钟    介绍活动中涉及的 issue，可以讲解下相关技术背景、大致解决思路
+ 参考时间：30 分钟    大家自行挑选 issue 来做
+ 参考时间：2 小时，和 review 同步    项目维护者对提交的 PR 进行 review</description>
+    </item>
+    
+  </channel>
+</rss>

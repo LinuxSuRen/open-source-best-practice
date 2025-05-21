@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="国内外，有很多平台可以帮助建设、发展开源社区。包括有：代码托管、音视频、文章、社交动态等等。
+   类型 名称 描述     代码托管  GitHub 面向全球，约 5600 万用户。   代码托管  Gitee 主要面向中国用户，界面有中英文支持，基于 Gitlab   代码托管  极狐  极狐 旗下的代码托管仓库，基于 Gitlab   代码托管  GitLab    代码托管  GitCode  CSDN 旗下的代码托管仓库，基于 Gitlab   视频  YouTube 全球最大的视频分享网站，以英文为主。部分国家（或地区）可能无法访问。支持多账号管理模式。   视频  哔哩哔哩 中国最大的视频分享网站，以中文为主。   播客  喜马拉雅 中文播客   播客  小宇宙    文章  微信公众号 以发布文章为主，同时支持音视频。   文章  V2EX 以中文用户为主，虽然没有看到社区账号注册，但内容质量非常不错。   文章  开源中国 以中文用户为主。   文章  思否 包含问答、文章专栏、招聘等板块。以中文用户为主。   文章  InfoQ    文章  DEV 以英文用户为主。   文章  reddit 以英文用户为主。   社交动态  Twitter 面向全球。部分国家（或地区）可能无法访问。支持多账号管理模式。   社交动态  领英    社交动态  即刻    活动发布  活动行 以中文用户为主。   活动发布  百格活动 以中文用户为主。   活动发布  Meetup 面向全球，没有中文支持。   即时沟通  Slack    即时沟通  Gitter    即时沟通  微信 中国最流行的交流工具。   即时沟通  telegram    即时沟通  飞书 支持的群模式：对话、话题式。入群二维码支持设置自定义有效期（包括永久有效）。   捐助  爱发电    捐助  Open Collective 面向全球。部分国家（或地区）可能无法访问。   文档协作  Google Document 面向全球。部分国家（或地区）可能无法访问。   文档协作  HackMD 以 Markdown 的方式编辑。部分国家（或地区）可能无法访问。支持多账号管理模式。   文档协作  石墨文档    在线会议  Google Meet 在浏览器中运行，无需安装客户端。不支持录屏。   在线会议  腾讯会议 以中文用户为主，录屏方式支持本地、云录制。有降噪功能，但偏弱。   在线会议  飞书 支持：录制、虚拟形象、虚拟背景。   日程管理  Doodle 可用于多人以投票的形式选择合适（活动、会议）的时间段。   日程管理  Google Calendar 可作为社区公开的、可订阅的活动、会议的日历   日程管理  飞书日历 亮点，可以同步第三方日历，如 Google Calendar、Outlook、Exchange 等。更多可见：https://www.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="国内外，有很多平台可以帮助建设、发展开源社区。包括有：代码托管、音视频、文章、社交动态等等。
+   类型 名称 描述     代码托管  GitHub 面向全球，约 5600 万用户。   代码托管  Gitee 主要面向中国用户，界面有中英文支持，基于 Gitlab   代码托管  极狐  极狐 旗下的代码托管仓库，基于 Gitlab   代码托管  GitLab    代码托管  GitCode  CSDN 旗下的代码托管仓库，基于 Gitlab   视频  YouTube 全球最大的视频分享网站，以英文为主。部分国家（或地区）可能无法访问。支持多账号管理模式。   视频  哔哩哔哩 中国最大的视频分享网站，以中文为主。   播客  喜马拉雅 中文播客   播客  小宇宙    文章  微信公众号 以发布文章为主，同时支持音视频。   文章  V2EX 以中文用户为主，虽然没有看到社区账号注册，但内容质量非常不错。   文章  开源中国 以中文用户为主。   文章  思否 包含问答、文章专栏、招聘等板块。以中文用户为主。   文章  InfoQ    文章  DEV 以英文用户为主。   文章  reddit 以英文用户为主。   社交动态  Twitter 面向全球。部分国家（或地区）可能无法访问。支持多账号管理模式。   社交动态  领英    社交动态  即刻    活动发布  活动行 以中文用户为主。   活动发布  百格活动 以中文用户为主。   活动发布  Meetup 面向全球，没有中文支持。   即时沟通  Slack    即时沟通  Gitter    即时沟通  微信 中国最流行的交流工具。   即时沟通  telegram    即时沟通  飞书 支持的群模式：对话、话题式。入群二维码支持设置自定义有效期（包括永久有效）。   捐助  爱发电    捐助  Open Collective 面向全球。部分国家（或地区）可能无法访问。   文档协作  Google Document 面向全球。部分国家（或地区）可能无法访问。   文档协作  HackMD 以 Markdown 的方式编辑。部分国家（或地区）可能无法访问。支持多账号管理模式。   文档协作  石墨文档    在线会议  Google Meet 在浏览器中运行，无需安装客户端。不支持录屏。   在线会议  腾讯会议 以中文用户为主，录屏方式支持本地、云录制。有降噪功能，但偏弱。   在线会议  飞书 支持：录制、虚拟形象、虚拟背景。   日程管理  Doodle 可用于多人以投票的形式选择合适（活动、会议）的时间段。   日程管理  Google Calendar 可作为社区公开的、可订阅的活动、会议的日历   日程管理  飞书日历 亮点，可以同步第三方日历，如 Google Calendar、Outlook、Exchange 等。更多可见：https://www." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/platforms.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Platforms | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Platforms</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>国内外，有很多平台可以帮助建设、发展开源社区。包括有：代码托管、音视频、文章、社交动态等等。</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>代码托管</td>
+<td>
+  <a href="https://github.com/">GitHub</a></td>
+<td>面向全球，约 5600 万用户。</td>
+</tr>
+<tr>
+<td>代码托管</td>
+<td>
+  <a href="https://gitee.com/">Gitee</a></td>
+<td>主要面向中国用户，界面有中英文支持，基于 Gitlab</td>
+</tr>
+<tr>
+<td>代码托管</td>
+<td>
+  <a href="https://jihulab.com/explore/">极狐</a></td>
+<td>
+  <a href="https://gitlab.cn/">极狐</a> 旗下的代码托管仓库，基于 Gitlab</td>
+</tr>
+<tr>
+<td>代码托管</td>
+<td>
+  <a href="https://gitlab.com/explore">GitLab</a></td>
+<td></td>
+</tr>
+<tr>
+<td>代码托管</td>
+<td>
+  <a href="https://gitcode.net/">GitCode</a></td>
+<td>
+  <a href="https://www.csdn.net/">CSDN</a> 旗下的代码托管仓库，基于 Gitlab</td>
+</tr>
+<tr>
+<td>视频</td>
+<td>
+  <a href="https://www.youtube.com/">YouTube</a></td>
+<td>全球最大的视频分享网站，以英文为主。部分国家（或地区）可能无法访问。支持多账号管理模式。</td>
+</tr>
+<tr>
+<td>视频</td>
+<td>
+  <a href="https://www.bilibili.com/">哔哩哔哩</a></td>
+<td>中国最大的视频分享网站，以中文为主。</td>
+</tr>
+<tr>
+<td>播客</td>
+<td>
+  <a href="https://www.ximalaya.com/">喜马拉雅</a></td>
+<td>中文播客</td>
+</tr>
+<tr>
+<td>播客</td>
+<td>
+  <a href="https://www.xiaoyuzhoufm.com/">小宇宙</a></td>
+<td></td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://mp.weixin.qq.com/">微信公众号</a></td>
+<td>以发布文章为主，同时支持音视频。</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://www.v2ex.com/?r=linuxsuren">V2EX</a></td>
+<td>以中文用户为主，虽然没有看到社区账号注册，但内容质量非常不错。</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://www.oschina.net/">开源中国</a></td>
+<td>以中文用户为主。</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://segmentfault.com/">思否</a></td>
+<td>包含问答、文章专栏、招聘等板块。以中文用户为主。</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://www.infoq.cn/topic/opensource">InfoQ</a></td>
+<td></td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://dev.to/">DEV</a></td>
+<td>以英文用户为主。</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>
+  <a href="https://www.reddit.com/">reddit</a></td>
+<td>以英文用户为主。</td>
+</tr>
+<tr>
+<td>社交动态</td>
+<td>
+  <a href="https://twitter.com/">Twitter</a></td>
+<td>面向全球。部分国家（或地区）可能无法访问。支持多账号管理模式。</td>
+</tr>
+<tr>
+<td>社交动态</td>
+<td>
+  <a href="https://www.linkedin.com/">领英</a></td>
+<td></td>
+</tr>
+<tr>
+<td>社交动态</td>
+<td>
+  <a href="https://www.okjike.com/">即刻</a></td>
+<td></td>
+</tr>
+<tr>
+<td>活动发布</td>
+<td>
+  <a href="https://www.huodongxing.com/">活动行</a></td>
+<td>以中文用户为主。</td>
+</tr>
+<tr>
+<td>活动发布</td>
+<td>
+  <a href="https://www.bagevent.com/">百格活动</a></td>
+<td>以中文用户为主。</td>
+</tr>
+<tr>
+<td>活动发布</td>
+<td>
+  <a href="https://www.meetup.com/">Meetup</a></td>
+<td>面向全球，没有中文支持。</td>
+</tr>
+<tr>
+<td>即时沟通</td>
+<td>
+  <a href="https://slack.com/">Slack</a></td>
+<td></td>
+</tr>
+<tr>
+<td>即时沟通</td>
+<td>
+  <a href="https://gitter.im/">Gitter</a></td>
+<td></td>
+</tr>
+<tr>
+<td>即时沟通</td>
+<td>
+  <a href="https://weixin.qq.com/">微信</a></td>
+<td>中国最流行的交流工具。</td>
+</tr>
+<tr>
+<td>即时沟通</td>
+<td>
+  <a href="https://telegram.org/">telegram</a></td>
+<td></td>
+</tr>
+<tr>
+<td>即时沟通</td>
+<td>
+  <a href="https://www.feishu.cn/">飞书</a></td>
+<td>支持的群模式：对话、话题式。入群二维码支持设置自定义有效期（包括永久有效）。</td>
+</tr>
+<tr>
+<td>捐助</td>
+<td>
+  <a href="https://afdian.net/">爱发电</a></td>
+<td></td>
+</tr>
+<tr>
+<td>捐助</td>
+<td>
+  <a href="https://opencollective.com/">Open Collective</a></td>
+<td>面向全球。部分国家（或地区）可能无法访问。</td>
+</tr>
+<tr>
+<td>文档协作</td>
+<td>
+  <a href="https://docs.google.com/">Google Document</a></td>
+<td>面向全球。部分国家（或地区）可能无法访问。</td>
+</tr>
+<tr>
+<td>文档协作</td>
+<td>
+  <a href="https://hackmd.io/">HackMD</a></td>
+<td>以 Markdown 的方式编辑。部分国家（或地区）可能无法访问。支持多账号管理模式。</td>
+</tr>
+<tr>
+<td>文档协作</td>
+<td>
+  <a href="https://shimo.im/">石墨文档</a></td>
+<td></td>
+</tr>
+<tr>
+<td>在线会议</td>
+<td>
+  <a href="https://meet.google.com/">Google Meet</a></td>
+<td>在浏览器中运行，无需安装客户端。不支持录屏。</td>
+</tr>
+<tr>
+<td>在线会议</td>
+<td>
+  <a href="https://meeting.tencent.com/">腾讯会议</a></td>
+<td>以中文用户为主，录屏方式支持本地、云录制。有降噪功能，但偏弱。</td>
+</tr>
+<tr>
+<td>在线会议</td>
+<td>
+  <a href="https://www.feishu.cn/">飞书</a></td>
+<td>支持：录制、虚拟形象、虚拟背景。</td>
+</tr>
+<tr>
+<td>日程管理</td>
+<td>
+  <a href="https://doodle.com/">Doodle</a></td>
+<td>可用于多人以投票的形式选择合适（活动、会议）的时间段。</td>
+</tr>
+<tr>
+<td>日程管理</td>
+<td>
+  <a href="https://calendar.google.com/">Google Calendar</a></td>
+<td>可作为社区公开的、可订阅的活动、会议的日历</td>
+</tr>
+<tr>
+<td>日程管理</td>
+<td>
+  <a href="https://www.feishu.cn">飞书日历</a></td>
+<td>亮点，可以同步第三方日历，如 Google Calendar、Outlook、Exchange 等。更多可见：https://www.feishu.cn/hc/zh-CN/articles/665183342590</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>欢迎读者帮忙推荐更多的平台，以及完善平台的描述。</p>
+<p>推荐标准：</p>
+<ul>
+<li>在某个领域有较大的影响力</li>
+<li>可以帮助开源社区做技术传播（列举出某个知名社区在该平台上有活跃的账号）</li>
+<li>支持免费使用</li>
+</ul>
+</blockquote>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

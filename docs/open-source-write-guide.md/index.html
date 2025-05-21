@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="为什么要写本篇文章 #  写作本篇文章的目的是：在编写和开源实践有关的文档内容时，遵守此文档写作规范。以便初次参与开源的人能够更好的理解文章描述内容，找到自己的方向。
+写作指南 #   文档编写可以参考：https://github.com/ruanyf/document-style-guide
+   注意文章写作格式，一些 Markdown 的语法等，灵活使用，使文章内容更具有条理性和可读性；
+  使用正确的标点符号（中英文符号）；
+例如一句话结尾时： 错误：今天太阳很好. 正确：今天太阳很好。   注意专有名词的书写（英文文档注意词性）；
+错误：我们将会使用 spring cloud openfeign 完成服务调用。 正确：我们将会使用 Spring Cloud OpenFeign 完成服务调用。   避免出现缩写内容（或者文章第一次出现时说明）；
+错误：下文中，将使用 SCA 的服务治理能力。 正确： 1. 下文中，将使用 Spring Cloud Alibaba 的服务治理能力。 2. 使用 Spring Cloud Alibaba（后文简称SCA）声明   使用 Markdown 时为不同的代码块指定对应的语言；
+  错误
+{ &#34;user&#34;: &#34;zhangsan&#34;, &#34;age&#34;: &#34;12&#34; }   正确
+{ &#34;user&#34;: &#34;zhangsan&#34;, &#34;age&#34;: &#34;12&#34; }     对文章中一些专有名词提供链接；">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="为什么要写本篇文章 #  写作本篇文章的目的是：在编写和开源实践有关的文档内容时，遵守此文档写作规范。以便初次参与开源的人能够更好的理解文章描述内容，找到自己的方向。
+写作指南 #   文档编写可以参考：https://github.com/ruanyf/document-style-guide
+   注意文章写作格式，一些 Markdown 的语法等，灵活使用，使文章内容更具有条理性和可读性；
+  使用正确的标点符号（中英文符号）；
+例如一句话结尾时： 错误：今天太阳很好. 正确：今天太阳很好。   注意专有名词的书写（英文文档注意词性）；
+错误：我们将会使用 spring cloud openfeign 完成服务调用。 正确：我们将会使用 Spring Cloud OpenFeign 完成服务调用。   避免出现缩写内容（或者文章第一次出现时说明）；
+错误：下文中，将使用 SCA 的服务治理能力。 正确： 1. 下文中，将使用 Spring Cloud Alibaba 的服务治理能力。 2. 使用 Spring Cloud Alibaba（后文简称SCA）声明   使用 Markdown 时为不同的代码块指定对应的语言；
+  错误
+{ &#34;user&#34;: &#34;zhangsan&#34;, &#34;age&#34;: &#34;12&#34; }   正确
+{ &#34;user&#34;: &#34;zhangsan&#34;, &#34;age&#34;: &#34;12&#34; }     对文章中一些专有名词提供链接；" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/open-source-write-guide.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Open Source Write Guide | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Open Source Write Guide</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#为什么要写本篇文章">为什么要写本篇文章</a>
+      <ul>
+        <li><a href="#写作指南">写作指南</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="为什么要写本篇文章">
+  为什么要写本篇文章
+  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%86%99%e6%9c%ac%e7%af%87%e6%96%87%e7%ab%a0">#</a>
+</h1>
+<p>写作本篇文章的目的是：在编写和开源实践有关的文档内容时，遵守此文档写作规范。以便初次参与开源的人能够更好的理解文章描述内容，找到自己的方向。</p>
+<h2 id="写作指南">
+  写作指南
+  <a class="anchor" href="#%e5%86%99%e4%bd%9c%e6%8c%87%e5%8d%97">#</a>
+</h2>
+<blockquote>
+<p>文档编写可以参考：https://github.com/ruanyf/document-style-guide</p>
+</blockquote>
+<ol>
+<li>
+<p>注意文章写作格式，一些 Markdown 的语法等，灵活使用，使文章内容更具有条理性和可读性；</p>
+</li>
+<li>
+<p>使用正确的标点符号（中英文符号）；</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">例如一句话结尾时：
+
+错误：今天太阳很好.
+
+正确：今天太阳很好。
+</code></pre></div></li>
+<li>
+<p>注意专有名词的书写（英文文档注意词性）；</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">错误：我们将会使用 spring cloud openfeign 完成服务调用。
+
+正确：我们将会使用 Spring Cloud OpenFeign 完成服务调用。
+</code></pre></div></li>
+<li>
+<p>避免出现缩写内容（或者文章第一次出现时说明）；</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">错误：下文中，将使用 SCA 的服务治理能力。
+
+正确：
+<span style="color:#66d9ef">1.</span> 下文中，将使用 Spring Cloud Alibaba 的服务治理能力。
+<span style="color:#66d9ef">2.</span> 使用 Spring Cloud Alibaba（后文简称SCA）声明
+
+</code></pre></div></li>
+<li>
+<p>使用 Markdown 时为不同的代码块指定对应的语言；</p>
+<ol>
+<li>
+<p>错误</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">{
+    &#34;user&#34;: &#34;zhangsan&#34;,
+    &#34;age&#34;: &#34;12&#34;
+}
+</code></pre></div></li>
+<li>
+<p>正确</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#f92672">&#34;user&#34;</span>: <span style="color:#e6db74">&#34;zhangsan&#34;</span>,
+    <span style="color:#f92672">&#34;age&#34;</span>: <span style="color:#e6db74">&#34;12&#34;</span>
+}
+</code></pre></div></li>
+</ol>
+</li>
+<li>
+<p>对文章中一些专有名词提供链接；</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">错误：下文中将使用 Github Action 来完成 CI/CD。
+
+正确：下文中将使用 [<span style="color:#f92672">Github Action</span>](<span style="color:#a6e22e">https://docs.github.com/zh/actions</span>) 来完成 [<span style="color:#f92672">CI/CD</span>](<span style="color:#a6e22e">https://www.redhat.com/en/topics/devops/what-is-ci-cd</span>)。
+</code></pre></div></li>
+<li>
+<p>对重点内容使用加粗，下划线等着重强调；</p>
+</li>
+<li>
+<p>明确文章的受众群体，站在受众群体思考，确保对当前受众群体而言，有一定的参考价值。</p>
+</li>
+<li>
+<p>使用合适的人称代词；</p>
+</li>
+<li>
+<p>文章完成之后，<strong>自己阅读一下，避免出现错误问题！</strong></p>
+</li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#为什么要写本篇文章">为什么要写本篇文章</a>
+      <ul>
+        <li><a href="#写作指南">写作指南</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

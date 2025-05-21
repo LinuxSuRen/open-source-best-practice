@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.88.1" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="写给希望了解、参与、传播开源的人群">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="开源最佳实践" />
+<meta property="og:description" content="写给希望了解、参与、传播开源的人群" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/" /><meta property="og:site_name" content="开源最佳实践" />
+
+<title>开源最佳实践 | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><link rel="alternate" type="application/rss+xml" href="https://linuxsuren.github.io/open-source-best-practice/index.xml" title="开源最佳实践" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>开源最佳实践</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#为什么">为什么？</a></li>
+        <li><a href="#寻找起点">寻找起点</a></li>
+        <li><a href="#贡献者">贡献者</a></li>
+        <li><a href="#维护者">维护者</a>
+          <ul>
+            <li><a href="#关注贡献者">关注贡献者</a></li>
+            <li><a href="#review">Review</a></li>
+          </ul>
+        </li>
+        <li><a href="#社区治理">社区治理</a>
+          <ul>
+            <li><a href="#toc">TOC</a></li>
+            <li><a href="#sig">SIG</a></li>
+            <li><a href="#work-group">Work Group</a></li>
+            <li><a href="#活动">活动</a></li>
+          </ul>
+        </li>
+        <li><a href="#参考">参考</a></li>
+        <li><a href="#采用该实践的项目">采用该实践的项目</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><blockquote>
+<p>本文潜在的目标人群：</p>
+<p>正在（或希望）从事以下工作的人：技术岗（研发、测试、运维）、运营、市场，其他对开源开放性协作感兴趣的人。</p>
+</blockquote>
+<p>
+  <a href="https://github.com/LinuxSuRen/open-source-best-practice">
+  <img src="https://img.shields.io/static/v1?label=OSBP&amp;message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&amp;color=blue" alt="LinuxSuRen/open-source-best-practice" /></a></p>
+<h2 id="为什么">
+  为什么？
+  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88">#</a>
+</h2>
+<p>为什么要编写这一份《开源最佳实践》呢？</p>
+<p>对于初次尝试参与开源的人，在面对完善、成熟、大型的开源项目时，往往会有无从下手的感觉。《开源最佳实践》将从如何选择合适的项目、如何参与贡献等多个角度引导读者。</p>
+<p>国内（中国）已经有 Gitee 发起并由众多开源爱好者共同编撰的
+  <a href="https://gitee.com/gitee-community/opensource-guide">《开源指北》</a>，还有 GitHub 官方提供的
+  <a href="https://opensource.guide/zh-hans/">《开源软件指南》</a>，那这一份最佳实践和这些有什么区别吗？开源不仅仅是把代码开放出来就好了，更加重要的是一种协作精神的体验，以及具体落地操作。所以《开源最佳实践》更多会从落地实践的角度来讲述。</p>
+<p>不管你是一名普通的研发，还是一名非技术人员，参与开源必将使你受益匪浅。万事开头难，希望这一份最佳实践可以帮助到更多有意参与开源的人们。</p>
+<h2 id="寻找起点">
+  寻找起点
+  <a class="anchor" href="#%e5%af%bb%e6%89%be%e8%b5%b7%e7%82%b9">#</a>
+</h2>
+<p>参与开源有很多的形式和途径，对于刚开始接触开源的人而言，非常重要的一点就是——基于已有的经验、技能选择适合的开源社区，并且
+  <a href="insist.md">坚持较长的一段时间</a>。</p>
+<p>开源社区通常会在一些平台托管代码、发布文章或音视频资料，大家可以在这些
+  <a href="platforms.md">常见的平台</a>中寻找适合自己的社区。</p>
+<p>对于一个开源社区来说，通常可能会有多个开源项目。社区的自我发展，也要求不同技能、不同背景的人加入，而为了保证社区以公开、透明、平等的方式得以适当的治理，也会出现多种不同类型的项目。例如：存放社区治理规则的 
+  <a href="practice/community-first.md">community</a> 项目，存放与图片设计、logo 相关的 artwork 项目，存放社区文档、网站的 website 项目等等。甚至，在发展过程中还可能会出现“子社区”。</p>
+<p>和传统的、自上而下的团队管理不同，在开源社区里，虽然存在着不同的角色、分工，但这些角色既不是任命也不是申请来的。角色或影响力，都只能通过贡献（contribution）获得，任何人没有所谓的特权。如果你已经习惯了按部就班地完成分配好的任务，在开源社区里可能会有无所事事的感觉，进而找不到自己的“位置”。而对于愿意自发地做事情、喜欢拥抱变化、追求变得更好的人而言，则会在开源社区中找到“如鱼得水”的感觉。排除涉及到权限的事情，大部分情况下都是不需要“等拿到授权后”再行动。例如：代码（或其他类型的 Pull Request）的 review 并不是 maintainer 独有的权力，每个走过路过的人都是可以针对自己熟悉的领域给出观点、评价。</p>
+<p>接下来，会从不同的角色、角度来阐述如何更好地参与到开源社区中。</p>
+<h2 id="贡献者">
+  贡献者
+  <a class="anchor" href="#%e8%b4%a1%e7%8c%ae%e8%80%85">#</a>
+</h2>
+<p>对于贡献者（contributor）来说，熟悉
+  <a href="how-to-contribute.md">通用的贡献指南</a>可以在参与贡献的过程中少走弯路、获得更多帮助。</p>
+<h2 id="维护者">
+  维护者
+  <a class="anchor" href="#%e7%bb%b4%e6%8a%a4%e8%80%85">#</a>
+</h2>
+<p>项目的维护者（maintainer），通常指的是有合并（Pull Request）权限的贡献者。在不同的社区中可能会有不同的叫法，例如：committer、
+  <a href="https://www.apache.org/dev/pmc.html">PMC</a>(Project Management Committee)、owner 等等。维护者更多的会考虑如何促进项目、社区的健康发展，以及 review 相关仓库的 PR。</p>
+<h3 id="关注贡献者">
+  关注贡献者
+  <a class="anchor" href="#%e5%85%b3%e6%b3%a8%e8%b4%a1%e7%8c%ae%e8%80%85">#</a>
+</h3>
+<p>项目维护者，一般情况下是愿意花更多精力、时间到某个项目上的人。如果是纯个人项目，或者并没有期望有很多贡献者协同参与的话，并不需要特意关注贡献者，只做自己喜欢做的事情即可。反之，维护者更多应该做的事情是去关注贡献者，帮助愿意参与项目的人贡献他们的聪明才智，也就是所谓的发挥“杠杆作用”。换个角度考虑，对于“能力很强”但对上述事情没有兴趣的话，其实是没有必要赋予“维护者”的权限。</p>
+<p>那么，对贡献者的关注包含哪些方面呢？</p>
+<ul>
+<li>定期查看新提交的 issue、PR，通过打标签（label）等方式进行分类，根据情况 ping 相应的团队（或者贡献者）；</li>
+<li>时间允许的情况下，选择自己熟悉领域的 issue、PR 做尽可能详尽的回复。切忌随意回复，随意对自己和其他贡献者都是不负责的一种行为，同时也是对时间的浪费；</li>
+<li>邀请贡献者参加社区的各类活动，例如：社区例会、Meetup 等。鼓励贡献者深度参与社区；</li>
+<li>熟知成员的贡献，在相应的社区角色、奖励（ambassador、top contributor 等）给与提名；</li>
+<li>发现、挖掘潜在的项目维护者。</li>
+</ul>
+<h3 id="review">
+  Review
+  <a class="anchor" href="#review">#</a>
+</h3>
+<p>在 PR 的 review 过程中，通常会涉及到三个角色的人：作者、维护者、其他。</p>
+<p>首先，我们要想明白一个问题——为什么要进行 review ？不管 PR 中提交的是代码、文档还是其他类型的文件，进行 review 的都有着非常重要的意义。</p>
+<p>而不管是对项目维护者，还是贡献者而言，了解如何 review 以及在 review 过程中
+  <a href="review.md">有哪些需要注意的地方</a>，都是很重要的一件事情。</p>
+<h2 id="社区治理">
+  社区治理
+  <a class="anchor" href="#%e7%a4%be%e5%8c%ba%e6%b2%bb%e7%90%86">#</a>
+</h2>
+<p>随着社区规模的变大，社区治理的重要性会日益凸显，可能遇到的以下问题：</p>
+<ul>
+<li>如何帮助新人快速地熟悉、适应社区的氛围、玩法；</li>
+<li>如何利用适当的社媒、多媒体平台宣传社区理念、技术，吸引有相似兴趣的人加入；</li>
+<li>如何结合社区成员自身的特点、发展诉求，通过复盘、再组织等方法，适时地调整社区结构；</li>
+<li>如何从合规（许可证选用、商标、专利等）层面确保社区的利益；</li>
+<li>如何维护社区基础设施；</li>
+<li>如何设置沟通、交流底线（或规则，code-of-conduct），避免不好的行为、言论。</li>
+</ul>
+<p>对于社区（Community）这个词，不同的人有着不同的理解。本文的社区专指：开源社区（Open Source Community）。</p>
+<p>在社区运营过程中，有很多好的实践和方法，例如：Technical Oversight Committee (TOC)、SIG、Meetup、Workshop（工作坊）、社交媒体推广等。下面，给出部分组织形式的最佳实践指导。</p>
+<h3 id="toc">
+  TOC
+  <a class="anchor" href="#toc">#</a>
+</h3>
+<p>TODO</p>
+<h3 id="sig">
+  SIG
+  <a class="anchor" href="#sig">#</a>
+</h3>
+<p>
+  <a href="sig.md">Special Interest Group，特别兴趣小组</a>，简称 SIG。在大中型开源社区中，这是一种便于社区成员在特定领域交流、讨论，更加聚焦地解决相关问题的组织形式。</p>
+<p>开源社区中，可以根据不同的领域设立相应的 SIG。每个 SIG 往往会有一名或多名 lead（领队），以及多名活跃的社区成员作为 SIG 的成员（member）。在不同的社区中，领队可能会有不同的叫法，例如：co-chair、co-lead 等。值得注意的是，这里所使用的表述是——“领队”，而不是领导、经理（manager）、管理员（admin）、负责人；领队的重要意义在于维护 SIG 的积极、活跃，而不是特权。</p>
+<h3 id="work-group">
+  Work Group
+  <a class="anchor" href="#work-group">#</a>
+</h3>
+<p>
+  <a href="workgroup.md">TODO</a></p>
+<h3 id="活动">
+  活动
+  <a class="anchor" href="#%e6%b4%bb%e5%8a%a8">#</a>
+</h3>
+<p>不管作为开源活动的组织者还是参与者，相信这份
+  <a href="event.md">开源活动指南</a>可以给你提供一些帮助。</p>
+<h2 id="参考">
+  参考
+  <a class="anchor" href="#%e5%8f%82%e8%80%83">#</a>
+</h2>
+<ul>
+<li>
+  <a href="https://github.com/google/eng-practices">Google Engineering Practices Documentation</a></li>
+<li>
+  <a href="audios-and-videos.md">开源相关音视频</a></li>
+<li>
+  <a href="books.md">开源相关书籍</a></li>
+<li>
+  <a href="english.md">英语学习资料</a></li>
+<li>
+  <a href="financing.md">开源商业公司融资情况</a></li>
+<li>
+  <a href="open-source-credit.md">有公开展示所依赖开源项目的软件</a></li>
+<li>
+  <a href="others.md">杂项</a></li>
+</ul>
+<h2 id="采用该实践的项目">
+  采用该实践的项目
+  <a class="anchor" href="#%e9%87%87%e7%94%a8%e8%af%a5%e5%ae%9e%e8%b7%b5%e7%9a%84%e9%a1%b9%e7%9b%ae">#</a>
+</h2>
+<p>如果你比较认同这一份最佳实践，欢迎把下面的 badge 添加到你的项目中：</p>
+<pre tabindex="0"><code>[![LinuxSuRen/open-source-best-practice](https://img.shields.io/static/v1?label=OSBP&amp;message=%E5%BC%80%E6%BA%90%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5&amp;color=blue)](https://github.com/LinuxSuRen/open-source-best-practice)
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/LinuxSuRen/open-source-best-practice/commit/7c36f9800d9e1818df3ceb1437f57968ca89d380" title='Last modified by dependabot[bot] | May 21, 2025' target="_blank" rel="noopener">
+      <img src="/open-source-best-practice/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>May 21, 2025</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#为什么">为什么？</a></li>
+        <li><a href="#寻找起点">寻找起点</a></li>
+        <li><a href="#贡献者">贡献者</a></li>
+        <li><a href="#维护者">维护者</a>
+          <ul>
+            <li><a href="#关注贡献者">关注贡献者</a></li>
+            <li><a href="#review">Review</a></li>
+          </ul>
+        </li>
+        <li><a href="#社区治理">社区治理</a>
+          <ul>
+            <li><a href="#toc">TOC</a></li>
+            <li><a href="#sig">SIG</a></li>
+            <li><a href="#work-group">Work Group</a></li>
+            <li><a href="#活动">活动</a></li>
+          </ul>
+        </li>
+        <li><a href="#参考">参考</a></li>
+        <li><a href="#采用该实践的项目">采用该实践的项目</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

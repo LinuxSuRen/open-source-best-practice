@@ -1,0 +1,15 @@
+{
+  "name": "开源最佳实践",
+  "short_name": "开源最佳实践",
+  "start_url": "/open-source-best-practice/",
+  "scope": "/open-source-best-practice/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/open-source-best-practice/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

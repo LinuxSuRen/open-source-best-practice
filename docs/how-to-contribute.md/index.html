@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Get started #  仔细阅读项目自述文件（README），遵循贡献指南（CONTRIBUTION）中给出的流程。
+面对一个新的项目，尤其是在相对不熟悉的领域，有如下的方法可以帮助你提供前期的贡献：
+ 文档贡献，这是非常有效的一种了解项目的方式，通常我们可以在阅读文档的过程中，修复一些错别字、标点符号、语法错误、无效链接等等  good-first-issue，对于希望收到更多贡献的项目而言，会在一些容易上手的 issues 上添加该标签  Issues #  常见误区：
+ 只有标题，没有内容 只有结果、现象，没有提供上下文  问题出现的可能性千千万，没有人能猜到你的环境、操作步骤   只有截图，不提供错误、异常、上下文的关键文字  没有文字的话，不便于其他人进行检索    最佳实践：
+ 现有的 issues 中没有提到过该问题时再提交新的 熟悉语言一定要遵循对应社区期望的规定 标题要简洁、规范 做好分类，可以通过标签或者标题前缀来分类  常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx   和 UI 相关的 issues 要给出截图  Pull Request #  常见误区：
+ 使用单一分支（例如：master）提交变更 单个 PR 中包含多个不同的优化、缺陷修复 单个 PR 不断新增内容 合并自己提交的 PR 通过及时聊天工具催促特定的人 review 你的 PR  最佳实践：">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Get started #  仔细阅读项目自述文件（README），遵循贡献指南（CONTRIBUTION）中给出的流程。
+面对一个新的项目，尤其是在相对不熟悉的领域，有如下的方法可以帮助你提供前期的贡献：
+ 文档贡献，这是非常有效的一种了解项目的方式，通常我们可以在阅读文档的过程中，修复一些错别字、标点符号、语法错误、无效链接等等  good-first-issue，对于希望收到更多贡献的项目而言，会在一些容易上手的 issues 上添加该标签  Issues #  常见误区：
+ 只有标题，没有内容 只有结果、现象，没有提供上下文  问题出现的可能性千千万，没有人能猜到你的环境、操作步骤   只有截图，不提供错误、异常、上下文的关键文字  没有文字的话，不便于其他人进行检索    最佳实践：
+ 现有的 issues 中没有提到过该问题时再提交新的 熟悉语言一定要遵循对应社区期望的规定 标题要简洁、规范 做好分类，可以通过标签或者标题前缀来分类  常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx   和 UI 相关的 issues 要给出截图  Pull Request #  常见误区：
+ 使用单一分支（例如：master）提交变更 单个 PR 中包含多个不同的优化、缺陷修复 单个 PR 不断新增内容 合并自己提交的 PR 通过及时聊天工具催促特定的人 review 你的 PR  最佳实践：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/how-to-contribute.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>How to Contribute | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>How to Contribute</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#get-started">Get started</a>
+      <ul>
+        <li><a href="#issues">Issues</a></li>
+        <li><a href="#pull-request">Pull Request</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="get-started">
+  Get started
+  <a class="anchor" href="#get-started">#</a>
+</h1>
+<p>仔细阅读项目自述文件（README），遵循贡献指南（CONTRIBUTION）中给出的流程。</p>
+<p>面对一个新的项目，尤其是在相对不熟悉的领域，有如下的方法可以帮助你提供前期的贡献：</p>
+<ul>
+<li>文档贡献，这是非常有效的一种了解项目的方式，通常我们可以在阅读文档的过程中，修复一些错别字、标点符号、语法错误、无效链接等等</li>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a>，对于希望收到更多贡献的项目而言，会在一些容易上手的 issues 上添加该标签</li>
+</ul>
+<h2 id="issues">
+  Issues
+  <a class="anchor" href="#issues">#</a>
+</h2>
+<p>常见误区：</p>
+<ul>
+<li>只有标题，没有内容</li>
+<li>只有结果、现象，没有提供上下文
+<ul>
+<li>问题出现的可能性千千万，没有人能猜到你的环境、操作步骤</li>
+</ul>
+</li>
+<li>只有截图，不提供错误、异常、上下文的关键文字
+<ul>
+<li>没有文字的话，不便于其他人进行检索</li>
+</ul>
+</li>
+</ul>
+<p>最佳实践：</p>
+<ul>
+<li>现有的 issues 中没有提到过该问题时再提交新的</li>
+<li>熟悉语言一定要遵循对应社区期望的规定</li>
+<li>标题要简洁、规范</li>
+<li>做好分类，可以通过标签或者标题前缀来分类
+<ul>
+<li>常见的标题分类法：Question: xxx, Proposal: xxx, Bug: xxx</li>
+</ul>
+</li>
+<li>和 UI 相关的 issues 要给出截图</li>
+</ul>
+<h2 id="pull-request">
+  Pull Request
+  <a class="anchor" href="#pull-request">#</a>
+</h2>
+<p>常见误区：</p>
+<ul>
+<li>使用单一分支（例如：master）提交变更</li>
+<li>单个 PR 中包含多个不同的优化、缺陷修复</li>
+<li>单个 PR 不断新增内容</li>
+<li>合并自己提交的 PR</li>
+<li>通过及时聊天工具催促特定的人 review 你的 PR</li>
+</ul>
+<p>最佳实践：</p>
+<ul>
+<li>首次提交 PR 前，浏览已经成功合并过的 PR 评论列表以及格式等</li>
+<li>如果要修复的问题已经有对应的 issue，请确保没有人提交对应的 PR，然后，请留言说明你的修复计划</li>
+<li>如果估计你提交的变更比较多，请首先创建 issue，并依据具体情况（难易程度、争议性等）描述你的想法</li>
+<li>一个 PR 只能包含一类修改</li>
+<li>对于 feature 或者 bugfix 相对复杂的情况，也要考虑到如何能给 reviewer 减轻 review 压力
+<ul>
+<li>首先，思考下是否可以把一个“大型” PR 分成多个</li>
+<li>在提交 PR 之前，确保已经进行了充分的自测，并一定要关注下你的 commit 记录（相当于“卷面分”），只保留你希望被合并到上游的记录（其他的都可以提前 squash）</li>
+<li>小技巧：可以先在自己的 fork 后的仓库中提交一个 PR 来复查下，看看是否足够“优雅”</li>
+</ul>
+</li>
+<li>每次提交都需要新增一个分支进行</li>
+<li>避免同一个主题的 PR 反复关闭、新建
+<ul>
+<li>避免在同一个 PR 中频繁地提交，这对于 reviewers 来说将会是极大的困扰</li>
+<li>如果你的 PR 还没有准备好接受 review，请在标题上添加前缀 <code>WIP: </code>，直到你自测充分</li>
+<li>在根据 reviewers 提出的建议进行修改时，避免使用强制推送 <code>--force</code>，这对于 reviewers 来说将无法轻松地看到你最新修改的部分</li>
+<li>尽可能保持你的 commit 记录比较优雅，万一多次 review 后的记录比较多的话，项目 owners 会在合并时决定是否会 squash 你的提交记录</li>
+</ul>
+</li>
+<li>尽可能多地给出当前 PR 的详情，包括但不限于：相关 issues、解决的问题、任何方便 review 的上下文
+<ul>
+<li>涉及到 UI 的改动，给出修改前后的效果截图</li>
+<li>视情况给出你的自测过程</li>
+<li>对于可能引起争议的部分，给出你的解释</li>
+<li>如果你认为当前 PR 合并后可以修复对应的 issue，那么，请使用类似于 <code>close #123</code> 的
+  <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue">表达式</a>。</li>
+</ul>
+</li>
+<li>如果你的 PR 超过一周没有得到 review，可以尝试 cc 相关的 team
+<ul>
+<li>如果没有相关的 team 可以 cc 的话，可以找最近合并过类似 PR 的人，并说明是由于找不到其他的方式，以及表示抱歉打扰</li>
+</ul>
+</li>
+</ul>
+<p>以下是常见的流程：
+
+  <img src="https://user-images.githubusercontent.com/1450685/206119968-07e3d729-70d5-4f0a-8e5e-8edf21d792e6.png" alt="image" /></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#get-started">Get started</a>
+      <ul>
+        <li><a href="#issues">Issues</a></li>
+        <li><a href="#pull-request">Pull Request</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

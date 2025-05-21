@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" 开源最基本原则的体现，公开、透明  如果连 review 都不做的话，何谈开源？要公开的绝不仅仅是结果，更关键的是要公开过程 review 绝对不是审核的意思，任何人都可以是 reviewer，大家都有可以在这个过程中有所收获   生命周期  PR 不适用于有紧急合并需求的情况 提交完 PR 后，作者首先应该自行检查一遍，如果发现还有问题的话，请标记为“进行中”  我们可以把还没准备好 review 的 PR 的标题加上前缀：WIP: 作者如果对某些代码（文档）不是很确定，可以直接把你的观点以评论的形式表述出来   在 2～7 天内完成 review 并合并   礼仪  没有人有义务对你的 PR 进行 review，包括维护者 每一位 reviewer 都对你的 PR 合并提供了帮助，对他们表示感谢 在最佳的 review 周期内，不要去催促任何人对你的 PR 进行 review 如果确实需要请求 review 帮助，请给出说明，并且优先 @ 某个 team，其次才是直接 @ 某个人，并对打扰表示歉意   明确你的观点  尽量避免给出模棱两可的评论，作者需要根据你给出的建议来决定是否要进行修改 对于你不是很确定问题，可以这么表述：”我感觉这里可能有问题，给出建议的做法以及理由，并指明该评论不阻碍 PR 的合并“ 对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接  例如：PR 中代码注释不规范，给出官方社区的文档链接     reviewer  任何人都可以是 reviewer，只要是你认为有问题（或可以改进）的地方，都可以提出来，并且给出可以证明你观点的证据、资料链接 优先请求一个 team 帮忙 review，这样的话，你可以得到更多人的帮助 通常情况下，每一个文件都是由多名贡献者共同完善的，可以考虑让最后一次修改该文件的贡献者帮忙 review 如果你尝试解决的问题或者新增的特性来自另外一名贡献者创建的 issue，那也可以尝试寻求该贡献者的帮助   自动化流程  利用类似于 Lighthouse 的自动化工具来管理 review 流程 合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等） 避免人为干预自动化过程 如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍  例如：通过评论 /hold 来阻止机器人账号自动合并      ">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content=" 开源最基本原则的体现，公开、透明  如果连 review 都不做的话，何谈开源？要公开的绝不仅仅是结果，更关键的是要公开过程 review 绝对不是审核的意思，任何人都可以是 reviewer，大家都有可以在这个过程中有所收获   生命周期  PR 不适用于有紧急合并需求的情况 提交完 PR 后，作者首先应该自行检查一遍，如果发现还有问题的话，请标记为“进行中”  我们可以把还没准备好 review 的 PR 的标题加上前缀：WIP: 作者如果对某些代码（文档）不是很确定，可以直接把你的观点以评论的形式表述出来   在 2～7 天内完成 review 并合并   礼仪  没有人有义务对你的 PR 进行 review，包括维护者 每一位 reviewer 都对你的 PR 合并提供了帮助，对他们表示感谢 在最佳的 review 周期内，不要去催促任何人对你的 PR 进行 review 如果确实需要请求 review 帮助，请给出说明，并且优先 @ 某个 team，其次才是直接 @ 某个人，并对打扰表示歉意   明确你的观点  尽量避免给出模棱两可的评论，作者需要根据你给出的建议来决定是否要进行修改 对于你不是很确定问题，可以这么表述：”我感觉这里可能有问题，给出建议的做法以及理由，并指明该评论不阻碍 PR 的合并“ 对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接  例如：PR 中代码注释不规范，给出官方社区的文档链接     reviewer  任何人都可以是 reviewer，只要是你认为有问题（或可以改进）的地方，都可以提出来，并且给出可以证明你观点的证据、资料链接 优先请求一个 team 帮忙 review，这样的话，你可以得到更多人的帮助 通常情况下，每一个文件都是由多名贡献者共同完善的，可以考虑让最后一次修改该文件的贡献者帮忙 review 如果你尝试解决的问题或者新增的特性来自另外一名贡献者创建的 issue，那也可以尝试寻求该贡献者的帮助   自动化流程  利用类似于 Lighthouse 的自动化工具来管理 review 流程 合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等） 避免人为干预自动化过程 如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍  例如：通过评论 /hold 来阻止机器人账号自动合并      " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxsuren.github.io/open-source-best-practice/review.md/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="开源最佳实践" />
+
+<title>Review | 开源最佳实践</title>
+<link rel="manifest" href="/open-source-best-practice/manifest.json">
+<link rel="icon" href="/open-source-best-practice/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/open-source-best-practice/book.min.97cfda4f5e3c9fa49a2bf8d401f4ddc0eec576c99cdcf6afbec19173200c37db.css" integrity="sha256-l8/aT148n6SaK/jUAfTdwO7Fdsmc3PavvsGRcyAMN9s=" crossorigin="anonymous">
+  <script defer src="/open-source-best-practice/flexsearch.min.js"></script>
+  <script defer src="/open-source-best-practice/en.search.min.cfbeca0c9efdbbfb4e9282dbaeddb1e186097f1675f4a9609d297f193251a485.js" integrity="sha256-z77KDJ79u/tOkoLbrt2x4YYJfxZ19KlgnSl/GTJRpIU=" crossorigin="anonymous"></script>
+
+  <script defer src="/open-source-best-practice/sw.min.1fcacdc9eaa4bdd806982ca0676e22220d8c5da674a57a298e4cde7351008484.js" integrity="sha256-H8rNyeqkvdgGmCygZ24iIg2MXaZ0pXopjkzec1EAhIQ=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75011109-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/open-source-best-practice/"><span>开源最佳实践</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/open-source-best-practice/good-first-issue.md/">good-first-issue</a></li>
+<li>
+  <a href="/open-source-best-practice/motivation.md/">为什么要参与开源</a></li>
+<li>
+  <a href="/open-source-best-practice/encourage.md/">激励制度</a></li>
+<li>
+  <a href="/open-source-best-practice/books.md/">图书推荐</a></li>
+<li>
+  <a href="/open-source-best-practice/jobs.md/">相关工作</a></li>
+<li>
+  <a href="/open-source-best-practice/financing.md/">开源商业化公司融资情况</a></li>
+<li>
+  <a href="/open-source-best-practice/cs-student-open-source.md/">二本科班生如何参与开源</a></li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/LinuxSuRen/open-source-best-practice" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/open-source-best-practice/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Review</strong>
+
+  <label for="toc-control">
+    
+    <img src="/open-source-best-practice/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><ul>
+<li>开源最基本原则的体现，公开、透明
+<ul>
+<li>如果连 review 都不做的话，何谈开源？要公开的绝不仅仅是结果，更关键的是要公开过程</li>
+<li>review 绝对不是审核的意思，任何人都可以是 reviewer，大家都有可以在这个过程中有所收获</li>
+</ul>
+</li>
+<li>生命周期
+<ul>
+<li>PR 不适用于有紧急合并需求的情况</li>
+<li>提交完 PR 后，作者首先应该自行检查一遍，如果发现还有问题的话，请标记为“进行中”
+<ul>
+<li>我们可以把还没准备好 review 的 PR 的标题加上前缀：<code>WIP:</code></li>
+<li>作者如果对某些代码（文档）不是很确定，可以直接把你的观点以评论的形式表述出来</li>
+</ul>
+</li>
+<li>在 2～7 天内完成 review 并合并</li>
+</ul>
+</li>
+<li>礼仪
+<ul>
+<li>没有人有义务对你的 PR 进行 review，包括维护者</li>
+<li>每一位 reviewer 都对你的 PR 合并提供了帮助，对他们表示感谢</li>
+<li>在最佳的 review 周期内，不要去催促任何人对你的 PR 进行 review</li>
+<li>如果确实需要请求 review 帮助，请给出说明，并且优先 @ 某个 team，其次才是直接 @ 某个人，并对打扰表示歉意</li>
+</ul>
+</li>
+<li>明确你的观点
+<ul>
+<li>尽量避免给出模棱两可的评论，作者需要根据你给出的建议来决定是否要进行修改</li>
+<li>对于你不是很确定问题，可以这么表述：”我感觉这里可能有问题，给出建议的做法以及理由，并指明该评论不阻碍 PR 的合并“</li>
+<li>对于你很确定有问题的部分，给出可以证明你观点的信息或者数据，如果有相关权威资料的话，一并给出链接
+<ul>
+<li>例如：PR 中代码注释不规范，给出官方社区的文档链接</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>reviewer
+<ul>
+<li>任何人都可以是 reviewer，只要是你认为有问题（或可以改进）的地方，都可以提出来，并且给出可以证明你观点的证据、资料链接</li>
+<li>优先请求一个 team 帮忙 review，这样的话，你可以得到更多人的帮助</li>
+<li>通常情况下，每一个文件都是由多名贡献者共同完善的，可以考虑让最后一次修改该文件的贡献者帮忙 review</li>
+<li>如果你尝试解决的问题或者新增的特性来自另外一名贡献者创建的 issue，那也可以尝试寻求该贡献者的帮助</li>
+</ul>
+</li>
+<li>自动化流程
+<ul>
+<li>利用类似于 
+  <a href="https://github.com/jenkins-x/lighthouse">Lighthouse</a> 的自动化工具来管理 review 流程</li>
+<li>合并之前尽可能多地运行自动化测试（单元测试、e2e 测试、压力测试等）</li>
+<li>避免人为干预自动化过程</li>
+<li>如果 review 完成，但还需要一些人工验证的话，为避免过早自动合并，可以通过评论命令来阻碍
+<ul>
+<li>例如：通过评论 <code>/hold</code> 来阻止机器人账号自动合并</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "my-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
