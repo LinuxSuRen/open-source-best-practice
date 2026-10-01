@@ -90,6 +90,7 @@ TODO
 ## 参考
 
 * [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
+* [AI 技能化](ai-skills.md)——本实践的可被 AI 编码助手加载的技能版本
 * [开源相关音视频](audios-and-videos.md)
 * [开源相关书籍](books.md)
 * [英语学习资料](english.md)
