@@ -141,6 +141,7 @@ Here are some other recommended practices:
 
 ## References
 * [Google Engineering Practices Documentation](https://github.com/google/eng-practices)
+* [AI Skills](https://github.com/LinuxSuRen/my-dsh-skills)——part of this practice is packaged as skills for AI coding assistants
 
 ## Projects that adopt the practice
 * [Halo](https://github.com/halo-dev/halo)
